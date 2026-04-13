@@ -64,6 +64,7 @@ Manufacturing-AI-Radar/
 |   +-- taxonomy.md
 |   +-- contribution_guide.md
 |   +-- maintenance.md
+|   +-- literature_scanning.md
 |   `-- worklog-nightly.md
 +-- radar/
 |   +-- additive-manufacturing.md
@@ -74,11 +75,27 @@ Manufacturing-AI-Radar/
 |   +-- reinforcement-learning.md
 |   `-- digital-twin.md
 +-- notes/
-|   `-- README.md
+|   +-- README.md
+|   +-- paper-note-template.md
+|   +-- domain-scan-template.md
+|   `-- weekly-scan-template.md
 +-- refs/
-|   `-- README.md
+|   +-- README.md
+|   +-- additive-manufacturing.md
+|   +-- monitoring.md
+|   +-- defect-detection.md
+|   +-- modelling.md
+|   +-- control.md
+|   +-- reinforcement-learning.md
+|   `-- digital-twin.md
 +-- roadmap/
 |   `-- roadmap.md
++-- scripts/
+|   `-- literature_scanner.py
++-- data/
+|   +-- papers.json
+|   +-- checkpoint.json
+|   `-- scan_log.txt
 `-- assets/
     `-- README.md
 ```
@@ -117,6 +134,7 @@ Core pages:
 
 - [docs/taxonomy.md](docs/taxonomy.md)
 - [docs/architecture.md](docs/architecture.md)
+- [docs/literature_scanning.md](docs/literature_scanning.md)
 - [radar/additive-manufacturing.md](radar/additive-manufacturing.md)
 - [radar/monitoring.md](radar/monitoring.md)
 - [radar/defect-detection.md](radar/defect-detection.md)
@@ -124,6 +142,8 @@ Core pages:
 - [radar/control.md](radar/control.md)
 - [radar/reinforcement-learning.md](radar/reinforcement-learning.md)
 - [radar/digital-twin.md](radar/digital-twin.md)
+- [refs/README.md](refs/README.md)
+- [notes/README.md](notes/README.md)
 
 ## Planned Development
 
@@ -154,6 +174,8 @@ Contributors should prefer structured additions over unorganized accumulation. N
 - whether it is research-oriented, tool-oriented, or deployment-oriented
 
 Maintenance guidance is documented in [docs/contribution_guide.md](docs/contribution_guide.md) and [docs/maintenance.md](docs/maintenance.md).
+
+Automated literature harvesting is documented in [docs/literature_scanning.md](docs/literature_scanning.md), with machine-collected metadata stored under `data/`.
 
 ## Audience
 

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/scanner_stdout.log
+data/scanner_stderr.log

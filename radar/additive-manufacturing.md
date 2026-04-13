@@ -48,3 +48,11 @@ Additive manufacturing is one of the richest environments for manufacturing AI b
 ## Future Opportunity
 
 The biggest opportunity is to connect process understanding, quality prediction, and adaptive control into a unified manufacturing intelligence loop.
+
+## Related Repository Pages
+
+- [Process Monitoring](monitoring.md)
+- [Closed-loop Control](control.md)
+- [Process Modelling](modelling.md)
+- [Additive Manufacturing References](../refs/additive-manufacturing.md)
+- [Manufacturing AI Taxonomy](../docs/taxonomy.md)

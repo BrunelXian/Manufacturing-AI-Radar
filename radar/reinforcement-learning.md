@@ -46,3 +46,11 @@ Many manufacturing decisions are sequential, partially observed, and sensitive t
 ## Future Opportunity
 
 The most promising opportunity is reinforcement learning integrated with process models, simulators, constraints, and operator oversight.
+
+## Related Repository Pages
+
+- [Closed-loop Control](control.md)
+- [Digital Twin](digital-twin.md)
+- [Reinforcement Learning References](../refs/reinforcement-learning.md)
+- [Domain Scan Template](../notes/domain-scan-template.md)
+- [Manufacturing AI Taxonomy](../docs/taxonomy.md)

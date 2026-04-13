@@ -47,3 +47,11 @@ Manufacturing quality and stability are often determined during the process, not
 ## Future Opportunity
 
 Future opportunity lies in robust multimodal monitoring systems that provide interpretable state information for prediction, optimisation, and control.
+
+## Related Repository Pages
+
+- [Additive Manufacturing](additive-manufacturing.md)
+- [Defect Detection](defect-detection.md)
+- [Closed-loop Control](control.md)
+- [Monitoring References](../refs/monitoring.md)
+- [Manufacturing AI Taxonomy](../docs/taxonomy.md)

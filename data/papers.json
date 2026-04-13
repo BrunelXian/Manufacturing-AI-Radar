@@ -1,0 +1,1362 @@
+[
+  {
+    "title": "Automated Batch Distillation Process Simulation for a Large Hybrid Dataset for Deep Anomaly Detection",
+    "authors": [
+      "Jennifer Werner",
+      "Justus Arweiler",
+      "Indra Jungjohann",
+      "Jochen Schmid",
+      "Fabian Jirasek",
+      "Hans Hasse",
+      "Michael Bortz"
+    ],
+    "year": 2026,
+    "arxiv_id": "2604.09166v1",
+    "abstract": "Anomaly detection (AD) in chemical processes based on deep learning offers significant opportunities but requires large, diverse, and well-annotated training datasets that are rarely available from industrial operations. In a recent work, we introduced a large, fully annotated experimental dataset for batch distillation under normal and anomalous operating conditions. In the present study, we augment this dataset with a corresponding simulation dataset, creating a novel hybrid dataset. The simulation data is generated in an automated workflow with a novel Python-based process simulator that employs a tailored index-reduction strategy for the underlying differential-algebraic equations. Leveraging the rich metadata and structured anomaly annotations of the experimental database, experimental records are automatically translated into simulation scenarios. After calibration to a single reference experiment, the dynamics of the other experiments are well predicted. This enabled the fully automated, consistent generation of time-series data for a large number of experimental runs, covering both normal operation and a wide range of actuator- and control-related anomalies. The resulting hybrid dataset is released openly. From a process simulation perspective, this work demonstrates the automated, consistent simulation of large-scale experimental campaigns, using batch distillation as an example. From a data-driven AD perspective, the hybrid dataset provides a unique basis for simulation-to-experiment style transfer, the generation of pseudo-experimental data, and future research on deep AD methods in chemical process monitoring.",
+    "url": "http://arxiv.org/abs/2604.09166v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Laser Powder Bed Fusion Melt Pool Dynamics for Different Geometric Variations and Powder Layer Heights: High-Fidelity Multiphysics Modeling vs 2025 NIST Experiments",
+    "authors": [
+      "Badhon Kumar",
+      "Rakibul Islam Kanak",
+      "Nishat Sultana",
+      "Jiachen Guo",
+      "Andrew Schrader",
+      "Wing Kam Liu",
+      "Abdullah Al Amin"
+    ],
+    "year": 2026,
+    "arxiv_id": "2604.07359v1",
+    "abstract": "Metal Laser Powder Bed Fusion (PBF-LB/M) is a leading additive manufacturing technique in which part quality and grain morphology are highly dependent on process parameters. Numerous studies of process variations, such as laser power, scan speed, and spot diameter, have demonstrated that they strongly influence melt pool dynamics; however, the effects of powder layer height and geometric variations remain less well understood. In this article, we focus on variations in powder layer height and part geometry to study their influence on melt pool dynamics. We employed a high-fidelity multiphysics simulation framework based on the open source finite volume method (FVM) solver package `LaserBeamFoam' built on `OpenFOAM' to study the variations in different melt pool metrics -- melt pool depth, width, bead height, overlap depth, overlap width, solidified area, and dilution area. The solver captures coupled phenomena of heat transfer, fluid flow, vaporization, recoil pressure, Marangoni convection, and realistic laser reflection behavior to accurately model the melt pool dynamics. Simulations are performed for different powder layer heights and geometric dimensions for direct comparison with benchmark experiments conducted at the National Institute of Standards and Technology (NIST) in 2025. Quantitative validation against NIST experiment demonstrates excellent agreement in all the melt pool metrics. These results highlight the predictive capability of physics-based PBF-LB models, paving the way for process optimization, defect mitigation, and the integration of simulation into digital twin frameworks for additive manufacturing.",
+    "url": "http://arxiv.org/abs/2604.07359v1",
+    "categories": [
+      "physics.app-ph"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Feature-Aware Anisotropic Local Differential Privacy for Utility-Preserving Graph Representation Learning in Metal Additive Manufacturing",
+    "authors": [
+      "MD Shafikul Islam",
+      "Mahathir Mohammad Bappy",
+      "Saifur Rahman Tushar",
+      "Md Arifuzzaman"
+    ],
+    "year": 2026,
+    "arxiv_id": "2604.05077v1",
+    "abstract": "Metal additive manufacturing (AM) enables the fabrication of safety-critical components, but reliable quality assurance depends on high-fidelity sensor streams containing proprietary process information, limiting collaborative data sharing. Existing defect-detection models typically treat melt-pool observations as independent samples, ignoring layer-wise physical couplings. Moreover, conventional privacy-preserving techniques, particularly Local Differential Privacy (LDP), lead to severe utility degradation because they inject uniform noise across all feature dimensions. To address these interrelated challenges, we propose FI-LDP-HGAT. This computational framework combines two methodological components: a stratified Hierarchical Graph Attention Network (HGAT) that captures spatial and thermal dependencies across scan tracks and deposited layers, and a feature-importance-aware anisotropic Gaussian mechanism (FI-LDP) for non-interactive feature privatization. Unlike isotropic LDP, FI-LDP redistributes the privacy budget across embedding coordinates using an encoder-derived importance prior, assigning lower noise to task-critical thermal signatures and higher noise to redundant dimensions while maintaining formal LDP guarantees. Experiments on a Directed Energy Deposition (DED) porosity dataset demonstrate that FI-LDP-HGAT achieves 81.5% utility recovery at a moderate privacy budget (epsilon = 4) and maintains defect recall of 0.762 under strict privacy (epsilon = 2), while outperforming classical ML, standard GNNs, and alternative privacy mechanisms, including DP-SGD across all evaluated metrics. Mechanistic analysis confirms a strong negative correlation (Spearman = -0.81) between feature importance and noise magnitude, providing interpretable evidence that the privacy-utility gains are driven by principled anisotropic allocation.",
+    "url": "http://arxiv.org/abs/2604.05077v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Towards Agentic Defect Reasoning: A Graph-Assisted Retrieval Framework for Laser Powder Bed Fusion",
+    "authors": [
+      "Muhammad Rizwan Awan",
+      "Volker Pickert",
+      "Muhammad Waqar Ashraf",
+      "Saleh Ali",
+      "Farshid Mahmouditabar",
+      "Shafiq Odhano"
+    ],
+    "year": 2026,
+    "arxiv_id": "2604.04208v1",
+    "abstract": "Laser Powder Bed Fusion (LPBF) is highly sensitive to process parameters, which influence defect formation through complex thermal and fluid mechanisms. However, defect-related knowledge is dispersed across the literature, limiting systematic understanding. This study presents a graph-assisted retrieval framework for defect reasoning in LPBF, using Ti6Al4V as a case study. Scientific publications are transformed into a structured representation, and relationships between parameters, mechanisms, and defects are encoded into an evidence-linked knowledge graph. The framework integrates semantic and graph-based retrieval, supported by a lightweight agent-based reasoning layer to construct interpretable defect pathways. Evaluation shows high retrieval accuracy (0.9667) and recall (0.9667), demonstrating effective identification of relevant defect related evidence. The framework enables transparent reasoning chains linking process parameters to defects. This work provides a scalable approach for converting unstructured literature into a query able and interpretable knowledge resource for additive manufacturing.",
+    "url": "http://arxiv.org/abs/2604.04208v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Redefining End-of-Life: Intelligent Automation for Electronics Remanufacturing Systems",
+    "authors": [
+      "Sibo Tian",
+      "Xiao Liang",
+      "Sara Behdad",
+      "Minghui Zheng"
+    ],
+    "year": 2026,
+    "arxiv_id": "2604.03066v1",
+    "abstract": "Remanufacturing is fundamentally more challenging than traditional manufacturing due to the significant uncertainty, variability, and incompleteness inherent in end-of-life (EoL) products. At the same time, it has become increasingly essential and urgent for facilitating a circular economy, driven by the growing volume of discarded electronic products and the escalating scarcity of critical materials. In this paper, we review the existing literature and examine the key challenges as well as emerging opportunities in intelligent automation for EoL electronics remanufacturing, providing a comprehensive overview of how robotics, control, and artificial intelligence (AI) can jointly enable scalable, safe, and intelligent remanufacturing systems. This paper starts with the definition, scope, and motivation of remanufacturing within the context of a circular economy, highlighting its societal and environmental significance. Then it delves into intelligent automation approaches for disassembly, inspection, sorting, and component reprocessing in this domain, covering advanced methods for multimodal perception, decision-making under uncertainty, flexible planning algorithms, and force-aware manipulation. The paper further reviews several emerging techniques, including large foundation models, human-in-the-loop integration, and digital twins that have the potential to support future research in this area. By integrating these topics, we aim to illustrate how next-generation remanufacturing systems can achieve robust, adaptable, and efficient operation in the face of complex real-world challenges.",
+    "url": "http://arxiv.org/abs/2604.03066v1",
+    "categories": [
+      "eess.SY"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Chameleons do not Forget: Prompt-Based Online Continual Learning for Next Activity Prediction",
+    "authors": [
+      "Marwan Hassani",
+      "Tamara Verbeek",
+      "Sjoerd van Straten"
+    ],
+    "year": 2026,
+    "arxiv_id": "2604.00653v2",
+    "abstract": "Predictive process monitoring (PPM) focuses on predicting future process trajectories, including next activity predictions. This is crucial in dynamic environments where processes change or face uncertainty. However, current frameworks often assume a static environment, overlooking dynamic characteristics and concept drifts. This results in catastrophic forgetting, where training while focusing merely on new data distribution negatively impacts the performance on previously learned data distributions. Continual learning addresses, among others, the challenges related to mitigating catastrophic forgetting. This paper proposes a novel approach called Continual Next Activity Prediction with Prompts (CNAPwP), which adapts the DualPrompt algorithm for next activity prediction to improve accuracy and adaptability while mitigating catastrophic forgetting. We introduce new datasets with recurring concept drifts, alongside a task-specific forgetting metric that measures the prediction accuracy gap between initial occurrence and subsequent task occurrences. Extensive testing on three synthetic and two real-world datasets representing several setups of recurrent drifts shows that CNAPwP achieves SOTA or competitive results compared to five baselines, demonstrating its potential applicability in real-world scenarios. An open-source implementation of our method, together with the datasets and results, is available at: https://github.com/SvStraten/CNAPwP.",
+    "url": "http://arxiv.org/abs/2604.00653v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Advancing Multi-Robot Networks via MLLM-Driven Sensing, Communication, and Computation: A Comprehensive Survey",
+    "authors": [
+      "Hyun Jong Yang",
+      "Howon Lee",
+      "Kyuhong Shim",
+      "Jeongho Kwak",
+      "Hyunsoo Kim",
+      "Donghoon Kim",
+      "Khoa Anh Ngo",
+      "Sehyun Ryu",
+      "Jaehyun Choi",
+      "Youbin Kim",
+      "Chanjun Moon",
+      "Michael Ryoo",
+      "Byonghyo Shim"
+    ],
+    "year": 2026,
+    "arxiv_id": "2604.00061v1",
+    "abstract": "Imagine advanced humanoid robots, powered by multimodal large language models (MLLMs), coordinating missions across industries like warehouse logistics, manufacturing, and safety rescue. While individual robots show local autonomy, realistic tasks demand coordination among multiple agents sharing vast streams of sensor data. Communication is indispensable, yet transmitting comprehensive data can overwhelm networks, especially when a system-level orchestrator or cloud-based MLLM fuses multimodal inputs for route planning or anomaly detection. These tasks are often initiated by high-level natural language instructions. This intent serves as a filter for resource optimization: by understanding the goal via MLLMs, the system can selectively activate relevant sensing modalities, dynamically allocate bandwidth, and determine computation placement. Thus, R2X is fundamentally an intent-to-resource orchestration problem where sensing, communication, and computation are jointly optimized to maximize task-level success under resource constraints. This survey examines how integrated design paves the way for multi-robot coordination under MLLM guidance. We review state-of-the-art sensing modalities, communication strategies, and computing approaches, highlighting how reasoning is split between on-device models and powerful edge/cloud servers. We present four end-to-end demonstrations (sense -> communicate -> compute -> act): (i) digital-twin warehouse navigation with predictive link context, (ii) mobility-driven proactive MCS control, (iii) a FollowMe robot with a semantic-sensing switch, and (iv) real-hardware open-vocabulary trash sorting via edge-assisted MLLM grounding. We emphasize system-level metrics -- payload, latency, and success -- to show why R2X orchestration outperforms purely on-device baselines.",
+    "url": "http://arxiv.org/abs/2604.00061v1",
+    "categories": [
+      "cs.RO",
+      "eess.SP",
+      "eess.SY"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Hybrid Quantum-Classical AI for Industrial Defect Classification in Welding Images",
+    "authors": [
+      "Akshaya Srinivasan",
+      "Xiaoyin Cheng",
+      "Jianming Yi",
+      "Alexander Geng",
+      "Desislava Ivanova",
+      "Andreas Weinmann",
+      "Ali Moghiseh"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.28995v1",
+    "abstract": "Hybrid quantum-classical machine learning offers a promising direction for advancing automated quality control in industrial settings. In this study, we investigate two hybrid quantum-classical approaches for classifying defects in aluminium TIG welding images and benchmarking their performance against a conventional deep learning model. A convolutional neural network is used to extract compact and informative feature vectors from weld images, effectively reducing the higher-dimensional pixel space to a lower-dimensional feature space. Our first quantum approach encodes these features into quantum states using a parameterized quantum feature map composed of rotation and entangling gates. We compute a quantum kernel matrix from the inner products of these states, defining a linear system in a higher-dimensional Hilbert space corresponding to the support vector machine (SVM) optimization problem and solving it using a Variational Quantum Linear Solver (VQLS). We also examine the effect of the quantum kernel condition number on classification performance. In our second method, we apply angle encoding to the extracted features in a variational quantum circuit and use a classical optimizer for model training. Both quantum models are tested on binary and multiclass classification tasks and the performance is compared with the classical CNN model. Our results show that while the CNN model demonstrates robust performance, hybrid quantum-classical models perform competitively. This highlights the potential of hybrid quantum-classical approaches for near-term real-world applications in industrial defect detection and quality assurance.",
+    "url": "http://arxiv.org/abs/2603.28995v1",
+    "categories": [
+      "cs.CV",
+      "eess.IV",
+      "quant-ph"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "DSevolve: Enabling Real-Time Adaptive Scheduling on Dynamic Shop Floor with LLM-Evolved Heuristic Portfolios",
+    "authors": [
+      "Jin Huang",
+      "Jie Yang",
+      "XinLei Zhou",
+      "Qihao Liu",
+      "Liang Gao",
+      "Xinyu Li"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.27628v1",
+    "abstract": "In dynamic manufacturing environments, disruptions such as machine breakdowns and new order arrivals continuously shift the optimal dispatching strategy, making adaptive rule selection essential. Existing LLM-powered Automatic Heuristic Design (AHD) frameworks evolve toward a single elite rule that cannot meet this adaptability demand. To address this, we present DSevolve, an industrial scheduling framework that evolves a quality-diverse portfolio of dispatching rules offline and adaptively deploys them online with second-level response time. Multi-persona seeding and topology-aware evolutionary operators produce a behaviorally diverse rule archive indexed by a MAP-Elites feature space. Upon each disruption event, a probe-based fingerprinting mechanism characterizes the current shop floor state, retrieves high-quality candidate rules from an offline knowledge base, and selects the best one via rapid look-ahead simulation. Evaluated on 500 dynamic flexible job shop instances derived from real industrial data, DSevolve outperforms state-of-the-art AHD frameworks, classical dispatching rules, genetic programming, and deep reinforcement learning, offering a practical and deployable solution for intelligent shop floor scheduling.",
+    "url": "http://arxiv.org/abs/2603.27628v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Dynamic resource matching in manufacturing using deep reinforcement learning",
+    "authors": [
+      "Saunak Kumar Panda",
+      "Yisha Xiang",
+      "Ruiqi Liu"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.27066v1",
+    "abstract": "Matching plays an important role in the logical allocation of resources across a wide range of industries. The benefits of matching have been increasingly recognized in manufacturing industries. In particular, capacity sharing has received much attention recently. In this paper, we consider the problem of dynamically matching demand-capacity types of manufacturing resources. We formulate the multi-period, many-to-many manufacturing resource-matching problem as a sequential decision process. The formulated manufacturing resource-matching problem involves large state and action spaces, and it is not practical to accurately model the joint distribution of various types of demands. To address the curse of dimensionality and the difficulty of explicitly modeling the transition dynamics, we use a model-free deep reinforcement learning approach to find optimal matching policies. Moreover, to tackle the issue of infeasible actions and slow convergence due to initial biased estimates caused by the maximum operator in Q-learning, we introduce two penalties to the traditional Q-learning algorithm: a domain knowledge-based penalty based on a prior policy and an infeasibility penalty that conforms to the demand-supply constraints. We establish theoretical results on the convergence of our domain knowledge-informed Q-learning providing performance guarantee for small-size problems. For large-size problems, we further inject our modified approach into the deep deterministic policy gradient (DDPG) algorithm, which we refer to as domain knowledge-informed DDPG (DKDDPG). In our computational study, including small- and large-scale experiments, DKDDPG consistently outperformed traditional DDPG and other RL algorithms, yielding higher rewards and demonstrating greater efficiency in time and episodes.",
+    "url": "http://arxiv.org/abs/2603.27066v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.OC"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "On Integrating Resilience and Human Oversight into LLM-Assisted Modeling Workflows for Digital Twins",
+    "authors": [
+      "Lekshmi P",
+      "Neha Karanjkar"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.25898v2",
+    "abstract": "LLM-assisted modeling holds the potential to rapidly build executable Digital Twins of complex systems from only coarse descriptions and sensor data. However, resilience to LLM hallucination, human oversight, and real-time model adaptability remain challenging and often mutually conflicting requirements. We present three critical design principles for integrating resilience and oversight into such workflows, derived from insights gained through our work on FactoryFlow - an open-source LLM-assisted framework for building simulation-based Digital Twins of manufacturing systems. First, orthogonalize structural modeling and parameter fitting. Structural descriptions (components, interconnections) are LLM-translated from coarse natural language to an intermediate representation (IR) with human visualization and validation, which is algorithmically converted to the final model. Parameter inference, in contrast, operates continuously on sensor data streams with expert-tunable controls. Second, restrict the model IR to interconnections of parameterized, pre-validated library components rather than monolithic simulation code, enabling interpretability and error-resilience. Third, and most important, is to use a density-preserving IR. When IR descriptions expand dramatically from compact inputs hallucination errors accumulate proportionally. We present the case for Python as a density-preserving IR : loops express regularity compactly, classes capture hierarchy and composition, and the result remains highly readable while exploiting LLMs strong code generation capabilities. A key contribution is detailed characterization of LLM-induced errors across model descriptions of varying detail and complexity, revealing how IR choice critically impacts error rates. These insights provide actionable guidance for building resilient and transparent LLM-assisted simulation automation workflows.",
+    "url": "http://arxiv.org/abs/2603.25898v2",
+    "categories": [
+      "eess.SY",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Physics-Informed Neural Network Digital Twin for Dynamic Tray-Wise Modeling of Distillation Columns under Transient Operating Conditions",
+    "authors": [
+      "Debadutta Patra",
+      "Ayush Bardhan Tripathy",
+      "Soumya Ranjan Sahu",
+      "Sucheta Panda"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.24644v1",
+    "abstract": "Digital twin technology, when combined with physics-informed machine learning with simulation results of Aspen, offers transformative capabilities for industrial process monitoring, control, and optimization. In this work, the proposed model presents a Physics-Informed Neural Network (PINN) digital twin framework for the dynamic, tray-wise modeling of binary distillation columns operating under transient conditions. The architecture of the proposed model embeds fundamental thermodynamic constraints, including vapor-liquid equilibrium (VLE) described by modified Raoult's law, tray-level mass and energy balances, and the McCabe-Thiele graphical methodology directly into the neural network loss function via physics residual terms. The model is trained and evaluated on a high-fidelity synthetic dataset of 961 timestamped measurements spanning 8 hours of transient operation, generated in Aspen HYSYS for a binary HX/TX distillation system comprising 16 sensor streams. An adaptive loss-weighting scheme balances the data fidelity and physics consistency objectives during training. Compared to five data-driven baselines (LSTM, vanilla MLP, GRU, Transformer, DeepONet), the proposed PINN achieves an RMSE of 0.00143 for HX mole fraction prediction (R^2 = 0.9887), representing a 44.6% reduction over the best data-only baseline, while strictly satisfying thermodynamic constraints. Tray-wise temperature and composition profiles predicted under transient perturbations demonstrate that the digital twin accurately captures column dynamics including feed tray responses, reflux ratio variations, and pressure transients. These results establish the proposed PINN digital twin as a robust foundation for real-time soft sensing, model-predictive control, and anomaly detection in industrial distillation processes.",
+    "url": "http://arxiv.org/abs/2603.24644v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Wafer-Level Etch Spatial Profiling for Process Monitoring from Time-Series with Time-LLM",
+    "authors": [
+      "Hyunwoo Kim",
+      "Munyoung Lee",
+      "Seung Hyub Jeon",
+      "Kyu Sung Lee"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.23576v1",
+    "abstract": "Understanding wafer-level spatial variations from in-situ process signals is essential for advanced plasma etching process monitoring. While most data-driven approaches focus on scalar indicators such as average etch rate, actual process quality is determined by complex two-dimensional spatial distributions across the wafer. This paper presents a spatial regression model that predicts wafer-level etch depth distributions directly from multichannel in-situ process time series. We propose a Time-LLM-based spatial regression model that extends LLM reprogramming from conventional time-series forecasting to wafer-level spatial estimation by redesigning the input embedding and output projection. Using the BOSCH plasma-etching dataset, we demonstrate stable performance under data-limited conditions, supporting the feasibility of LLM-based reprogramming for wafer-level spatial monitoring.",
+    "url": "http://arxiv.org/abs/2603.23576v1",
+    "categories": [
+      "stat.AP",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Minimizing Material Waste in Additive Manufacturing through Online Reel Assignment",
+    "authors": [
+      "Ilayda Celenk",
+      "Willem van Jaarsveld",
+      "Ivo J. B. F. Adan",
+      "Alp Akcay"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.23042v1",
+    "abstract": "We study a variant of the online bin packing problem that arises in filament-based 3D printing systems operating in make-to-order settings, where only a limited number of filament reels of finite capacity can be handled at once. Components are assigned to reels upon arrival and insufficient reels are discarded to be replaced with new ones, resulting in material waste. To minimize the long-run average discarded filament through an online assignment policy, we formulate this problem as an infinite-horizon average-cost Markov Decision Process and analyze the structure of policies under stochastic, sequential demand. We first show that under a random allocation policy, the system decomposes into a collection of identical single-reel processes, allowing us to derive a closed-form expression for the average waste and enabling a tractable baseline analysis. Building on this decomposition, we construct a theoretically grounded index policy that assigns each reel a score reflecting the marginal cost of assignment and prove that it constitutes a one-step policy improvement over random allocation. We embed the index-based structure within a Deep Reinforcement Learning framework using approximate policy iteration. The resulting method achieves near-optimal performance across a range of simulated and real-world scenarios. Our results demonstrate that Reinforcement Learning policy significantly reduces material waste while maintaining real-time feasibility and interpretability.",
+    "url": "http://arxiv.org/abs/2603.23042v1",
+    "categories": [
+      "math.OC"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "AdditiveLLM2: A Multi-modal Large Language Model for Additive Manufacturing",
+    "authors": [
+      "Peter Pak",
+      "Amir Barati Farimani"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.22017v1",
+    "abstract": "This work presents AdditiveLLM2 a multi-modal, domain adapted large language model built upon the instruction tuned variant of the Gemma 3 model using a relatively small dataset of around 50 million tokens. The dataset (AdditiveLLM2-OA) consists of open-access additive manufacturing journal articles with data extracted for the domain adaptive pretraining and visual instruction tuning processes. Various stages of the developed model are evaluated with the Additive-Manufacturing-Benchmark which consists of additive manufacturing domain specific tasks compiled published resources. AdditiveLLM2 exhibits proficiency in both language and vision based tasks, achieving accuracies upwards of 90% in general additive manufacturing knowledge. This domain adaptive pretraining and instruction tuning strategy outline an accessible specialization method for large language models to a domain such as additive manufacturing.",
+    "url": "http://arxiv.org/abs/2603.22017v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "SteelDefectX: A Coarse-to-Fine Vision-Language Dataset and Benchmark for Generalizable Steel Surface Defect Detection",
+    "authors": [
+      "Shuxian Zhao",
+      "Jie Gui",
+      "Baosheng Yu",
+      "Lu Dong",
+      "Zhipeng Gui"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.21824v1",
+    "abstract": "Steel surface defect detection is essential for ensuring product quality and reliability in modern manufacturing. Current methods often rely on basic image classification models trained on label-only datasets, which limits their interpretability and generalization. To address these challenges, we introduce SteelDefectX, a vision-language dataset containing 7,778 images across 25 defect categories, annotated with coarse-to-fine textual descriptions. At the coarse-grained level, the dataset provides class-level information, including defect categories, representative visual attributes, and associated industrial causes. At the fine-grained level, it captures sample-specific attributes, such as shape, size, depth, position, and contrast, enabling models to learn richer and more detailed defect representations. We further establish a benchmark comprising four tasks, vision-only classification, vision-language classification, few/zero-shot recognition, and zero-shot transfer, to evaluate model performance and generalization. Experiments with several baseline models demonstrate that coarse-to-fine textual annotations significantly improve interpretability, generalization, and transferability. We hope that SteelDefectX will serve as a valuable resource for advancing research on explainable, generalizable steel surface defect detection. The data will be publicly available on https://github.com/Zhaosxian/SteelDefectX.",
+    "url": "http://arxiv.org/abs/2603.21824v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "Efficient Visual Anomaly Detection at the Edge: Enabling Real-Time Industrial Inspection on Resource-Constrained Devices",
+    "authors": [
+      "Arianna Stropeni",
+      "Fabrizio Genilotti",
+      "Francesco Borsatti",
+      "Manuel Barusco",
+      "Davide Dalle Pezze",
+      "Gian Antonio Susto"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.20288v1",
+    "abstract": "Visual Anomaly Detection (VAD) is essential for industrial quality control, enabling automatic defect detection in manufacturing. In real production lines, VAD systems must satisfy strict real-time and privacy requirements, necessitating a shift from cloud-based processing to local edge deployment. However, processing data locally on edge devices introduces new challenges because edge hardware has limited memory and computational resources. To overcome these limitations, we propose two efficient VAD methods designed for edge deployment: PatchCore-Lite and Padim-Lite, based on the popular PatchCore and PaDiM models. PatchCore-Lite runs first a coarse search on a product-quantized memory bank, then an exact search on a decoded subset. Padim-Lite is sped up using diagonal covariance, turning Mahalanobis distance into efficient element-wise computation. We evaluate our methods on the MVTec AD and VisA benchmarks and show their suitability for edge environments. PatchCore-Lite achieves a remarkable 79% reduction in total memory footprint, while PaDiM-Lite achieves substantial efficiency gains with a 77% reduction in total memory and a 31% decrease in inference time. These results show that VAD can be effectively deployed on edge devices, enabling real-time, private, and cost-efficient industrial inspection.",
+    "url": "http://arxiv.org/abs/2603.20288v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "GATE-AD: Graph Attention Network Encoding For Few-Shot Industrial Visual Anomaly Detection",
+    "authors": [
+      "Aggelos Psiris",
+      "Yannis Panagakis",
+      "Maria Vakalopoulou",
+      "Georgios Th. Papadopoulos"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.15300v1",
+    "abstract": "Few-Shot Industrial Visual Anomaly Detection (FS-IVAD) comprises a critical task in modern manufacturing settings, where automated product inspection systems need to identify rare defects using only a handful of normal/defect-free training samples. In this context, the current study introduces a novel reconstruction-based approach termed GATE-AD. In particular, the proposed framework relies on the employment of a masked, representation-aligned Graph Attention Network (GAT) encoding scheme to learn robust appearance patterns of normal samples. By leveraging dense, patch-level, visual feature tokens as graph nodes, the model employs stacked self-attentional layers to adaptively encode complex, irregular, non-Euclidean, local relations. The graph is enhanced with a representation alignment component grounded on a learnable, latent space, where high reconstruction residual areas (i.e., defects) are assessed using a Scaled Cosine Error (SCE) objective function. Extensive comparative evaluation on the MVTec AD, VisA, and MPDD industrial defect detection benchmarks demonstrates that GATE-AD achieves state-of-the-art performance across the $1$- to $8$-shot settings, combining the highest detection accuracy (increase up to $1.8\\%$ in image AUROC in the 8-shot case in MPDD) with the lowest per-image inference latency (at least $25.05\\%$ faster), compared to the best-performing literature methods. In order to facilitate reproducibility and further research, the source code of GATE-AD is available at https://github.com/gthpapadopoulos/GATE-AD.",
+    "url": "http://arxiv.org/abs/2603.15300v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "PiGRAND: Physics-informed Graph Neural Diffusion for Intelligent Additive Manufacturing",
+    "authors": [
+      "Benjamin Uhrich",
+      "Tim Häntschel",
+      "Erhard Rahm"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.15194v1",
+    "abstract": "A comprehensive understanding of heat transport is essential for optimizing various mechanical and engineering applications, including 3D printing. Recent advances in machine learning, combined with physics-based models, have enabled a powerful fusion of numerical methods and data-driven algorithms. This progress is driven by the availability of limited sensor data in various engineering and scientific domains, where the cost of data collection and the inaccessibility of certain measurements are high. To this end, we present PiGRAND, a Physics-informed graph neural diffusion framework. In order to reduce the computational complexity of graph learning, an efficient graph construction procedure was developed. Our approach is inspired by the explicit Euler and implicit Crank-Nicolson methods for modeling continuous heat transport, leveraging sub-learning models to secure the accurate diffusion across graph nodes. To enhance computational performance, our approach is combined with efficient transfer learning. We evaluate PiGRAND on thermal images from 3D printing, demonstrating significant improvements in prediction accuracy and computational performance compared to traditional graph neural diffusion (GRAND) and physics-informed neural networks (PINNs). These enhancements are attributed to the incorporation of physical principles derived from the theoretical study of partial differential equations (PDEs) into the learning model. The PiGRAND code is open-sourced on GitHub: https://github.com/bu32loxa/PiGRAND",
+    "url": "http://arxiv.org/abs/2603.15194v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Predicting Stress-strain Behaviors of Additively Manufactured Materials via Loss-based and Activation-based Physics-informed Machine Learning",
+    "authors": [
+      "Chenglong Duan",
+      "Dazhong Wu"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.14489v1",
+    "abstract": "Predicting the stress-strain behaviors of additively manufactured materials is crucial for part qualification in additive manufacturing (AM). Conventional physics-based constitutive models often oversimplify material properties, while data-driven machine learning (ML) models often lack physical consistency and interpretability. To address these issues, we propose a physics-informed machine learning (PIML) framework to improve the predictive performance and physical consistency for predicting the stress-strain curves of additively manufactured polymers and metals. A polynomial regression model is used to predict the yield point from AM process parameters, then stress-strain curves are segmented into elastic and plastic regions. Two long short-term memory (LSTM) models are trained to predict two regions separately. For the elastic region, Hooke's law is embedded into the LSTM model for both polymer and metal. For the plastic region, Voce hardening law and Hollomon's law are embedded into the LSTM model for polymer and metal, respectively. The loss-based and activation-based PIML architectures are developed by embedding the physical laws into the loss and activation functions, respectively. The performance of the two PIML architectures are compared with two LSTM-based ML models, three additional ML models, and a physics-based constitutive model. These models are built on experimental data collected from two additively manufactured polymers (i.e., Nylon and carbon fiber-acrylonitrile butadiene styrene) and two additively manufactured metals (i.e., AlSi10Mg and Ti6Al4V). Experimental results demonstrate that two PIML architectures consistently outperform the other models. The segmental predictive model with activation-based PIML architecture achieves the lowest MAPE of 10.46+/-0.81% and the highest R^2 of 0.82+/-0.05 arocss four datasets.",
+    "url": "http://arxiv.org/abs/2603.14489v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Multi-Period Texture Contrast Enhancement for Low-Contrast Wafer Defect Detection and Segmentation",
+    "authors": [
+      "Zihan Zhang"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.14282v1",
+    "abstract": "Wafer defect segmentation is pivotal for semiconductor yield optimization yet remains challenged by the intrinsic conflict between microscale anomalies and highly periodic, overwhelming background textures. Existing deep learning paradigms often falter due to feature dilution during downsampling and the lack of explicit mechanisms to disentangle low-contrast defects from process-induced noise. To transcend these limitations, we propose TexWDS, a texture-aware framework that harmonizes multi-scale feature retention with frequency-domain perturbation modeling. Our methodology incorporates three strategic innovations: (1) A Multi-scale Receptive Field Reweighting strategy is introduced to mitigate aliasing effects and preserve high-frequency details of micro-defects often lost in standard pyramidal architectures. (2) The Multi-scale Unified Semantic Enhancer (MUSE) integrates local appearance with global context encoding, effectively enhancing feature discriminability in low-visibility regions. (3) Crucially, we design a plug-and-play Multi-Periodic Texture Contrast Enhancement (MPTCE) module. By modeling texture disruptions in the frequency domain, MPTCE explicitly decouples non-periodic anomalies from structured backgrounds, boosting contrast for camouflaged defects. Extensive experiments on real-world industrial datasets demonstrate that TexWDS achieves a new state-of-the-art, surpassing the baseline by 8.3% in mAP50-95 and 7.7% in recall, while reducing the false positive rate by approximately 8.6%. These results underscore the framework's robustness in handling complex periodic patterns and its suitability for high-precision manufacturing inspection.",
+    "url": "http://arxiv.org/abs/2603.14282v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "SAGE: Synthetic Aging for a Grid Environment",
+    "authors": [
+      "Paolo Esquivel",
+      "Mark A. Harris",
+      "Stephen J. Harris"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.13976v1",
+    "abstract": "Grid-scale battery degradation unfolds over multi-year timescales under coupled electrochemical, thermal, and operational feedbacks difficult to capture using laboratory data or proprietary field datasets. This scarcity limits the development of degradation-aware algorithms and digital twins that require long-horizon, physically consistent ground truth. Here we present SAGE (Synthetic Aging for a Grid Environment), an open-source, physics-informed simulation framework that generates hour-resolved, multi-decade operating histories and degradation trajectories for heterogeneous battery energy storage system (BESS) fleets. The framework couples stochastic environmental drivers, market-based dispatch, electro-thermal behavior, aging kinetics, and asset-level heterogeneity within a transparent, externally parameterized architecture. We validate physical consistency through hierarchical tests, including Arrhenius temperature acceleration, thermal stratification, and emergent wear-out statistics. Simulations demonstrate how intrinsic heterogeneity in thermal environments and manufacturing naturally produces dispersion in state-of-health trajectories without imposed statistical failure assumptions. SAGE serves as a benchmarking platform for optimization, state estimation, and machine learning, enabling reproducible research in grid-scale energy storage modeling.",
+    "url": "http://arxiv.org/abs/2603.13976v1",
+    "categories": [
+      "physics.app-ph"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Efficient Semi-Automated Material Microstructure Analysis Using Deep Learning: A Case Study in Additive Manufacturing",
+    "authors": [
+      "Sanjeev S. Navaratna",
+      "Nikhil Thawari",
+      "Gunashekhar Mari",
+      "Amritha V P",
+      "Murugaiyan Amirthalingam",
+      "Rohit Batra"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.13831v1",
+    "abstract": "Image segmentation is fundamental to microstructural analysis for defect identification and structure-property correlation, yet remains challenging due to pronounced heterogeneity in materials images arising from varied processing and testing conditions. Conventional image processing techniques often fail to capture such complex features rendering them ineffective for large-scale analysis. Even deep learning approaches struggle to generalize across heterogeneous datasets due to scarcity of high-quality labeled data. Consequently, segmentation workflows often rely on manual expert-driven annotations which are labor intensive and difficult to scale. Using an additive manufacturing (AM) dataset as a case study, we present a semi-automated active learning based segmentation pipeline that integrates a U-Net based convolutional neural network with an interactive user annotation and correction interface and a representative core-set image selection strategy. The active learning workflow iteratively updates the model by incorporating user corrected segmentations into the training pool while the core-set strategy identifies representative images for annotation. Three subset selection strategies, manual selection, uncertainty driven sampling and proposed maximin Latin hypercube sampling from embeddings (SMILE) method were evaluated over six refinement rounds. The SMILE strategy consistently outperformed other approaches, improving the macro F1 score from 0.74 to 0.93 while reducing manual annotation time by about 65 percent. The segmented defect regions were further analyzed using a coupled classification model to categorize defects based on microstructural characteristics and map them to corresponding AM process parameters. The proposed framework reduces labeling effort while maintaining scalability and robustness and is broadly applicable to image based analysis across diverse materials systems.",
+    "url": "http://arxiv.org/abs/2603.13831v1",
+    "categories": [
+      "cs.CV",
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Surrogates for Physics-based and Data-driven Modelling of Parametric Systems: Review and New Perspectives",
+    "authors": [
+      "Matteo Giacomini",
+      "Pedro Díez"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.12870v1",
+    "abstract": "Surrogate models provide compact relations between user-defined input parameters and output quantities of interest, enabling the efficient evaluation of complex parametric systems in many-query settings. Such capabilities are essential in a wide range of applications, including optimisation, control, data assimilation, uncertainty quantification, and emerging digital twin technologies in various fields such as manufacturing, personalised healthcare, smart cities, and sustainability. This article reviews established methodologies for constructing surrogate models exploiting either knowledge of the governing laws and the dynamical structure of the system (physics-based) or experimental observations (data-driven), as well as hybrid approaches combining these two paradigms. By revisiting the design of a surrogate model as a functional approximation problem, existing methodologies are reviewed in terms of the choice of (i) a reduced basis and (ii) a suitable approximation criterion. The paper reviews methodologies pertaining to the field of Scientific Machine Learning, and it aims at synthesising established knowledge, recent advances, and new perspectives on: dimensionality reduction, physics-based, and data-driven surrogate modelling based on proper orthogonal decomposition, proper generalised decomposition, and artificial neural networks; multi-fidelity methods to exploit information from sources with different fidelities; adaptive sampling, enrichment, and data augmentation techniques to enhance the quality of surrogate models.",
+    "url": "http://arxiv.org/abs/2603.12870v1",
+    "categories": [
+      "math.NA",
+      "cs.CE",
+      "cs.LG"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Interactive 3D visualization of surface roughness predictions in additive manufacturing: A data-driven framework",
+    "authors": [
+      "Engin Deniz Erkan",
+      "Elif Surer",
+      "Ulas Yaman"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.09353v1",
+    "abstract": "Surface roughness in Material Extrusion Additive Manufacturing varies across a part and is difficult to anticipate during process planning because it depends on both printing parameters and local surface inclination, which governs the staircase effect. A data-driven framework is presented to predict the arithmetic mean roughness (Ra) prior to fabrication using process parameters and surface angle. A structured experimental dataset was created using a three-level Box-Behnken design: 87 specimens were printed, each with multiple planar faces spanning different inclination angles, yielding 1566 Ra measurements acquired with a contact profilometer. A multilayer perceptron regressor was trained to capture nonlinear relationships between manufacturing conditions, inclination, and Ra. To mitigate limited experimental data, a conditional generative adversarial network was used to generate additional condition-specific tabular samples, thereby improving predictive performance. Model performance was assessed on a hold-out test set. A web-based decision-support interface was also developed to enable interactive process planning by loading a 3D model, specifying printing parameters, and adjusting the part's orientation. The system computes face-wise inclination from the model geometry and visualizes predicted Ra as an interactive colormap over the surface, enabling rapid identification of regions prone to high roughness and immediate comparison of parameter and orientation choices.",
+    "url": "http://arxiv.org/abs/2603.09353v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "A Generalized Feature Model for Digital Twins",
+    "authors": [
+      "Philipp Zech",
+      "Yanis Mair",
+      "Michael Vierhauser",
+      "Pablo Oliveira Antonino",
+      "Frank Schnicke",
+      "Tony Clark"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.06308v1",
+    "abstract": "The adoption of Digital Twin technologies is rapidly expanding in diverse industrial, economic, and societal domains. Over the past decade, a multitude of studies, surveys, and investigations have been conducted, examining the nature, applications, and advantages of Digital Twins. However, up until now, no proposal for a comprehensive feature model exists that effectively captures the mandatory and optional features of Digital Twins. To address this shortcoming, in this article, we present a general feature model for Digital Twins. Based on a systematic mapping study of existing literature, we developed a generalized feature model for Digital Models, Shadows, and Twins. To assess the validity of our proposed feature model, we have applied them to three use cases from the emergency, vehicular, and manufacturing domain. We conjecture that our proposed general feature model advances the field around Digital Twins by facilitating informed decision-making during design, enabling improved model-driven development of Digital Twins, and, eventually, fostering verification~\\&~validation of Digital Twins by delivering a model-based foundation for test case inference.",
+    "url": "http://arxiv.org/abs/2603.06308v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Technical Report: Automated Optical Inspection of Surgical Instruments",
+    "authors": [
+      "Zunaira Shafqat",
+      "Atif Aftab Ahmed Jilani",
+      "Qurrat Ul Ain"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.05987v1",
+    "abstract": "In the dynamic landscape of modern healthcare, maintaining the highest standards in surgical instruments is critical for clinical success. This report explores the diverse realm of surgical instruments and their associated manufacturing defects, emphasizing their pivotal role in ensuring the safety of surgical procedures. With potentially fatal consequences arising from even minor defects, precision in manufacturing is paramount.The report addresses the identification and rectification of critical defects such as cracks, rust, and structural irregularities. Such scrutiny prevents substantial financial losses for manufacturers and, more crucially, safeguards patient lives. The collaboration with industry leaders Daddy D Pro and Dr. Frigz International, renowned trailblazers in the Sialkot surgical cluster, provides invaluable insights into the analysis of defects in Pakistani-made instruments. This partnership signifies a commitment to advancing automated defect detection methodologies, specifically through the integration of deep learning architectures including YOLOv8, ResNet-152, and EfficientNet-b4, thereby elevating quality standards in the manufacturing process. The scope of this report is to identify various surgical instruments manufactured in Pakistan and analyze their associated defects using a newly developed dataset of 4,414 high-resolution images. By focusing on quality assurance through Automated Optical Inspection (AOI) tools, this document serves as a resource for manufacturers, healthcare professionals, and regulatory bodies. The insights gained contribute to the enhancement of instrument standards, ensuring a more reliable healthcare environment through industry expertise and cutting-edge technology.",
+    "url": "http://arxiv.org/abs/2603.05987v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "eess.IV"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling",
+    "authors": [
+      "Jiaqi Wang",
+      "Zhiguang Cao",
+      "Peng Zhao",
+      "Rui Cao",
+      "Yubin Xiao",
+      "Yuan Jiang",
+      "You Zhou"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.02846v1",
+    "abstract": "The rise of smart manufacturing under Industry 4.0 introduces mass customization and dynamic production, demanding more advanced and flexible scheduling techniques. The flexible job-shop scheduling problem (FJSP) has attracted significant attention due to its complex constraints and strong alignment with real-world production scenarios. Current deep reinforcement learning (DRL)-based approaches to FJSP predominantly employ constructive methods. While effective, they often fall short of reaching (near-)optimal solutions. In contrast, improvement-based methods iteratively explore the neighborhood of initial solutions and are more effective in approaching optimality. However, the flexible machine allocation in FJSP poses significant challenges to the application of this framework, including accurate state representation, effective policy learning, and efficient search strategies. To address these challenges, this paper proposes a Memory-enhanced Improvement Search framework with heterogeneous graph representation--MIStar. It employs a novel heterogeneous disjunctive graph that explicitly models the operation sequences on machines to accurately represent scheduling solutions. Moreover, a memoryenhanced heterogeneous graph neural network (MHGNN) is designed for feature extraction, leveraging historical trajectories to enhance the decision-making capability of the policy network. Finally, a parallel greedy search strategy is adopted to explore the solution space, enabling superior solutions with fewer iterations. Extensive experiments on synthetic data and public benchmarks demonstrate that MIStar significantly outperforms both traditional handcrafted improvement heuristics and state-of-the-art DRL-based constructive methods.",
+    "url": "http://arxiv.org/abs/2603.02846v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Security Risks in Machining Process Monitoring: Sequence-to-Sequence Learning for Reconstruction of CNC Axis Positions",
+    "authors": [
+      "Lukas Krupp",
+      "Rickmar Stahlschmidt",
+      "Norbert Wehn"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.01702v1",
+    "abstract": "Accelerometer-based process monitoring is widely deployed in modern machining systems. When mounted on moving machine components, such sensors implicitly capture kinematic information related to machine motion and tool trajectories. If this information can be reconstructed, condition monitoring data constitutes a severe security threat, particularly for retrofitted or weakly protected sensor systems. Classical signal processing approaches are infeasible for position reconstruction from broadband accelerometer signals due to sensor- and process-specific non-idealities, like noise or sensor placement effects. In this work, we demonstrate that sequence-to-sequence machine learning models can overcome these non-idealities and enable reconstruction of CNC axis and tool positions. Our approach employs LSTM-based sequence-to-sequence models and is evaluated on an industrial milling dataset. We show that learning-based models reduce the reconstruction error by up to 98% for low complexity motion profiles and by up to 85% for complex machining sequences compared to double integration. Furthermore, key geometric characteristics of tool trajectories and workpiece-related motion features are preserved. To the best of our knowledge, this is the first study demonstrating learning-based CNC position reconstruction from industrial condition monitoring accelerometer data.",
+    "url": "http://arxiv.org/abs/2603.01702v1",
+    "categories": [
+      "cs.AR",
+      "cs.LG"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Adaptive Uncertainty-Guided Surrogates for Efficient phase field Modeling of Dendritic Solidification",
+    "authors": [
+      "Eider Garate-Perez",
+      "Kerman López de Calle-Etxabe",
+      "Oihana Garcia",
+      "Borja Calvo",
+      "Meritxell Gómez-Omella",
+      "Jon Lambarri"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.00093v1",
+    "abstract": "The high computational cost of phase field simulations remains a major limitation for predicting dendritic solidification in metals, particularly in additive manufacturing, where microstructural control is critical. This work presents a surrogate model for dendritic solidification that employs uncertainty-driven adaptive sampling with XGBoost and CNNs, including a self-supervised strategy, to efficiently approximate the spatio-temporal evolution while reducing costly phase field simulations. The proposed adaptive strategy leverages model uncertainty, approximated via Monte Carlo dropout for CNNs and bagging for XGBoost, to identify high-uncertainty regions where new samples are generated locally within hyperspheres, progressively refining the spatio-temporal design space and achieving accurate predictions with significantly fewer phase field simulations than an Optimal Latin Hypercube Sampling optimized via discrete Particle Swarm Optimization (OLHS-PSO). The framework systematically investigates how temporal instance selection, adaptive sampling, and the choice between domain-informed and data-driven surrogates affect spatio-temporal model performance. Evaluation considers not only computational cost but also the number of expensive phase field simulations, surrogate accuracy, and associated $CO_2$ emissions, providing a comprehensive assessment of model performance as well as their related environmental impact.",
+    "url": "http://arxiv.org/abs/2603.00093v1",
+    "categories": [
+      "physics.comp-ph",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Dynamic Map-based Data-Centric Approach for Tourism and Cultural Heritage Preservation Digital Twins",
+    "authors": [
+      "João Spínola Falcão",
+      "João G. Perrone Hohlenwerger",
+      "Daniel C. Santos",
+      "Lucas Almeida de Sousa",
+      "Nazim Agoulmine",
+      "Joberto S. B. Martins"
+    ],
+    "year": 2026,
+    "arxiv_id": "2603.00079v1",
+    "abstract": "Tourism is an essential and growing economic activity worldwide, bringing benefits such as job creation, revenue generation, and tax revenue, and driving economic prosperity. Tourism activities may also have negative impacts on cities, including overtourism and pressure on housing and real estate markets. Cultural heritage is an essential asset of cities and countries that must be preserved. Cultural heritage, as an asset, is commonly explored through tourism activities and may have negative impacts, including physical degradation, commodification, and loss of authenticity. A digital twin is a data-driven virtual representation of a physical object, system, or environment. However, although digital twin technology has been widely adopted in manufacturing, Industry 4.0, and urban planning for smart cities, there remains a gap in specialized digital twins for tourism and cultural heritage management. This paper proposes a QGIS-based, data-centric approach to digital twin frameworks that supports the management, development, and deployment of tourism and cultural heritage services and applications in smart cities. The data-centric approach is embedded in a specialized digital twin focusing on the Salvador Historic Center - Pelourinho, a highly important cultural asset and tourism spot for the city of Salvador. Currently, Pelourinho faces a persistent challenge in sustaining tourism flux while safeguarding its cultural and heritage assets. Preliminary results indicate that the data-centric approach adopted by Pelourinho's DT facilitates data visualization, integrates data silos, and adequately supports management, enabling managers to address heritage preservation and conservation issues, control over-tourism, and implement urban resilience and climate adaptation measures.",
+    "url": "http://arxiv.org/abs/2603.00079v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "A Perspective on Open Challenges in Deformable Object Manipulation",
+    "authors": [
+      "Ryan Paul McKennaa",
+      "John Oyekan"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.22998v1",
+    "abstract": "Deformable object manipulation (DOM) represents a critical challenge in robotics, with applications spanning healthcare, manufacturing, food processing, and beyond. Unlike rigid objects, deformable objects exhibit infinite dimensionality, dynamic shape changes, and complex interactions with their environment, posing significant hurdles for perception, modeling, and control. This paper reviews the state of the art in DOM, focusing on key challenges such as occlusion handling, task generalization, and scalable, real-time solutions. It highlights advancements in multimodal perception systems, including the integration of multi-camera setups, active vision, and tactile sensing, which collectively address occlusion and improve adaptability in unstructured environments. Cutting-edge developments in physically informed reinforcement learning (RL) and differentiable simulations are explored, showcasing their impact on efficiency, precision, and scalability. The review also emphasizes the potential of simulated expert demonstrations and generative neural networks to standardize task specifications and bridge the simulation-to-reality gap. Finally, future directions are proposed, including the adoption of graph neural networks for high-level decision-making and the creation of comprehensive datasets to enhance DOM's real-world applicability. By addressing these challenges, DOM research can pave the way for versatile robotic systems capable of handling diverse and dynamic tasks with deformable objects.",
+    "url": "http://arxiv.org/abs/2602.22998v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Prognostics of Multisensor Systems with Unknown and Unlabeled Failure Modes via Bayesian Nonparametric Process Mixtures",
+    "authors": [
+      "Kani Fu",
+      "Sanduni S Disanayaka Mudiyanselage",
+      "Chunli Dai",
+      "Minhee Kim"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.19263v1",
+    "abstract": "Modern manufacturing systems often experience multiple and unpredictable failure behaviors, yet most existing prognostic models assume a fixed, known set of failure modes with labeled historical data. This assumption limits the use of digital twins for predictive maintenance, especially in high-mix or adaptive production environments, where new failure modes may emerge, and the failure mode labels may be unavailable. To address these challenges, we propose a novel Bayesian nonparametric framework that unifies a Dirichlet process mixture module for unsupervised failure mode discovery with a neural network-based prognostic module. The key innovation lies in an iterative feedback mechanism to jointly learn two modules. These modules iteratively update one another to dynamically infer, expand, or merge failure modes as new data arrive while providing high prognostic accuracy. Experiments on both simulation and aircraft engine datasets show that the proposed approach performs competitively with or significantly better than existing approaches. It also exhibits robust online adaptation capabilities, making it well-suited for digital-twin-based system health management in complex manufacturing environments.",
+    "url": "http://arxiv.org/abs/2602.19263v1",
+    "categories": [
+      "stat.AP",
+      "cs.LG"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Pushing the Limits of Inverse Lithography with Generative Reinforcement Learning",
+    "authors": [
+      "Haoyu Yang",
+      "Haoxing Ren"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.19027v1",
+    "abstract": "Inverse lithography (ILT) is critical for modern semiconductor manufacturing but suffers from highly non-convex objectives that often trap optimization in poor local minima. Generative AI has been explored to warm-start ILT, yet most approaches train deterministic image-to-image translators to mimic sub-optimal datasets, providing limited guidance for escaping non-convex traps during refinement. We reformulate mask synthesis as conditional sampling: a generator learns a distribution over masks conditioned on the design and proposes multiple candidates. The generator is first pretrained with WGAN plus a reconstruction loss, then fine-tuned using Group Relative Policy Optimization (GRPO) with an ILT-guided imitation loss. At inference, we sample a small batch of masks, run fast batched ILT refinement, evaluate lithography metrics (e.g., EPE, process window), and select the best candidate. On \\texttt{LithoBench} dataset, the proposed hybrid framework reduces EPE violations under a 3\\,nm tolerance and roughly doubles throughput versus a strong numerical ILT baseline, while improving final mask quality. We also present over 20\\% EPE improvement on \\texttt{ICCAD13} contest cases with 3$\\times$ speedup over the SOTA numerical ILT solver. By learning to propose ILT-friendly initializations, our approach mitigates non-convexity and advances beyond what traditional solvers or GenAI can achieve.",
+    "url": "http://arxiv.org/abs/2602.19027v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Stable Long-Horizon Spatiotemporal Prediction on Meshes Using Latent Multiscale Recurrent Graph Neural Networks",
+    "authors": [
+      "Lionel Salesses",
+      "Larbi Arbaoui",
+      "Tariq Benamara",
+      "Arnaud Francois",
+      "Caroline Sainvitu"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.18146v1",
+    "abstract": "Accurate long-horizon prediction of spatiotemporal fields on complex geometries is a fundamental challenge in scientific machine learning, with applications such as additive manufacturing where temperature histories govern defect formation and mechanical properties. High-fidelity simulations are accurate but computationally costly, and despite recent advances, machine learning methods remain challenged by long-horizon temperature and gradient prediction. We propose a deep learning framework for predicting full temperature histories directly on meshes, conditioned on geometry and process parameters, while maintaining stability over thousands of time steps and generalizing across heterogeneous geometries. The framework adopts a temporal multiscale architecture composed of two coupled models operating at complementary time scales. Both models rely on a latent recurrent graph neural network to capture spatiotemporal dynamics on meshes, while a variational graph autoencoder provides a compact latent representation that reduces memory usage and improves training stability. Experiments on simulated powder bed fusion data demonstrate accurate and temporally stable long-horizon predictions across diverse geometries, outperforming existing baseline. Although evaluated in two dimensions, the framework is general and extensible to physics-driven systems with multiscale dynamics and to three-dimensional geometries.",
+    "url": "http://arxiv.org/abs/2602.18146v1",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci",
+      "physics.app-ph"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Software-heavy Asset Administration Shells: Classification and Use Cases",
+    "authors": [
+      "Carsten Ellwein",
+      "David Dietrich",
+      "Jessica Roth",
+      "Rozana Cvitkovic",
+      "Andreas Wortmann"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.16499v1",
+    "abstract": "The Asset Administration Shell (AAS) is an emerging technology for the implementation of digital twins in the field of manufacturing. Software is becoming increasingly important, not only in general but specifically in relation to manufacturing, especially with regard to digital manufacturing and a shift towards the usage of artificial intelligence. This increases the need not only to model software, but also to integrate services directly into the AAS. The existing literature contains individual solutions to implement such software-heavy AAS. However, there is no systematic analysis of software architectures that integrate software services directly into the AAS. This paper aims to fill this research gap and differentiate architectures based on software quality criteria as well as typical manufacturing use cases. This work may be considered as an interpretation guideline for software-heavy AAS, both in academia and for practitioners.",
+    "url": "http://arxiv.org/abs/2602.16499v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query_source": "digital twin manufacturing AI"
+  },
+  {
+    "title": "Simulation-based Learning of Electrical Cabinet Assembly Using Robot Skills",
+    "authors": [
+      "Arik Laemmle",
+      "Balázs András Bálint",
+      "Philipp Tenbrock",
+      "Frank Naegele",
+      "David Traunecker",
+      "József Váncza",
+      "Marco F. Huber"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.14561v1",
+    "abstract": "This paper presents a simulation-driven approach for automating the force-controlled assembly of electrical terminals on DIN-rails, a task traditionally hindered by high programming effort and product variability. The proposed method integrates deep reinforcement learning (DRL) with parameterizable robot skills in a physics-based simulation environment. To realistically model the snap-fit assembly process, we develop and evaluate two types of joining models: analytical models based on beam theory and rigid-body models implemented in the MuJoCo physics engine. These models enable accurate simulation of interaction forces, essential for training DRL agents. The robot skills are structured using the pitasc framework, allowing modular, reusable control strategies. Training is conducted in simulation using Soft Actor-Critic (SAC) and Twin Delayed Deep Deterministic Policy Gradient (TD3) algorithms. Domain randomization is applied to improve robustness. The trained policies are transferred to a physical UR10e robot system without additional tuning. Experimental results demonstrate high success rates (up to 100%) in both simulation and real-world settings, even under significant positional and rotational deviations. The system generalizes well to new terminal types and positions, significantly reducing manual programming effort. This work highlights the potential of combining simulation-based learning with modular robot skills for flexible, scalable automation in small-batch manufacturing. Future work will explore hybrid learning methods, automated environment parameterization, and further refinement of joining models for design integration.",
+    "url": "http://arxiv.org/abs/2602.14561v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Graph-Enhanced Deep Reinforcement Learning for Multi-Objective Unrelated Parallel Machine Scheduling",
+    "authors": [
+      "Bulent Soykan",
+      "Sean Mondesire",
+      "Ghaith Rabadi",
+      "Grace Bochenek"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.08052v1",
+    "abstract": "The Unrelated Parallel Machine Scheduling Problem (UPMSP) with release dates, setups, and eligibility constraints presents a significant multi-objective challenge. Traditional methods struggle to balance minimizing Total Weighted Tardiness (TWT) and Total Setup Time (TST). This paper proposes a Deep Reinforcement Learning framework using Proximal Policy Optimization (PPO) and a Graph Neural Network (GNN). The GNN effectively represents the complex state of jobs, machines, and setups, allowing the PPO agent to learn a direct scheduling policy. Guided by a multi-objective reward function, the agent simultaneously minimizes TWT and TST. Experimental results on benchmark instances demonstrate that our PPO-GNN agent significantly outperforms a standard dispatching rule and a metaheuristic, achieving a superior trade-off between both objectives. This provides a robust and scalable solution for complex manufacturing scheduling.",
+    "url": "http://arxiv.org/abs/2602.08052v1",
+    "categories": [
+      "cs.AI",
+      "cs.ET"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Optimization of Precipitate Segmentation Through Linear Genetic Programming of Image Processing",
+    "authors": [
+      "Kyle Williams",
+      "Andrew Seltzman"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.07310v1",
+    "abstract": "Current analysis of additive manufactured niobium-based copper alloys relies on hand annotation due to varying contrast, noise, and image artifacts present in micrographs, slowing iteration speed in alloy development. We present a filtering and segmentation algorithm for detecting precipitates in FIB cross-section micrographs, optimized using linear genetic programming (LGP), which accounts for the various artifacts. To this end, the optimization environment uses a domain-specific language for image processing to iterate on solutions. Programs in this language are a list of image-filtering blocks with tunable parameters that sequentially process an input image, allowing for reliable generation and mutation by a genetic algorithm. Our environment produces optimized human-interpretable MATLAB code representing an image filtering pipeline. Under ideal conditions--a population size of 60 and a maximum program length of 5 blocks--our system was able to find a near-human accuracy solution with an average evaluation error of 1.8% when comparing segmentations pixel-by-pixel to a human baseline using an XOR error evaluation. Our automation work enabled faster iteration cycles and furthered exploration of the material composition and processing space: our optimized pipeline algorithm processes a 3.6 megapixel image in about 2 seconds on average. This ultimately enables convergence on strong, low-activation, precipitation hardened copper alloys for additive manufactured fusion reactor parts.",
+    "url": "http://arxiv.org/abs/2602.07310v1",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "query_source": "additive manufacturing machine learning"
+  },
+  {
+    "title": "Modeling Batch Crystallization under Uncertainty Using Physics-informed Machine Learning",
+    "authors": [
+      "Dingqi Nai",
+      "Huayu Li",
+      "Martha Grover",
+      "Andrew Medford"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.07184v1",
+    "abstract": "The development of robust and reliable modeling approaches for crystallization processes is often challenging because of non-idealities in real data arising from various sources of uncertainty. This study investigated the effectiveness of physics-informed recurrent neural networks (PIRNNs) that integrate the mechanistic population balance model with recurrent neural networks under the presence of systematic and model uncertainties. Such uncertainties are represented by using synthetic data containing controlled noise, solubility shift, and limited sampling. The research demonstrates that PIRNNs achieve strong generalization and physical consistency, maintain stable learning behavior, and accurately recover kinetic parameters despite significant stochastic variations in the training data. In the case of systematic errors in the solubility model, the inclusion of physics regularization improved the test performance by more than an order of magnitude compared to purely data-driven models, whereas excessive weighting of physics increased error arising due to the model mismatch. The results also show that PIRNNs are able to recover model parameters and replicate crystallization dynamics even in the limit of very low sampling resolution. These findings validate the robustness of physics-informed machine learning in handling data imperfections and incomplete domain knowledge, providing a potential pathway toward reliable and practical hybrid modeling of crystallization dynamics and industrial process monitoring and control.",
+    "url": "http://arxiv.org/abs/2602.07184v1",
+    "categories": [
+      "cs.CE"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Topography scanning as a part of process monitoring in power cable insulation process",
+    "authors": [
+      "Janne Harjuhahto",
+      "Jaakko Harjuhahto",
+      "Mikko Lahti",
+      "Jussi Hanhirova",
+      "Björn Sonerud"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.06519v1",
+    "abstract": "We present a novel topography scanning system developed to XLPE cable core monitoring. Modern measurement technology is utilized together with embedded high-performance computing to build a complete and detailed 3D surface map of the insulated core. Cross sectional and lengthwise geometry errors are studied, and melt homogeneity is identified as one major factor for these errors. A surface defect detection system has been developed utilizing deep learning methods. Our results show that convolutional neural networks are well suited for real time analysis of surface measurement data enabling reliable detection of surface defects.",
+    "url": "http://arxiv.org/abs/2602.06519v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "A Fast and Generalizable Fourier Neural Operator-Based Surrogate for Melt-Pool Prediction in Laser Processing",
+    "authors": [
+      "Alix Benoit",
+      "Toni Ivas",
+      "Mateusz Papierz",
+      "Asel Sagingalieva",
+      "Alexey Melnikov",
+      "Elia Iseli"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.06241v3",
+    "abstract": "High-fidelity simulations of laser welding capture complex thermo-fluid phenomena, including phase change, free-surface deformation, and keyhole dynamics, however their computational cost limits large-scale process exploration and real-time use. In this work we present the Laser Processing Fourier Neural Operator (LP-FNO), a Fourier Neural Operator (FNO) based surrogate model that learns the parametric solution operator of various laser processes from multiphysics simulations generated with FLOW-3D WELD (registered trademark). Through a novel approach of reformulating the transient problem in the moving laser frame and applying temporal averaging, the system results in a quasi-steady state setting suitable for operator learning, even in the keyhole welding regime. The proposed LP-FNO maps process parameters to three-dimensional temperature fields and melt-pool boundaries across a broad process window spanning conduction and keyhole regimes using the non-dimensional normalized enthalpy formulation. The model achieves temperature prediction errors on the order of 1% and intersection-over-union scores for melt-pool segmentation over 0.9. We demonstrate that a LP-FNO model trained on coarse-resolution data can be evaluated on finer grids, yielding accurate super-resolved predictions in mesh-converged conduction regimes, whereas discrepancies in keyhole regimes reflect unresolved dynamics in the coarse-mesh training data. These results indicate that the LP-FNO provides an efficient surrogate modeling framework for laser welding, enabling prediction of full three-dimensional fields and phase interfaces over wide parameter ranges in just tens of milliseconds, up to a hundred thousand times faster than traditional Finite Volume multi-physics software.",
+    "url": "http://arxiv.org/abs/2602.06241v3",
+    "categories": [
+      "cs.LG",
+      "cs.CE"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "Explainable Computer Vision Framework for Automated Pore Detection and Criticality Assessment in Additive Manufacturing",
+    "authors": [
+      "Akshansh Mishra",
+      "Rakesh Morisetty"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.03883v1",
+    "abstract": "Internal porosity remains a critical defect mode in additively manufactured components, compromising structural performance and limiting industrial adoption. Automated defect detection methods exist but lack interpretability, preventing engineers from understanding the physical basis of criticality predictions. This study presents an explainable computer vision framework for pore detection and criticality assessment in three-dimensional tomographic volumes. Sequential grayscale slices were reconstructed into volumetric datasets, and intensity-based thresholding with connected component analysis identified 500 individual pores. Each pore was characterized using geometric descriptors including size, aspect ratio, extent, and spatial position relative to the specimen boundary. A pore interaction network was constructed using percentile-based Euclidean distance criteria, yielding 24,950 inter-pore connections. Machine learning models predicted pore criticality scores from extracted features, and SHAP analysis quantified individual feature contributions. Results demonstrate that normalized surface distance dominates model predictions, contributing more than an order of magnitude greater importance than all other descriptors. Pore size provides minimal influence, while geometric parameters show negligible impact. The strong inverse relationship between surface proximity and criticality reveals boundary-driven failure mechanisms. This interpretable framework enables transparent defect assessment and provides actionable insights for process optimization and quality control in additive manufacturing.",
+    "url": "http://arxiv.org/abs/2602.03883v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CE",
+      "cs.LG"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "Causal Graph Spatial-Temporal Autoencoder for Reliable and Interpretable Process Monitoring",
+    "authors": [
+      "Xiangrui Zhang",
+      "Chunyue Song",
+      "Wei Dai",
+      "Zheng Zhang",
+      "Kaihua Gao",
+      "Furong Gao"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.03004v1",
+    "abstract": "To improve the reliability and interpretability of industrial process monitoring, this article proposes a Causal Graph Spatial-Temporal Autoencoder (CGSTAE). The network architecture of CGSTAE combines two components: a correlation graph structure learning module based on spatial self-attention mechanism (SSAM) and a spatial-temporal encoder-decoder module utilizing graph convolutional long-short term memory (GCLSTM). The SSAM learns correlation graphs by capturing dynamic relationships between variables, while a novel three-step causal graph structure learning algorithm is introduced to derive a causal graph from these correlation graphs. The algorithm leverages a reverse perspective of causal invariance principle to uncover the invariant causal graph from varying correlations. The spatial-temporal encoder-decoder, built with GCLSTM units, reconstructs time-series process data within a sequence-to-sequence framework. The proposed CGSTAE enables effective process monitoring and fault detection through two statistics in the feature space and residual space. Finally, we validate the effectiveness of CGSTAE in process monitoring through the Tennessee Eastman process and a real-world air separation process.",
+    "url": "http://arxiv.org/abs/2602.03004v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Variational Approach for Job Shop Scheduling",
+    "authors": [
+      "Seung Heon Oh",
+      "Jiwon Baek",
+      "Ki Young Cho",
+      "Hee Chang Yoon",
+      "Jong Hun Woo"
+    ],
+    "year": 2026,
+    "arxiv_id": "2602.00408v2",
+    "abstract": "This paper proposes a novel Variational Graph-to-Scheduler (VG2S) framework for solving the Job Shop Scheduling Problem (JSSP), a critical task in manufacturing that directly impacts operational efficiency and resource utilization. Conventional Deep Reinforcement Learning (DRL) approaches often face challenges such as non-stationarity during training and limited generalization to unseen problem instances because they optimize representation learning and policy execution simultaneously. To address these issues, we introduce variational inference to the JSSP domain for the first time and derive a probabilistic objective based on the Evidence of Lower Bound (ELBO) with maximum entropy reinforcement learning. By mathematically decoupling representation learning from policy optimization, the VG2S framework enables the agent to learn robust structural representations of scheduling instances through a variational graph encoder. This approach significantly enhances training stability and robustness against hyperparameter variations. Extensive experiments demonstrate that the proposed method exhibits superior zero-shot generalization compared with state-of-the-art DRL baselines and traditional dispatching rules, particularly on large-scale and challenging benchmark instances such as DMU and SWV.",
+    "url": "http://arxiv.org/abs/2602.00408v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Improving Supervised Machine Learning Performance in Optical Quality Control via Generative AI for Dataset Expansion",
+    "authors": [
+      "Dennis Sprute",
+      "Hanna Senke",
+      "Holger Flatt"
+    ],
+    "year": 2026,
+    "arxiv_id": "2601.22961v1",
+    "abstract": "Supervised machine learning algorithms play a crucial role in optical quality control within industrial production. These approaches require representative datasets for effective model training. However, while non-defective components are frequent, defective parts are rare in production, resulting in highly imbalanced datasets that adversely impact model performance. Existing strategies to address this challenge, such as specialized loss functions or traditional data augmentation techniques, have limitations, including the need for careful hyperparameter tuning or the alteration of only simple image features. Therefore, this work explores the potential of generative artificial intelligence (GenAI) as an alternative method for expanding limited datasets and enhancing supervised machine learning performance. Specifically, we investigate Stable Diffusion and CycleGAN as image generation models, focusing on the segmentation of combine harvester components in thermal images for subsequent defect detection. Our results demonstrate that dataset expansion using Stable Diffusion yields the most significant improvement, enhancing segmentation performance by 4.6 %, resulting in a Mean Intersection over Union (Mean IoU) of 84.6 %.",
+    "url": "http://arxiv.org/abs/2601.22961v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "Microring Resonator Dispersion Metrology with Neural Networks",
+    "authors": [
+      "Ergun Simsek",
+      "Shao-Chien Ou",
+      "Gregory Moille",
+      "Kartik Srinivasan"
+    ],
+    "year": 2026,
+    "arxiv_id": "2601.19669v1",
+    "abstract": "Precise knowledge of resonator dispersion, from both geometric and material contributions, is essential for reliable high-performance nonlinear integrated photonics devices, such as optical parametric oscillators, frequency doublers, and integrated optical frequency combs. However, direct measurements at the fabrication level provide limited knowledge, whether through destructive cross-section imaging or non-destructive ellipsometry, while complete optical characterization that enables precise dispersion metrology is time-consuming and poorly suited for mass-scale foundry fabrication. In this work, we develop a machine learning framework to solve three complementary problems: (i) predicting resonator geometric dimensions, (ii) identifying the correct material dispersion, and last, but not least, (iii) precisely reconstructing the integrated dispersion spectrum directly from ring dimensions. These three neural networks together enable both inverse and forward characterization of microring resonators. Using numerically generated datasets based on Sellmeier-type material models, we demonstrate <1 nm ring dimension prediction accuracy without noise, <8 nm prediction accuracy with ~45 dispersion samples under a realistic frequency measurement noise level (50 MHz), and ~16 nm prediction accuracy at a higher noise level (200 MHz). The Sellmeier model classification exceeds 99% accuracy in all cases. Importantly, dispersion sampled far from the pump resonances proves most informative, reducing full-spectrum characterization requirements. The forward-prediction network reconstructs dispersion spectra from the ring dimensions with high accuracy. Our results highlight the potential of machine learning applied to dispersion data as a rapid, non-destructive tool for wafer-scale quality control and process monitoring in photonic foundries.",
+    "url": "http://arxiv.org/abs/2601.19669v1",
+    "categories": [
+      "physics.optics"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Discovery of Feasible 3D Printing Configurations for Metal Alloys via AI-driven Adaptive Experimental Design",
+    "authors": [
+      "Azza Fadhel",
+      "Nathaniel W. Zuckschwerdt",
+      "Aryan Deshwal",
+      "Susmita Bose",
+      "Amit Bandyopadhyay",
+      "Jana Doppa"
+    ],
+    "year": 2026,
+    "arxiv_id": "2601.17587v1",
+    "abstract": "Configuring the parameters of additive manufacturing processes for metal alloys is a challenging problem due to complex relationships between input parameters (e.g., laser power, scan speed) and quality of printed outputs. The standard trial-and-error approach to find feasible parameter configurations is highly inefficient because validating each configuration is expensive in terms of resources (physical and human labor) and the configuration space is very large. This paper combines the general principles of AI-driven adaptive experimental design with domain knowledge to address the challenging problem of discovering feasible configurations. The key idea is to build a surrogate model from past experiments to intelligently select a small batch of input configurations for validation in each iteration. To demonstrate the effectiveness of this methodology, we deploy it for Directed Energy Deposition process to print GRCop--42, a high-performance copper--chromium--niobium alloy developed by NASA for aerospace applications. Within three months, our approach yielded multiple defect-free outputs across a range of laser powers dramatically reducing time to result and resource expenditure compared to several months of manual experimentation by domain scientists with no success. By enabling high-quality GRCop--42 fabrication on readily available infrared laser platforms for the first time, we democratize access to this critical alloy, paving the way for cost-effective, decentralized production for aerospace applications.",
+    "url": "http://arxiv.org/abs/2601.17587v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query_source": "LDED machine learning"
+  },
+  {
+    "title": "Report for NSF Workshop on AI for Electronic Design Automation",
+    "authors": [
+      "Deming Chen",
+      "Vijay Ganesh",
+      "Weikai Li",
+      "Yingyan Celine Lin",
+      "Yong Liu",
+      "Subhasish Mitra",
+      "David Z. Pan",
+      "Ruchir Puri",
+      "Jason Cong",
+      "Yizhou Sun"
+    ],
+    "year": 2026,
+    "arxiv_id": "2601.14541v3",
+    "abstract": "This report distills the discussions and recommendations from the NSF Workshop on AI for Electronic Design Automation (EDA), held on December 10, 2024 in Vancouver alongside NeurIPS 2024. Bringing together experts across machine learning and EDA, the workshop examined how AI-spanning large language models (LLMs), graph neural networks (GNNs), reinforcement learning (RL), neurosymbolic methods, etc.-can facilitate EDA and shorten design turnaround. The workshop includes four themes: (1) AI for physical synthesis and design for manufacturing (DFM), discussing challenges in physical manufacturing process and potential AI applications; (2) AI for high-level and logic-level synthesis (HLS/LLS), covering pragma insertion, program transformation, RTL code generation, etc.; (3) AI toolbox for optimization and design, discussing frontier AI developments that could potentially be applied to EDA tasks; and (4) AI for test and verification, including LLM-assisted verification tools, ML-augmented SAT solving, security/reliability challenges, etc. The report recommends NSF to foster AI/EDA collaboration, invest in foundational AI for EDA, develop robust data infrastructures, promote scalable compute infrastructure, and invest in workforce development to democratize hardware design and enable next-generation hardware systems. The workshop information can be found on the website https://ai4eda-workshop.github.io/.",
+    "url": "http://arxiv.org/abs/2601.14541v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.AR"
+    ],
+    "query_source": "manufacturing reinforcement learning"
+  },
+  {
+    "title": "Causal feature selection framework for stable soft sensor modeling based on time-delayed cross mapping",
+    "authors": [
+      "Shi-Shun Chen",
+      "Xiao-Yang Li",
+      "Enrico Zio"
+    ],
+    "year": 2026,
+    "arxiv_id": "2601.14099v1",
+    "abstract": "Soft sensor modeling plays a crucial role in process monitoring. Causal feature selection can enhance the performance of soft sensor models in industrial applications. However, existing methods ignore two critical characteristics of industrial processes. Firstly, causal relationships between variables always involve time delays, whereas most causal feature selection methods investigate causal relationships in the same time dimension. Secondly, variables in industrial processes are often interdependent, which contradicts the decorrelation assumption of traditional causal inference methods. Consequently, soft sensor models based on existing causal feature selection approaches often lack sufficient accuracy and stability. To overcome these challenges, this paper proposes a causal feature selection framework based on time-delayed cross mapping. Time-delayed cross mapping employs state space reconstruction to effectively handle interdependent variables in causality analysis, and considers varying causal strength across time delay. Time-delayed convergent cross mapping (TDCCM) is introduced for total causal inference, and time-delayed partial cross mapping (TDPCM) is developed for direct causal inference. Then, in order to achieve automatic feature selection, an objective feature selection strategy is presented. The causal threshold is automatically determined based on the model performance on the validation set, and the causal features are then selected. Two real-world case studies show that TDCCM achieves the highest average performance, while TDPCM improves soft sensor stability and performance in the worst scenario. The code is publicly available at https://github.com/dirge1/TDPCM.",
+    "url": "http://arxiv.org/abs/2601.14099v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "process monitoring machine learning"
+  },
+  {
+    "title": "Multi-task Modeling for Engineering Applications with Sparse Data",
+    "authors": [
+      "Yigitcan Comlek",
+      "R. Murali Krishnan",
+      "Sandipp Krishnan Ravi",
+      "Amin Moghaddas",
+      "Rafael Giorjao",
+      "Michael Eff",
+      "Anirban Samaddar",
+      "Nesar S. Ramachandra",
+      "Sandeep Madireddy",
+      "Liping Wang"
+    ],
+    "year": 2026,
+    "arxiv_id": "2601.05910v1",
+    "abstract": "Modern engineering and scientific workflows often require simultaneous predictions across related tasks and fidelity levels, where high-fidelity data is scarce and expensive, while low-fidelity data is more abundant. This paper introduces an Multi-Task Gaussian Processes (MTGP) framework tailored for engineering systems characterized by multi-source, multi-fidelity data, addressing challenges of data sparsity and varying task correlations. The proposed framework leverages inter-task relationships across outputs and fidelity levels to improve predictive performance and reduce computational costs. The framework is validated across three representative scenarios: Forrester function benchmark, 3D ellipsoidal void modeling, and friction-stir welding. By quantifying and leveraging inter-task relationships, the proposed MTGP framework offers a robust and scalable solution for predictive modeling in domains with significant computational and experimental costs, supporting informed decision-making and efficient resource utilization.",
+    "url": "http://arxiv.org/abs/2601.05910v1",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.AP"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "Non-Contact and Non-Destructive Detection of Structural Defects in Bioprinted Constructs Using Video-Based Vibration Analysis",
+    "authors": [
+      "Md Anisur Rahman",
+      "Md Asif Hasan Khan",
+      "Tuan Mai",
+      "Jinki Kim"
+    ],
+    "year": 2025,
+    "arxiv_id": "2601.00073v1",
+    "abstract": "Bioprinting technology has advanced significantly in the fabrication of tissue-like constructs with complex geometries for regenerative medicine. However, maintaining the structural integrity of bioprinted materials remains a major challenge, primarily due to the frequent and unexpected formation of hidden defects. Traditional defect detection methods often require physical contact that may not be suitable for hydrogel-based biomaterials due to their inherently soft nature, making non-invasive and straightforward structural evaluation necessary in this field. To advance the state of the art, this study presents a novel non-contact method for non-destructively detecting structural defects in bioprinted constructs using video-based vibration analysis. Ear-shaped constructs were fabricated using a bioink composed of sodium alginate and \\k{appa}-carrageenan using extrusion-based bioprinting. To simulate printing defects, controlled geometric, interlayer, and pressure-induced defects were systematically introduced into the samples. The dynamic response of each structure was recorded using a high-speed camera and analyzed via phase-based motion estimation techniques. Experimental results demonstrate that all defective samples exhibit consistent changes in the dynamic characteristics compared to baseline samples, with increasingly pronounced deviation observed as defect severity increases, which reflect changes in effective stiffness and mass distribution induced by internal anomalies, even when such defects are not detectable through surface inspection. The experimental trends were also validated through finite element simulations. Overall, this work demonstrates that video-based vibrometry is a powerful approach for assessing the quality of bioprinted constructs, offering a practical pathway toward robust structural health monitoring in next-generation bio-additive manufacturing workflows.",
+    "url": "http://arxiv.org/abs/2601.00073v1",
+    "categories": [
+      "q-bio.QM"
+    ],
+    "query_source": "defect detection manufacturing deep learning"
+  },
+  {
+    "title": "Enhanced geometry prediction in laser directed energy deposition using meta-learning",
+    "authors": [
+      "Abdul Malik Al Mardhouf Al Saadi",
+      "Amrita Basak"
+    ],
+    "year": 2025,
+    "arxiv_id": "2512.22241v1",
+    "abstract": "Accurate bead geometry prediction in laser-directed energy deposition (L-DED) is often hindered by the scarcity and heterogeneity of experimental datasets collected under different materials, machine configurations, and process parameters. To address this challenge, a cross-dataset knowledge transfer model based on meta-learning for predicting deposited track geometry in L-DED is proposed. Specifically, two gradient-based meta-learning algorithms, i.e., Model-Agnostic Meta-Learning (MAML) and Reptile, are investigated to enable rapid adaptation to new deposition conditions with limited data. The proposed framework is performed using multiple experimental datasets compiled from peer-reviewed literature and in-house experiments and evaluated across powder-fed, wire-fed, and hybrid wire-powder L-DED processes. Results show that both MAML and Reptile achieve accurate bead height predictions on unseen target tasks using as few as three to nine training examples, consistently outperforming conventional feedforward neural networks trained under comparable data constraints. Across multiple target tasks representing different printing conditions, the meta-learning models achieve strong generalization performance, with R-squared values reaching up to approximately 0.9 and mean absolute errors between 0.03-0.08 mm, demonstrating effective knowledge transfer across heterogeneous L-DED settings.",
+    "url": "http://arxiv.org/abs/2512.22241v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "LDED machine learning"
+  },
+  {
+    "title": "Physic-HM: Restoring Physical Generative Logic in Multimodal Anomaly Detection via Hierarchical Modulation",
+    "authors": [
+      "Xiao Liu",
+      "Junchen Jin",
+      "Yanjie Zhao",
+      "Zhixuan Xing"
+    ],
+    "year": 2025,
+    "arxiv_id": "2512.21650v2",
+    "abstract": "Multimodal Unsupervised Anomaly Detection (UAD) is critical for quality assurance in smart manufacturing, particularly in complex processes like robotic welding. However, existing methods often suffer from process-logic blindness, treating process modalities (e.g., real-time video, audio, and sensors) and result modalities (e.g., post-weld images) as symmetric feature sources, thereby ignoring the inherent unidirectional physical generative logic. Furthermore, the heterogeneity gap between high-dimensional visual data and low-dimensional sensor signals frequently leads to critical process context being drowned out. In this paper, we propose Physic-HM, a multimodal UAD framework that explicitly incorporates physical inductive bias to model the process-to-result dependency. Specifically, our framework incorporates two key innovations: a Sensor-Guided PHM Modulation mechanism that utilizes low-dimensional sensor signals as context to guide high-dimensional audio-visual feature extraction, and a Physic-Hierarchical architecture that enforces a unidirectional generative mapping to identify anomalies that violate physical consistency. Extensive experiments on Weld-4M benchmark demonstrate that Physic-HM achieves a SOTA I-AUROC of 90.7%. The source code of Physic-HM will be released after the paper is accepted.",
+    "url": "http://arxiv.org/abs/2512.21650v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "Atomistic Simulation Guided Convolutional Neural Networks for Thermal Modeling of Friction Stir Welding",
+    "authors": [
+      "Akshansh Mishra"
+    ],
+    "year": 2025,
+    "arxiv_id": "2512.21344v1",
+    "abstract": "Accurate prediction of temperature evolution is essential for understanding thermomechanical behavior in friction stir welding. In this study, molecular dynamics simulations were performed using LAMMPS to model aluminum friction stir welding at the atomic scale, capturing material flow, plastic deformation, and heat generation during tool plunge, traverse, and retraction. Atomic positions and velocities were extracted from simulation trajectories and transformed into physics based two dimensional spatial grids. These grids represent local height variation, velocity components, velocity magnitude, and atomic density, preserving spatial correlations within the weld zone. A two-dimensional convolutional neural network was developed to predict temperature directly from the spatially resolved atomistic data. Hyperparameter optimization was carried out to determine an appropriate network configuration. The trained model demonstrates strong predictive capability, achieving a coefficient of determination R square of 0.9439, a root mean square error of 14.94 K, and a mean absolute error of 11.58 K on unseen test data. Class Activation Map analysis indicates that the model assigns higher importance to regions near the tool material interface, which are associated with intense deformation and heat generation in the molecular dynamics simulations. The results show that spatial learning from atomistic simulation data can accurately reproduce temperature trends in friction stir welding while remaining consistent with physical deformation and flow mechanisms observed at the atomic scale.",
+    "url": "http://arxiv.org/abs/2512.21344v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.CE",
+      "cs.LG"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "Recent Advances in Metallic Glasses",
+    "authors": [
+      "Silvia Bonfanti",
+      "Ralf Busch",
+      "Jesper Byggmästar",
+      "Jeppe C. Dyre",
+      "Jürgen Eckert",
+      "Spencer Fajardo",
+      "Michael L. Falk",
+      "Isabella Gallino",
+      "Jamie J. Kruzic",
+      "Jiayin Lu",
+      "Giulio Monaco",
+      "Misaki Ozawa",
+      "Anshul D. S. Parmar",
+      "Chris H. Rycroft",
+      "Srikanth Sastry"
+    ],
+    "year": 2025,
+    "arxiv_id": "2512.16590v1",
+    "abstract": "This paper reviews recent advances in the field of metallic glasses, focusing on the development of novel experimental techniques and in silico models. We discuss progress in experimental characterization, additive manufacturing, multiscale modeling approaches, and the growing role of machine learning in understanding and designing these complex materials. On the experimental side, we highlight measurements of thermophysical properties of supercooled liquids via fast chip calorimetry and enhancements in mechanical properties through rejuvenation treatments. This work underscores the crucial role of short-range order and medium-range order in controlling metallic glass mechanical properties. Recent progress in structural probes allows in situ observations of deformation mechanisms, positioning the field well to further advance our understanding of mechanical properties. Additive manufacturing of metallic glasses is discussed as one encouraging new manufacturing route for metallic glasses. We examine laser powder-bed fusion process physics and the central trade-off between amorphicity and densification, including heat affected zone devitrification and defects formation, together with emerging mitigation strategies and applications. On the theoretical and simulation side, we review advances in nanoscale, mesoscale, and continuum modeling of metallic glasses that have led to promising approaches by which multiscale schemes can incorporate data sourced from atomic-scale simulations. These efforts have helped to elucidate the connection between the glass structure and mechanical and rheological responses. We also cover the development of machine learning interatomic potentials for metallic glasses, along with machine learning driven prediction of glass forming ability and inverse design methods. Finally, challenges and directions for future research are presented and discussed.",
+    "url": "http://arxiv.org/abs/2512.16590v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.dis-nn"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Opening the Black Box: An Explainable, Few-shot AI4E Framework Informed by Physics and Expert Knowledge for Materials Engineering",
+    "authors": [
+      "Haoxiang Zhang",
+      "Ruihao Yuan",
+      "Lihui Zhang",
+      "Yushi Luo",
+      "Qiang Zhang",
+      "Pan Ding",
+      "Xiaodong Ren",
+      "Weijie Xing",
+      "Niu Gao",
+      "Jishan Chen",
+      "Chubo Zhang"
+    ],
+    "year": 2025,
+    "arxiv_id": "2512.02057v1",
+    "abstract": "The industrial adoption of Artificial Intelligence for Engineering (AI4E) faces two fundamental bottlenecks: scarce high-quality data and the lack of interpretability in black-box models-particularly critical in safety-sensitive sectors like aerospace. We present an explainable, few-shot AI4E framework that is systematically informed by physics and expert knowledge throughout its architecture. Starting from only 32 experimental samples in an aerial K439B superalloy castings repair welding case, we first augment physically plausible synthetic data through a three-stage protocol: differentiated noise injection calibrated to process variabilities, enforcement of hard physical constraints, and preservation of inter-parameter relationships. We then employ a nested optimization strategy for constitutive model discovery, where symbolic regression explores equation structures while differential evolution optimizes parameters, followed by intensive parameter refinement using hybrid global-local optimization. The resulting interpretable constitutive equation achieves 88% accuracy in predicting hot-cracking tendency. This equation not only provides quantitative predictions but also delivers explicit physical insight, revealing how thermal, geometric, and metallurgical mechanisms couple to drive cracking-thereby advancing engineers' cognitive understanding of the process. Furthermore, the constitutive equation serves as a multi-functional tool for process optimization and high-fidelity virtual data generation, enabling accuracy improvements in other data-driven models. Our approach provides a general blueprint for developing trustworthy AI systems that embed engineering domain knowledge directly into their architecture, enabling reliable adoption in high-stakes industrial applications where data is limited but physical understanding is available.",
+    "url": "http://arxiv.org/abs/2512.02057v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "In-Context-Learning-Assisted Quality Assessment Vision-Language Models for Metal Additive Manufacturing",
+    "authors": [
+      "Qiaojie Zheng",
+      "Jiucai Zhang",
+      "Xiaoli Zhang"
+    ],
+    "year": 2025,
+    "arxiv_id": "2511.05551v1",
+    "abstract": "Vision-based quality assessment in additive manufacturing often requires dedicated machine learning models and application-specific datasets. However, data collection and model training can be expensive and time-consuming. In this paper, we leverage vision-language models' (VLMs') reasoning capabilities to assess the quality of printed parts and introduce in-context learning (ICL) to provide VLMs with necessary application-specific knowledge and demonstration samples. This method eliminates the requirement for large application-specific datasets for training models. We explored different sampling strategies for ICL to search for the optimal configuration that makes use of limited samples. We evaluated these strategies on two VLMs, Gemini-2.5-flash and Gemma3:27b, with quality assessment tasks in wire-laser direct energy deposition processes. The results show that ICL-assisted VLMs can reach quality classification accuracies similar to those of traditional machine learning models while requiring only a minimal number of samples. In addition, unlike traditional classification models that lack transparency, VLMs can generate human-interpretable rationales to enhance trust. Since there are no metrics to evaluate their interpretability in manufacturing applications, we propose two metrics, knowledge relevance and rationale validity, to evaluate the quality of VLMs' supporting rationales. Our results show that ICL-assisted VLMs can address application-specific tasks with limited data, achieving relatively high accuracy while also providing valid supporting rationales for improved decision transparency.",
+    "url": "http://arxiv.org/abs/2511.05551v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "query_source": "LDED machine learning"
+  },
+  {
+    "title": "Physics-Informed Mixture Models and Surrogate Models for Precision Additive Manufacturing",
+    "authors": [
+      "Sebastian Basterrech",
+      "Shuo Shan",
+      "Debabrata Adhikari",
+      "Sankhya Mohanty"
+    ],
+    "year": 2025,
+    "arxiv_id": "2510.26586v2",
+    "abstract": "In this study, we leverage a mixture model learning approach to identify defects in laser-based Additive Manufacturing (AM) processes. By incorporating physics based principles, we also ensure that the model is sensitive to meaningful physical parameter variations. The empirical evaluation was conducted by analyzing real-world data from two AM processes: Directed Energy Deposition and Laser Powder Bed Fusion. In addition, we also studied the performance of the developed framework over public datasets with different alloy type and experimental parameter information. The results show the potential of physics-guided mixture models to examine the underlying physical behavior of an AM system.",
+    "url": "http://arxiv.org/abs/2510.26586v2",
+    "categories": [
+      "math-ph",
+      "cs.LG"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Machine Learning-Based Ultrasonic Weld Characterization Using Hierarchical Wave Modeling and Diffusion-Driven Distribution Alignment",
+    "authors": [
+      "Joshua R. Tempelman",
+      "Adam J. Wachtor",
+      "Eric B. Flynn"
+    ],
+    "year": 2025,
+    "arxiv_id": "2510.13023v2",
+    "abstract": "Automated ultrasonic weld inspection remains a significant challenge in the nondestructive evaluation (NDE) community to factors such as limited training data (due to the complexity of curating experimental specimens or high-fidelity simulations) and environmental volatility of many industrial settings (resulting in the corruption of on-the-fly measurements). Thus, an end-to-end machine learning (ML) workflow for acoustic weld inspection in realistic (i.e., industrial) settings has remained an elusive goal. This work addresses the challenges of data curation and signal corruption by proposing workflow consisting of a reduced-order modeling scheme, diffusion based distribution alignment, and U-Net-based segmentation and inversion. A reduced-order Helmholtz model based on Lamb wave theory is used to generate a comprehensive dataset over varying weld heterogeneity and crack defects. The relatively inexpensive low-order solutions provide a robust training dateset for inversion models which are refined through a transfer learning stage using a limited set of full 3D elastodynamic simulations. To handle out-of-distribution (OOD) real-world measurements with varying and unpredictable noise distributions, i.e., Laser Doppler Vibrometry scans, guided diffusion produces in-distribution representations of OOD experimental LDV scans which are subsequently processed by the inversion models. This integrated framework provides an end-to-end solution for automated weld inspection on real data.",
+    "url": "http://arxiv.org/abs/2510.13023v2",
+    "categories": [
+      "cs.LG",
+      "physics.comp-ph"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "Domain-Aware Hyperdimensional Computing for Edge Smart Manufacturing",
+    "authors": [
+      "Fardin Jalil Piran",
+      "Anandkumar Patel",
+      "Rajiv Malhotra",
+      "Farhad Imani"
+    ],
+    "year": 2025,
+    "arxiv_id": "2509.26131v1",
+    "abstract": "Smart manufacturing requires on-device intelligence that meets strict latency and energy budgets. HyperDimensional Computing (HDC) offers a lightweight alternative by encoding data as high-dimensional hypervectors and computing with simple operations. Prior studies often assume that the qualitative relation between HDC hyperparameters and performance is stable across applications. Our analysis of two representative tasks, signal-based quality monitoring in Computer Numerical Control (CNC) machining and image-based defect detection in Laser Powder Bed Fusion (LPBF), shows that this assumption does not hold. We map how encoder type, projection variance, hypervector dimensionality, and data regime shape accuracy, inference latency, training time, and training energy. A formal complexity model explains predictable trends in encoding and similarity computation and reveals nonmonotonic interactions with retraining that preclude a closed-form optimum. Empirically, signals favor nonlinear Random Fourier Features with more exclusive encodings and saturate in accuracy beyond moderate dimensionality. Images favor linear Random Projection, achieve high accuracy with small dimensionality, and depend more on sample count than on dimensionality. Guided by these insights, we tune HDC under multiobjective constraints that reflect edge deployment and obtain models that match or exceed the accuracy of state-of-the-art deep learning and Transformer models while delivering at least 6x faster inference and more than 40x lower training energy. These results demonstrate that domain-aware HDC encoding is necessary and that tuned HDC offers a practical, scalable path to real-time industrial AI on constrained hardware. Future work will enable adaptive encoder and hyperparameter selection, expand evaluation to additional manufacturing modalities, and validate on low-power accelerators.",
+    "url": "http://arxiv.org/abs/2509.26131v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "LabelImg: CNN-Based Surface Defect Detection",
+    "authors": [
+      "Mohsen Asghari Ilani",
+      "Yaser Mike Banad"
+    ],
+    "year": 2025,
+    "arxiv_id": "2509.05813v1",
+    "abstract": "In the journey of computer vision system development, the acquisition and utilization of annotated images play a central role, providing information about object identity, spatial extent, and viewpoint in depicted scenes. However, thermal manufacturing processes like Laser Powder Bed Fusion (LPBF) often yield surfaces with defects such as Spatter, Crack, Pinhole, and Hole due to the Balling phenomenon. Preprocessing images from LPBF, riddled with defects, presents challenges in training machine learning (ML) algorithms. Detecting defects is critical for predicting production quality and identifying crucial points in artificial or natural structures. This paper introduces a deep learning-based approach utilizing Convolutional Neural Networks (CNNs) to automatically detect and segment surface defects like cracks, spatter, holes, and pinholes on production surfaces. In contrast to traditional machine learning techniques requiring extensive processing time and manual feature crafting, deep learning proves more accurate. The proposed architecture undergoes training and testing on 14,982 labeled images annotated using the LabelImg tool. Each object in the images is manually annotated with bounding boxes and segmented masks. The trained CNN, coupled with OpenCV preprocessing techniques, achieves an impressive 99.54% accuracy on the dataset with resolutions of 1536 x 1103 pixels. Evaluation metrics for 50 true crack tests demonstrate precision, recall, and F1-score exceeding 96%, 98%, and 97%, respectively. Similarly, for 124 true pinhole tests, the metrics are 99%, 100%, and 100%, for 258 true hole tests, they are 99%, 99%, and 99%, and for 318 spatter tests, the metrics are 100%, 99%, and 100%. These results highlight the precision and effectiveness of the entire process, showcasing its potential for reliable defect detection in production surfaces.",
+    "url": "http://arxiv.org/abs/2509.05813v1",
+    "categories": [
+      "cond-mat.mes-hall"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Multimodal learning of melt pool dynamics in laser powder bed fusion",
+    "authors": [
+      "Satyajit Mojumder",
+      "Pallock Halder",
+      "Tiana Tonge"
+    ],
+    "year": 2025,
+    "arxiv_id": "2509.03029v1",
+    "abstract": "While multiple sensors are used for real-time monitoring in additive manufacturing, not all provide practical or reliable process insights. For example, high-speed X-ray imaging offers valuable spatial information about subsurface melt pool behavior but is costly and impractical for most industrial settings. In contrast, absorptivity data from low-cost photodiodes correlate with melt pool dynamics but is often too noisy for accurate prediction when used alone. In this paper, we propose a multimodal data fusion approach for predicting melt pool dynamics by combining high-fidelity X-ray data with low-fidelity absorptivity data in the Laser Powder Bed Fusion (LPBF) process. Our multimodal learning framework integrates convolutional neural networks (CNNs) for spatial feature extraction from X-ray data with recurrent neural networks (RNNs) for temporal feature extraction from absorptivity signals, using an early fusion strategy. The multimodal model is further used as a transfer learning model to fine-tune the RNN model that can predict melt pool dynamics only with absorptivity, with greater accuracy compared to the multimodal model. Results show that training with both modalities significantly improves prediction accuracy compared to using either modality alone. Furthermore, once trained, the model can infer melt pool characteristics using only absorptivity data, eliminating the need for expensive X-ray imaging. This multimodal fusion approach enables cost-effective, real-time monitoring and has broad applicability in additive manufacturing.",
+    "url": "http://arxiv.org/abs/2509.03029v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Out of Distribution Detection for Efficient Continual Learning in Quality Prediction for Arc Welding",
+    "authors": [
+      "Yannik Hahn",
+      "Jan Voets",
+      "Antonin Koenigsfeld",
+      "Hasan Tercan",
+      "Tobias Meisen"
+    ],
+    "year": 2025,
+    "arxiv_id": "2508.16832v2",
+    "abstract": "Modern manufacturing relies heavily on fusion welding processes, including gas metal arc welding (GMAW). Despite significant advances in machine learning-based quality prediction, current models exhibit critical limitations when confronted with the inherent distribution shifts that occur in dynamic manufacturing environments. In this work, we extend the VQ-VAE Transformer architecture - previously demonstrating state-of-the-art performance in weld quality prediction - by leveraging its autoregressive loss as a reliable out-of-distribution (OOD) detection mechanism. Our approach exhibits superior performance compared to conventional reconstruction methods, embedding error-based techniques, and other established baselines. By integrating OOD detection with continual learning strategies, we optimize model adaptation, triggering updates only when necessary and thereby minimizing costly labeling requirements. We introduce a novel quantitative metric that simultaneously evaluates OOD detection capability while interpreting in-distribution performance. Experimental validation in real-world welding scenarios demonstrates that our framework effectively maintains robust quality prediction capabilities across significant distribution shifts, addressing critical challenges in dynamic manufacturing environments where process parameters frequently change. This research makes a substantial contribution to applied artificial intelligence by providing an explainable and at the same time adaptive solution for quality assurance in dynamic manufacturing processes - a crucial step towards robust, practical AI systems in the industrial environment.",
+    "url": "http://arxiv.org/abs/2508.16832v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "QA-VLM: Providing human-interpretable quality assessment for wire-feed laser additive manufacturing parts with Vision Language Models",
+    "authors": [
+      "Qiaojie Zheng",
+      "Jiucai Zhang",
+      "Joy Gockel",
+      "Michael B. Wakin",
+      "Craig Brice",
+      "Xiaoli Zhang"
+    ],
+    "year": 2025,
+    "arxiv_id": "2508.16661v1",
+    "abstract": "Image-based quality assessment (QA) in additive manufacturing (AM) often relies heavily on the expertise and constant attention of skilled human operators. While machine learning and deep learning methods have been introduced to assist in this task, they typically provide black-box outputs without interpretable justifications, limiting their trust and adoption in real-world settings. In this work, we introduce a novel QA-VLM framework that leverages the attention mechanisms and reasoning capabilities of vision-language models (VLMs), enriched with application-specific knowledge distilled from peer-reviewed journal articles, to generate human-interpretable quality assessments. Evaluated on 24 single-bead samples produced by laser wire direct energy deposition (DED-LW), our framework demonstrates higher validity and consistency in explanation quality than off-the-shelf VLMs. These results highlight the potential of our approach to enable trustworthy, interpretable quality assessment in AM applications.",
+    "url": "http://arxiv.org/abs/2508.16661v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "query_source": "LDED machine learning"
+  },
+  {
+    "title": "Improved Training Strategies for Physics-Informed Neural Networks using Real Experimental Data in Aluminum Spot Welding",
+    "authors": [
+      "Jan A. Zak",
+      "Christian Weißenfels"
+    ],
+    "year": 2025,
+    "arxiv_id": "2508.04595v2",
+    "abstract": "Resistance spot welding is the dominant joining process for the body-in-white in the automotive industry, where the weld nugget diameter is the key quality metric. Its measurement requires destructive testing, limiting the potential for efficient quality control. Physics-informed neural networks were investigated as a promising tool to reconstruct internal process states from experimental data, enabling model-based and non-invasive quality assessment in aluminum spot welding. A major challenge is the integration of real-world data into the network due to competing optimization objectives. To address this, we introduce two novel training strategies. First, experimental losses for dynamic displacement and nugget diameter are progressively included using a fading-in function to prevent excessive optimization conflicts. We also implement a custom learning rate scheduler and early stopping based on a rolling window to counteract premature reduction due to increased loss magnitudes. Second, we introduce a conditional update of temperature-dependent material parameters via a look-up table, activated only after a loss threshold is reached to ensure physically meaningful temperatures. An axially symmetric two-dimensional model was selected to represent the welding process accurately while maintaining computational efficiency. To reduce computational burden, the training strategies and model components were first systematically evaluated in one dimension, enabling controlled analysis of loss design and contact models. The two-dimensional network predicts dynamic displacement and nugget growth within the experimental confidence interval, supports transferring welding stages from steel to aluminum, and demonstrates strong potential for fast, model-based quality control in industrial applications.",
+    "url": "http://arxiv.org/abs/2508.04595v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "welding machine learning"
+  },
+  {
+    "title": "Integrating Machine Learning with Multimodal Monitoring System Utilizing Acoustic and Vision Sensing to Evaluate Geometric Variations in Laser Directed Energy Deposition",
+    "authors": [
+      "Ke Xu",
+      "Chaitanya Krishna Prasad Vallabh",
+      "Souran Manoochehri"
+    ],
+    "year": 2025,
+    "arxiv_id": "2508.02847v1",
+    "abstract": "Laser directed energy deposition (DED) additive manufacturing struggles with consistent part quality due to complex melt pool dynamics and process variations. While much research targets defect detection, little work has validated process monitoring systems for evaluating melt pool dynamics and process quality. This study presents a novel multimodal monitoring framework, synergistically integrating contact-based acoustic emission (AE) sensing with coaxial camera vision to enable layer-wise identification and evaluation of geometric variations in DED parts. The experimental study used three part configurations: a baseline part without holes, a part with a 3mm diameter through-hole, and one with a 5mm through-hole to test the system's discerning capabilities. Raw sensor data was preprocessed: acoustic signals were filtered for time-domain and frequency-domain feature extraction, while camera data underwent melt pool segmentation and morphological feature extraction. Multiple machine learning algorithms (including SVM, random forest, and XGBoost) were evaluated to find the optimal model for classifying layer-wise geometric variations. The integrated multimodal strategy achieved a superior classification performance of 94.4%, compared to 87.8% for AE only and 86.7% for the camera only. Validation confirmed the integrated system effectively captures both structural vibration signatures and surface morphological changes tied to the geometric variations. While this study focuses on specific geometries, the demonstrated capability to discriminate between features establishes a technical foundation for future applications in characterizing part variations like geometric inaccuracies and manufacturing-induced defects.",
+    "url": "http://arxiv.org/abs/2508.02847v1",
+    "categories": [
+      "eess.SP",
+      "eess.IV",
+      "eess.SY"
+    ],
+    "query_source": "LDED machine learning"
+  },
+  {
+    "title": "Physics-guided denoiser network for enhanced additive manufacturing data quality",
+    "authors": [
+      "Pallock Halder",
+      "Satyajit Mojumder"
+    ],
+    "year": 2025,
+    "arxiv_id": "2508.02712v1",
+    "abstract": "Modern engineering systems are increasingly equipped with sensors for real-time monitoring and decision-making. However, the data collected by these sensors is often noisy and difficult to interpret, limiting its utility for control and diagnostics. In this work, we propose a physics-informed denoising framework that integrates energy-based model and Fisher score regularization to jointly reduce data noise and enforce physical consistency with a physics-based model. The approach is first validated on benchmark problems, including the simple harmonic oscillator, Burgers' equation, and Laplace's equation, across varying noise levels. We then apply the denoising framework to real thermal emission data from laser powder bed fusion (LPBF) additive manufacturing experiments, using a trained Physics-Informed Neural Network (PINN) surrogate model of the LPBF process to guide denoising. Results show that the proposed method outperforms baseline neural network denoisers, effectively reducing noise under a range of LPBF processing conditions. This physics-guided denoising strategy enables robust, real-time interpretation of low-cost sensor data, facilitating predictive control and improved defect mitigation in additive manufacturing.",
+    "url": "http://arxiv.org/abs/2508.02712v1",
+    "categories": [
+      "eess.SP",
+      "cs.LG",
+      "eess.SY"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Physics-informed machine learning surrogate for scalable simulation of thermal histories during wire-arc directed energy deposition",
+    "authors": [
+      "Michael Ryan",
+      "Mohammad Hassan Baqershahi",
+      "Hessamoddin Moshayedi",
+      "Elyas Ghafoori"
+    ],
+    "year": 2025,
+    "arxiv_id": "2507.09591v1",
+    "abstract": "Wire-arc directed energy deposition (DED) has emerged as a promising additive manufacturing (AM) technology for large-scale structural engineering applications. However, the complex thermal dynamics inherent to the process present challenges in ensuring structural integrity and mechanical properties of fabricated thick walls and plates. While finite element method (FEM) simulations have been conventionally employed to predict thermal history during deposition, their computational demand remains prohibitively high for actual large-scale applications. Given the necessity of multiple repetitive simulations for heat management and the determination of an optimal printing strategy, FEM simulation quickly becomes entirely infeasible. Instead, advancements have been made in using trained neural networks as surrogate models for rapid prediction. However, traditional data-driven approaches necessitate large amounts of relevant and verifiable external data, during the training and validation of the neural network. Regarding large-scale wire-arc DED, none of these data sources are readily available in quantities sufficient for an accurate surrogate. The introduction of physics-informed neural networks (PINNs) has opened up an alternative simulation strategy by leveraging the existing physical knowledge of the phenomena with advanced machine learning methods. Despite their theoretical advantages, PINNs have seen limited application in the context of large-scale wire-arc DED for structural engineering. This study investigates the scalability of PINNs, focusing on efficient collocation points sampling, a critical factor controlling both the training time and model performance. Results show PINNs can reduce computational time and effort by up to 98.6%, while maintaining the desired accuracy and offering \"super-resolution\". Future directions for enhancing PINN performance in metal AM are discussed.",
+    "url": "http://arxiv.org/abs/2507.09591v1",
+    "categories": [
+      "cs.CE"
+    ],
+    "query_source": "LDED machine learning"
+  },
+  {
+    "title": "Laser Scan Path Design for Controlled Microstructure in Additive Manufacturing with Integrated Reduced-Order Phase-Field Modeling and Deep Reinforcement Learning",
+    "authors": [
+      "Augustine Twumasi",
+      "Prokash Chandra Roy",
+      "Zixun Li",
+      "Soumya Shouvik Bhattacharjee",
+      "Zhengtao Gan"
+    ],
+    "year": 2025,
+    "arxiv_id": "2506.21815v1",
+    "abstract": "Laser powder bed fusion (L-PBF) is a widely recognized additive manufacturing technology for producing intricate metal components with exceptional accuracy. A key challenge in L-PBF is the formation of complex microstructures affecting product quality. We propose a physics-guided, machine-learning approach to optimize scan paths for desired microstructure outcomes, such as equiaxed grains. We utilized a phase-field method (PFM) to model crystalline grain structure evolution. To reduce computational costs, we trained a surrogate machine learning model, a 3D U-Net convolutional neural network, using single-track phase-field simulations with various laser powers to predict crystalline grain orientations based on initial microstructure and thermal history. We investigated three scanning strategies across various hatch spacings within a square domain, achieving a two-orders-of-magnitude speedup using the surrogate model. To reduce trial and error in designing laser scan toolpaths, we used deep reinforcement learning (DRL) to generate optimized scan paths for target microstructure. Results from three cases demonstrate the DRL approach's effectiveness. We integrated the surrogate 3D U-Net model into our DRL environment to accelerate the reinforcement learning training process. The reward function minimizes both aspect ratio and grain volume of the predicted microstructure from the agent's scan path. The reinforcement learning algorithm was benchmarked against conventional zigzag approach for smaller and larger domains, showing machine learning methods' potential to enhance microstructure control and computational efficiency in L-PBF optimization.",
+    "url": "http://arxiv.org/abs/2506.21815v1",
+    "categories": [
+      "cs.CE",
+      "cs.LG",
+      "math.OC"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Physics-Informed Machine Learning Regulated by Finite Element Analysis for Simulation Acceleration of Laser Powder Bed Fusion",
+    "authors": [
+      "R. Sharma",
+      "M. Raissi",
+      "Y. B. Guo"
+    ],
+    "year": 2025,
+    "arxiv_id": "2506.20537v2",
+    "abstract": "Efficient simulation of Laser Powder Bed Fusion (LPBF) is crucial for process prediction due to the lasting issue of high computation cost using traditional numerical methods such as finite element analysis (FEA). This study presents an efficient modeling framework termed FEA-Regulated Physics-Informed Neural Network (FEA-PINN) to accelerate the thermal field prediction in a LPBF process while maintaining the FEA accuracy. A novel dynamic material updating strategy is developed to capture the dynamic phase change of powder-liquid-solid in the PINN model. The PINN model incorporates temperature-dependent material properties and phase change behavior using the apparent heat capacity method. While the PINN model demonstrates high accuracy with a small training data and enables generalization of new process parameters via transfer learning, it faces the challenge of high computation cost in time-dependent problems due to the residual accumulation. To overcome this issue, the FEA-PINN framework integrates corrective FEA simulations during inference to enforce physical consistency and reduce error drift. A comparative analysis shows that FEA-PINN achieves equivalent accuracy to FEA while significantly reducing computational cost. The framework has been validated using the benchmark FEA data and demonstrated through single-track scanning in LPBF.",
+    "url": "http://arxiv.org/abs/2506.20537v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Optimizing edge AI models on HPC systems with the edge in the loop",
+    "authors": [
+      "Marcel Aach",
+      "Cyril Blanc",
+      "Andreas Lintermann",
+      "Kurt De Grave"
+    ],
+    "year": 2025,
+    "arxiv_id": "2505.19995v1",
+    "abstract": "Artificial intelligence and machine learning models deployed on edge devices, e.g., for quality control in Additive Manufacturing (AM), are frequently small in size. Such models usually have to deliver highly accurate results within a short time frame. Methods that are commonly employed in literature start out with larger trained models and try to reduce their memory and latency footprint by structural pruning, knowledge distillation, or quantization. It is, however, also possible to leverage hardware-aware Neural Architecture Search (NAS), an approach that seeks to systematically explore the architecture space to find optimized configurations. In this study, a hardware-aware NAS workflow is introduced that couples an edge device located in Belgium with a powerful High-Performance Computing system in Germany, to train possible architecture candidates as fast as possible while performing real-time latency measurements on the target hardware. The approach is verified on a use case in the AM domain, based on the open RAISE-LPBF dataset, achieving ~8.8 times faster inference speed while simultaneously enhancing model quality by a factor of ~1.35, compared to a human-designed baseline.",
+    "url": "http://arxiv.org/abs/2505.19995v1",
+    "categories": [
+      "cs.DC",
+      "cs.CV"
+    ],
+    "query_source": "LPBF machine learning"
+  },
+  {
+    "title": "Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing",
+    "authors": [
+      "Jiarui Xie",
+      "Yaoyao Fiona Zhao"
+    ],
+    "year": 2025,
+    "arxiv_id": "2504.21317v1",
+    "abstract": "The deployment of machine learning (ML)-based process monitoring systems has significantly advanced additive manufacturing (AM) by enabling real-time defect detection, quality assessment, and process optimization. However, redundancy is a critical yet often overlooked challenge in the deployment and operation of ML-based AM process monitoring systems. Excessive redundancy leads to increased equipment costs, compromised model performance, and high computational requirements, posing barriers to industrial adoption. However, existing research lacks a unified definition of redundancy and a systematic framework for its evaluation and mitigation. This paper defines redundancy in ML-based AM process monitoring and categorizes it into sample-level, feature-level, and model-level redundancy. A comprehensive multi-level redundancy mitigation (MLRM) framework is proposed, incorporating advanced methods such as data registration, downscaling, cross-modality knowledge transfer, and model pruning to systematically reduce redundancy while improving model performance. The framework is validated through an ML-based in-situ defect detection case study for directed energy deposition (DED), demonstrating a 91% reduction in latency, a 47% decrease in error rate, and a 99.4% reduction in storage requirements. Additionally, the proposed approach lowers sensor costs and energy consumption, enabling a lightweight, cost-effective, and scalable monitoring system. By defining redundancy and introducing a structured mitigation framework, this study establishes redundancy analysis and mitigation as a key enabler of efficient ML-based process monitoring in production environments.",
+    "url": "http://arxiv.org/abs/2504.21317v1",
+    "categories": [
+      "cs.CE",
+      "cs.LG",
+      "eess.SP"
+    ],
+    "query_source": "LDED machine learning"
+  },
+  {
+    "title": "Real-Time Decision-Making for Digital Twin in Additive Manufacturing with Model Predictive Control using Time-Series Deep Neural Networks",
+    "authors": [
+      "Yi-Ping Chen",
+      "Vispi Karkaria",
+      "Ying-Kuan Tsai",
+      "Faith Rolark",
+      "Daniel Quispe",
+      "Robert X. Gao",
+      "Jian Cao",
+      "Wei Chen"
+    ],
+    "year": 2025,
+    "arxiv_id": "2501.07601v5",
+    "abstract": "Digital Twin -- a virtual replica of a physical system enabling real-time monitoring, model updating, prediction, and decision-making -- combined with recent advances in machine learning, offers new opportunities for proactive control strategies in autonomous manufacturing. However, achieving real-time decision-making with Digital Twins requires efficient optimization driven by accurate predictions of highly nonlinear manufacturing systems. This paper presents a simultaneous multi-step Model Predictive Control (MPC) framework for real-time decision-making, using a multivariate deep neural network, named Time-Series Dense Encoder (TiDE), as the surrogate model. Unlike conventional MPC models which only provide one-step ahead prediction, TiDE is capable of predicting future states within the prediction horizon in one shot (multi-step), significantly accelerating the MPC. Using Directed Energy Deposition (DED) additive manufacturing as a case study, we demonstrate the effectiveness of the proposed MPC in achieving melt pool temperature tracking to ensure part quality, while reducing porosity defects by regulating laser power to maintain melt pool depth constraints. In this work, we first show that TiDE is capable of accurately predicting melt pool temperature and depth. Second, we demonstrate that the proposed MPC achieves precise temperature tracking while satisfying melt pool depth constraints within a targeted dilution range (10\\%-30\\%), reducing potential porosity defects. Compared to PID controller, the MPC results in smoother and less fluctuating laser power profiles with competitive or superior melt pool temperature control performance. This demonstrates the MPC's proactive control capabilities, leveraging time-series prediction and real-time optimization, positioning it as a powerful tool for future Digital Twin applications and real-time process optimization in manufacturing.",
+    "url": "http://arxiv.org/abs/2501.07601v5",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "query_source": "LDED machine learning"
+  }
+]

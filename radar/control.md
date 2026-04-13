@@ -47,3 +47,11 @@ Monitoring and prediction become much more valuable when they can influence the 
 ## Future Opportunity
 
 A major future opportunity lies in deployment-ready closed-loop systems that combine interpretable monitoring, uncertainty-aware prediction, and constrained control action selection.
+
+## Related Repository Pages
+
+- [Process Monitoring](monitoring.md)
+- [Process Modelling](modelling.md)
+- [Reinforcement Learning](reinforcement-learning.md)
+- [Closed-loop Control References](../refs/control.md)
+- [Manufacturing AI Taxonomy](../docs/taxonomy.md)
