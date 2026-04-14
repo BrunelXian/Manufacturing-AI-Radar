@@ -1,8 +1,16 @@
 # Manufacturing-AI-Radar
+<h1 align="center">Manufacturing-AI-Radar</h1>
+
+<p align="center"><strong>A structured research map for Artificial Intelligence in Manufacturing</strong></p>
+<p align="center"><strong>Manufacturing-AI-Radar organizes the technical landscape of AI for manufacturing across processes, sensing, modelling, control, and industrial deployment.</strong></p>
+
+[![Project Type](https://img.shields.io/badge/project-research%20radar-blue)](#)
+[![Focus](https://img.shields.io/badge/focus-AI%20for%20Manufacturing-important)](#)
+[![Scope](https://img.shields.io/badge/scope-processes%2C%20control%2C%20digital%20twin-success)](#)
 
 Manufacturing-AI-Radar is a structured research navigation project for AI in manufacturing.
 
-It is designed to map how artificial intelligence is used across manufacturing processes, system architectures, and industrial decision loops. The goal is not to build a generic paper list, but to create a maintainable knowledge map that helps readers understand where AI is being applied, why it matters, and how technical directions relate to one another.
+It is designed to map how artificial intelligence is used across manufacturing processes, system architectures, and industrial decision loops. Rather than acting as a generic paper list, the repository aims to become a maintainable knowledge map that helps readers understand where AI is being applied, why it matters, and how technical directions relate to one another.
 
 ## Project Overview
 
