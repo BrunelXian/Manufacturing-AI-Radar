@@ -71,8 +71,33 @@ Each queue entry includes:
 - `why_selected`
 - `suggested_target_refs_file`
 - `curation_note`
+- `batch_priority`
+- `batch_reason`
+- `curation_status`
 
-### 6. Daily Digest
+### 6. Curation Batches
+
+Source-of-truth directory:
+
+- `data/curation_batches/`
+
+Script:
+
+- `scripts/curation_batcher.py`
+
+This stage turns the curated queue into daily actionable review batches. It does not rewrite `refs/` automatically. Instead, it groups queue items by target refs page, sorts them by priority and relevance, and creates manageable domain-specific JSON files plus a human-readable Markdown summary.
+
+Typical outputs:
+
+- `YYYY-MM-DD-priority.md`
+- `YYYY-MM-DD-additive-manufacturing.json`
+- `YYYY-MM-DD-monitoring.json`
+- `YYYY-MM-DD-defect-detection.json`
+- `YYYY-MM-DD-modelling.json`
+
+The curated queue is the standing shortlist. Curation batches are the daily handoff view for actual review work.
+
+### 7. Daily Digest
 
 Source-of-truth directory:
 
@@ -101,6 +126,7 @@ Both JSON and Markdown digests are generated per day.
 - `data/scan_log.txt`: scanner operational log
 - `data/digests/YYYY-MM-DD.json`: machine-readable daily digest
 - `data/digests/YYYY-MM-DD.md`: human-readable daily digest
+- `data/curation_batches/YYYY-MM-DD-priority.md`: human-readable curation handoff
 
 ## Checkpointing
 
@@ -158,7 +184,7 @@ The following should remain human-led for now:
 Potential future LLM insertion points:
 
 1. after rule-based screening, to refine queue prioritization
-2. after tagging, to draft structured curation notes
+2. after batch generation, to draft structured curation notes for each batch
 3. before `refs/` handoff, to suggest concise summaries for human review
 
 LLMs should not replace the raw intake, deduplication, or checkpointing layers.
@@ -178,6 +204,7 @@ python scripts/paper_normalizer.py
 python scripts/paper_screener.py
 python scripts/tag_assigner.py
 python scripts/daily_digest.py
+python scripts/curation_batcher.py
 ```
 
 ## GitHub Actions
@@ -188,3 +215,13 @@ Two workflows are included:
 - `.github/workflows/screen_daily.yml`
 
 They are designed for public GitHub Actions execution first. If the repository later needs heavier scanning cadence, longer-running jobs, or private data access, the same pipeline can be moved to a self-hosted runner without changing the data-layer structure.
+
+## Suggested Daily Review Workflow
+
+1. let `scan_daily.yml` update raw intake
+2. let `screen_daily.yml` normalize, screen, tag, queue, digest, and batch papers
+3. open the latest `data/curation_batches/YYYY-MM-DD-priority.md`
+4. review the small domain-specific batch files
+5. convert the best batch items into curated summaries in `refs/`
+
+This keeps literature intake continuous while preserving editorial discipline.

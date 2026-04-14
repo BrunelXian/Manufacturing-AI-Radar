@@ -68,6 +68,14 @@ def build_queue_entry(record: Dict[str, Any]) -> Dict[str, Any]:
     if method_tags:
         reasons.append(f"method_tags={','.join(method_tags)}")
 
+    score = record.get("relevance_score") or 0
+    if score >= 18:
+        batch_priority = "high"
+    elif score >= 13:
+        batch_priority = "medium"
+    else:
+        batch_priority = "low"
+
     return {
         "id": record.get("id"),
         "title": record.get("title"),
@@ -80,6 +88,10 @@ def build_queue_entry(record: Dict[str, Any]) -> Dict[str, Any]:
         "method_tags": method_tags,
         "relevance_score": record.get("relevance_score"),
         "why_selected": "; ".join(reasons),
+        "batch_priority": batch_priority,
+        "batch_reason": "High process relevance and fit for an existing curated refs page.",
+        "curation_status": "queued",
+        "last_reviewed_date": None,
         "suggested_target_refs_file": pick_target_file(domain_tags, domain_scores),
         "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
     }
@@ -118,6 +130,10 @@ def main() -> None:
         previous = previous_by_id.get(queue_entry["id"])
         if previous and previous.get("relevance_score") == queue_entry["relevance_score"] and previous.get("suggested_target_refs_file") == queue_entry["suggested_target_refs_file"] and previous.get("primary_domain_tag") == queue_entry["primary_domain_tag"]:
             queue_entry["queued_at"] = previous.get("queued_at")
+            queue_entry["curation_status"] = previous.get("curation_status", queue_entry["curation_status"])
+            queue_entry["last_reviewed_date"] = previous.get("last_reviewed_date")
+            queue_entry["batch_priority"] = previous.get("batch_priority", queue_entry["batch_priority"])
+            queue_entry["batch_reason"] = previous.get("batch_reason", queue_entry["batch_reason"])
         else:
             queue_entry["queued_at"] = utc_now()
         curated_queue.append(queue_entry)

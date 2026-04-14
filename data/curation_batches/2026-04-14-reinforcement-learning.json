@@ -1,0 +1,32 @@
+{
+  "day": "2026-04-14",
+  "target_refs_file": "refs/reinforcement-learning.md",
+  "batch_size": 1,
+  "items": [
+    {
+      "id": "arxiv:2603.02846",
+      "title": "Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2603.02846v1",
+      "primary_domain_tag": "reinforcement-learning",
+      "domain_tags": [
+        "reinforcement-learning"
+      ],
+      "process_tags": [],
+      "method_tags": [
+        "graph-learning",
+        "reinforcement-learning"
+      ],
+      "relevance_score": 11,
+      "why_selected": "domain_tags=reinforcement-learning; method_tags=graph-learning,reinforcement-learning",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/reinforcement-learning.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    }
+  ]
+}

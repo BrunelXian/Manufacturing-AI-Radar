@@ -202,3 +202,37 @@ These two domains were the next highest-value additions because they connect the
 - domain tagging is still approximate and intentionally conservative
 - queue targeting still leans heavily toward additive manufacturing because the current pool is AM-heavy
 - the current workflows are robust enough for public GitHub Actions, but longer-running or more frequent intake may later need a self-hosted runner
+
+## 2026-04-14 08:55 +08:00
+
+### What Was Done
+
+- extended curated-queue entries with batch-oriented metadata
+- added `scripts/curation_batcher.py`
+- created a new `data/curation_batches/` handoff layer
+- updated the screening workflow so daily runs now generate curation batches after digests
+- updated README and pipeline documentation to explain the difference between queue and batches
+
+### Why
+
+The repository had a shortlist, but not yet a sustainable review interface. The queue was still too close to a backlog. Daily curation batches turn that backlog into manageable review packets tied to specific `refs/` pages.
+
+### Design Choices
+
+- the queue remains the standing reservoir of promising papers
+- batches are generated fresh from the queue each day rather than replacing the queue
+- batches are grouped by `suggested_target_refs_file` so the review flow maps directly onto the curated refs structure
+- batch size is intentionally capped to keep daily review realistic
+- this layer still avoids direct auto-writing into `refs/`
+
+### What Remains Manual
+
+- deciding which batched papers are strong enough to promote into curated refs
+- writing the final editorial summary and limitations text in `refs/*.md`
+- marking items as deferred, curated, or rejected after review
+
+### Next Steps
+
+- optionally add a lightweight script to update `curation_status` after review
+- make `refs/README.md` point to the latest curation batch process
+- refine primary-domain routing for papers that naturally sit between additive manufacturing, modelling, and monitoring

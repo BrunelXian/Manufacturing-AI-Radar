@@ -1,0 +1,149 @@
+{
+  "day": "2026-04-14",
+  "target_refs_file": "refs/modelling.md",
+  "batch_size": 5,
+  "items": [
+    {
+      "id": "arxiv:2506.21815",
+      "title": "Laser Scan Path Design for Controlled Microstructure in Additive Manufacturing with Integrated Reduced-Order Phase-Field Modeling and Deep Reinforcement Learning",
+      "source": "arxiv",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2506.21815v1",
+      "primary_domain_tag": "modelling",
+      "domain_tags": [
+        "additive-manufacturing",
+        "modelling",
+        "reinforcement-learning"
+      ],
+      "process_tags": [
+        "ded",
+        "lpbf",
+        "welding"
+      ],
+      "method_tags": [
+        "reinforcement-learning",
+        "surrogate-model"
+      ],
+      "relevance_score": 20,
+      "why_selected": "domain_tags=additive-manufacturing,modelling,reinforcement-learning; process_tags=ded,lpbf,welding; method_tags=reinforcement-learning,surrogate-model",
+      "batch_priority": "high",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/modelling.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2602.07184",
+      "title": "Modeling Batch Crystallization under Uncertainty Using Physics-informed Machine Learning",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2602.07184v1",
+      "primary_domain_tag": "modelling",
+      "domain_tags": [
+        "modelling",
+        "monitoring"
+      ],
+      "process_tags": [
+        "welding"
+      ],
+      "method_tags": [
+        "physics-informed-ml"
+      ],
+      "relevance_score": 11,
+      "why_selected": "domain_tags=modelling,monitoring; process_tags=welding; method_tags=physics-informed-ml",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/modelling.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2506.20537",
+      "title": "Physics-Informed Machine Learning Regulated by Finite Element Analysis for Simulation Acceleration of Laser Powder Bed Fusion",
+      "source": "arxiv",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2506.20537v2",
+      "primary_domain_tag": "modelling",
+      "domain_tags": [
+        "additive-manufacturing",
+        "modelling"
+      ],
+      "process_tags": [
+        "lpbf"
+      ],
+      "method_tags": [
+        "physics-informed-ml"
+      ],
+      "relevance_score": 11,
+      "why_selected": "domain_tags=additive-manufacturing,modelling; process_tags=lpbf; method_tags=physics-informed-ml",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/modelling.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2603.14489",
+      "title": "Predicting Stress-strain Behaviors of Additively Manufactured Materials via Loss-based and Activation-based Physics-informed Machine Learning",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2603.14489v1",
+      "primary_domain_tag": "modelling",
+      "domain_tags": [
+        "additive-manufacturing",
+        "modelling"
+      ],
+      "process_tags": [
+        "ded"
+      ],
+      "method_tags": [
+        "physics-informed-ml"
+      ],
+      "relevance_score": 10,
+      "why_selected": "domain_tags=additive-manufacturing,modelling; process_tags=ded; method_tags=physics-informed-ml",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/modelling.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2508.04595",
+      "title": "Improved Training Strategies for Physics-Informed Neural Networks using Real Experimental Data in Aluminum Spot Welding",
+      "source": "arxiv",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2508.04595v2",
+      "primary_domain_tag": "modelling",
+      "domain_tags": [
+        "additive-manufacturing",
+        "modelling",
+        "reinforcement-learning"
+      ],
+      "process_tags": [
+        "ded",
+        "welding"
+      ],
+      "method_tags": [
+        "physics-informed-ml",
+        "reinforcement-learning"
+      ],
+      "relevance_score": 10,
+      "why_selected": "domain_tags=additive-manufacturing,modelling,reinforcement-learning; process_tags=ded,welding; method_tags=physics-informed-ml,reinforcement-learning",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/modelling.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    }
+  ]
+}

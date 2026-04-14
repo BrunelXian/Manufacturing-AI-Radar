@@ -112,6 +112,7 @@ Manufacturing-AI-Radar/
 |   +-- curated_queue.json
 |   +-- checkpoint.json
 |   +-- scan_log.txt
+|   +-- curation_batches/
 |   `-- digests/
 `-- assets/
     `-- README.md
@@ -193,7 +194,7 @@ Contributors should prefer structured additions over unorganized accumulation. N
 
 Maintenance guidance is documented in [docs/contribution_guide.md](docs/contribution_guide.md) and [docs/maintenance.md](docs/maintenance.md).
 
-Automated literature harvesting is documented in [docs/literature_scanning.md](docs/literature_scanning.md), and the full daily intake pipeline is documented in [docs/daily_pipeline.md](docs/daily_pipeline.md).
+Automated literature harvesting is documented in [docs/literature_scanning.md](docs/literature_scanning.md), and the full daily intake-to-curation pipeline is documented in [docs/daily_pipeline.md](docs/daily_pipeline.md).
 
 ## Audience
 

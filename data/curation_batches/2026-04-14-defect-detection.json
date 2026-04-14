@@ -1,0 +1,195 @@
+{
+  "day": "2026-04-14",
+  "target_refs_file": "refs/defect-detection.md",
+  "batch_size": 7,
+  "items": [
+    {
+      "id": "arxiv:2602.03883",
+      "title": "Explainable Computer Vision Framework for Automated Pore Detection and Criticality Assessment in Additive Manufacturing",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2602.03883v1",
+      "primary_domain_tag": "defect-detection",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection"
+      ],
+      "process_tags": [],
+      "method_tags": [
+        "computer-vision",
+        "graph-learning",
+        "multimodal-sensing"
+      ],
+      "relevance_score": 14,
+      "why_selected": "domain_tags=additive-manufacturing,defect-detection; method_tags=computer-vision,graph-learning,multimodal-sensing",
+      "batch_priority": "medium",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/defect-detection.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2509.05813",
+      "title": "LabelImg: CNN-Based Surface Defect Detection",
+      "source": "arxiv",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2509.05813v1",
+      "primary_domain_tag": "defect-detection",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection"
+      ],
+      "process_tags": [
+        "lpbf"
+      ],
+      "method_tags": [
+        "computer-vision",
+        "multimodal-sensing"
+      ],
+      "relevance_score": 14,
+      "why_selected": "domain_tags=additive-manufacturing,defect-detection; process_tags=lpbf; method_tags=computer-vision,multimodal-sensing",
+      "batch_priority": "medium",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/defect-detection.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2603.20288",
+      "title": "Efficient Visual Anomaly Detection at the Edge: Enabling Real-Time Industrial Inspection on Resource-Constrained Devices",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2603.20288v1",
+      "primary_domain_tag": "defect-detection",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "monitoring"
+      ],
+      "process_tags": [
+        "ded"
+      ],
+      "method_tags": [],
+      "relevance_score": 13,
+      "why_selected": "domain_tags=additive-manufacturing,defect-detection,monitoring; process_tags=ded",
+      "batch_priority": "medium",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/defect-detection.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2603.13831",
+      "title": "Efficient Semi-Automated Material Microstructure Analysis Using Deep Learning: A Case Study in Additive Manufacturing",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2603.13831v1",
+      "primary_domain_tag": "defect-detection",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "modelling"
+      ],
+      "process_tags": [],
+      "method_tags": [
+        "computer-vision"
+      ],
+      "relevance_score": 12,
+      "why_selected": "domain_tags=additive-manufacturing,defect-detection,modelling; method_tags=computer-vision",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/defect-detection.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2602.18146",
+      "title": "Stable Long-Horizon Spatiotemporal Prediction on Meshes Using Latent Multiscale Recurrent Graph Neural Networks",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2602.18146v1",
+      "primary_domain_tag": "defect-detection",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection"
+      ],
+      "process_tags": [],
+      "method_tags": [
+        "graph-learning"
+      ],
+      "relevance_score": 12,
+      "why_selected": "domain_tags=additive-manufacturing,defect-detection; method_tags=graph-learning",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/defect-detection.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2603.28995",
+      "title": "Hybrid Quantum-Classical AI for Industrial Defect Classification in Welding Images",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2603.28995v1",
+      "primary_domain_tag": "defect-detection",
+      "domain_tags": [
+        "defect-detection",
+        "reinforcement-learning"
+      ],
+      "process_tags": [
+        "welding"
+      ],
+      "method_tags": [
+        "computer-vision",
+        "reinforcement-learning"
+      ],
+      "relevance_score": 11,
+      "why_selected": "domain_tags=defect-detection,reinforcement-learning; process_tags=welding; method_tags=computer-vision,reinforcement-learning",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/defect-detection.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2602.06519",
+      "title": "Topography scanning as a part of process monitoring in power cable insulation process",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2602.06519v1",
+      "primary_domain_tag": "defect-detection",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "monitoring"
+      ],
+      "process_tags": [
+        "ded"
+      ],
+      "method_tags": [
+        "graph-learning"
+      ],
+      "relevance_score": 10,
+      "why_selected": "domain_tags=additive-manufacturing,defect-detection,monitoring; process_tags=ded; method_tags=graph-learning",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/defect-detection.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    }
+  ]
+}

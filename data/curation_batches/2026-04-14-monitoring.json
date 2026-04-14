@@ -1,0 +1,57 @@
+{
+  "day": "2026-04-14",
+  "target_refs_file": "refs/monitoring.md",
+  "batch_size": 2,
+  "items": [
+    {
+      "id": "arxiv:2603.24644",
+      "title": "Physics-Informed Neural Network Digital Twin for Dynamic Tray-Wise Modeling of Distillation Columns under Transient Operating Conditions",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2603.24644v1",
+      "primary_domain_tag": "monitoring",
+      "domain_tags": [
+        "defect-detection",
+        "digital-twin",
+        "modelling",
+        "monitoring"
+      ],
+      "process_tags": [],
+      "method_tags": [
+        "graph-learning",
+        "physics-informed-ml"
+      ],
+      "relevance_score": 13,
+      "why_selected": "domain_tags=defect-detection,digital-twin,modelling,monitoring; method_tags=graph-learning,physics-informed-ml",
+      "batch_priority": "medium",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/monitoring.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    },
+    {
+      "id": "arxiv:2601.19669",
+      "title": "Microring Resonator Dispersion Metrology with Neural Networks",
+      "source": "arxiv",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2601.19669v1",
+      "primary_domain_tag": "monitoring",
+      "domain_tags": [
+        "monitoring"
+      ],
+      "process_tags": [],
+      "method_tags": [],
+      "relevance_score": 10,
+      "why_selected": "domain_tags=monitoring",
+      "batch_priority": "low",
+      "batch_reason": "High process relevance and fit for an existing curated refs page.",
+      "curation_status": "queued",
+      "last_reviewed_date": null,
+      "suggested_target_refs_file": "refs/monitoring.md",
+      "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+      "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    }
+  ]
+}
