@@ -2,6 +2,12 @@
   "day": "2026-04-14",
   "target_refs_file": "refs/modelling.md",
   "batch_size": 5,
+  "highest_priority": "high",
+  "priority_mix": "1 high, 4 low",
+  "batch_reason": "High process relevance and fit for an existing curated refs page.",
+  "review_note": "Important for physically meaningful process-response models, surrogates, and thermal or microstructure prediction work.",
+  "estimated_effort": "moderate review, about 20-30 minutes",
+  "expected_output": "Promote 1-2 strong entries into `refs/modelling.md` and record status updates for the remainder.",
   "items": [
     {
       "id": "arxiv:2506.21815",
@@ -145,5 +151,6 @@
       "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
       "queued_at": "2026-04-14T00:46:35.630981+00:00"
     }
-  ]
+  ],
+  "review_order": 2
 }

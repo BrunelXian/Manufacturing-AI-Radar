@@ -267,3 +267,29 @@ The pipeline needed a lightweight decision layer after review. Without status up
 
 - optionally filter deferred items more explicitly in the curation batch summary
 - add a tiny review helper later if the repository owner wants quicker batch triage from the command line
+
+## 2026-04-14 13:18 +08:00
+
+### What Was Done
+
+- upgraded `refs/README.md` into a real curated references entry point instead of a placeholder
+- rewrote `scripts/curation_batcher.py` so it now generates clearer batch metadata, better priority summaries, and a stable `data/curation_batches/latest.md`
+- improved batch summaries to show review order, target refs page, priority mix, effort estimate, and expected output
+- updated top-level README and `docs/daily_pipeline.md` so the daily review surface is part of the documented workflow
+
+### Why
+
+The pipeline was already operational, but daily use still required too much orientation. The repository needed a low-friction entry point that answers three questions immediately: what exists in the curated layer, what should be reviewed today, and where reviewed papers should likely be absorbed.
+
+### Design Choices
+
+- kept `refs/README.md` as the stable navigation and maintenance page for curated knowledge
+- added `data/curation_batches/latest.md` as the stable day-to-day review surface
+- kept the dated priority markdown as the fuller handoff view rather than replacing it
+- improved readability without adding a dashboard or a new data layer
+
+### Current Judgement
+
+- the repository now has a much clearer handoff between automated intake and manual curation
+- first-time daily use should now be significantly easier because the review order and target refs pages are surfaced directly
+- the next remaining usability improvement would be a small helper for turning reviewed batch items into draft curation notes, but that can wait

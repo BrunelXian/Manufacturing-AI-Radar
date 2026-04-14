@@ -2,6 +2,12 @@
   "day": "2026-04-14",
   "target_refs_file": "refs/defect-detection.md",
   "batch_size": 7,
+  "highest_priority": "medium",
+  "priority_mix": "3 medium, 4 low",
+  "batch_reason": "High process relevance and fit for an existing curated refs page.",
+  "review_note": "Worth reviewing when a paper ties defect identification back to manufacturing quality logic rather than generic surface inspection.",
+  "estimated_effort": "focused review, about 30-45 minutes",
+  "expected_output": "Promote 1-2 strong entries into `refs/defect-detection.md` and record status updates for the remainder.",
   "items": [
     {
       "id": "arxiv:2602.03883",
@@ -191,5 +197,6 @@
       "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
       "queued_at": "2026-04-14T00:46:35.630981+00:00"
     }
-  ]
+  ],
+  "review_order": 3
 }

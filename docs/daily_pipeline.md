@@ -89,6 +89,7 @@ This stage turns the curated queue into daily actionable review batches. It does
 
 Typical outputs:
 
+- `latest.md`
 - `YYYY-MM-DD-priority.md`
 - `YYYY-MM-DD-additive-manufacturing.json`
 - `YYYY-MM-DD-monitoring.json`
@@ -96,6 +97,11 @@ Typical outputs:
 - `YYYY-MM-DD-modelling.json`
 
 The curated queue is the standing shortlist. Curation batches are the daily handoff view for actual review work.
+
+Use the two human-facing entry points differently:
+
+- `data/curation_batches/latest.md`: today's stable review surface
+- `refs/README.md`: the stable navigation page for long-lived curated knowledge
 
 ### 7. Queue Status Update
 
@@ -150,6 +156,7 @@ Both JSON and Markdown digests are generated per day.
 - `data/scan_log.txt`: scanner operational log
 - `data/digests/YYYY-MM-DD.json`: machine-readable daily digest
 - `data/digests/YYYY-MM-DD.md`: human-readable daily digest
+- `data/curation_batches/latest.md`: stable daily review entry point
 - `data/curation_batches/YYYY-MM-DD-priority.md`: human-readable curation handoff
 - `data/curation_history.json`: optional history of review decisions
 
@@ -258,9 +265,20 @@ They are designed for public GitHub Actions execution first. If the repository l
 
 1. let `scan_daily.yml` update raw intake
 2. let `screen_daily.yml` normalize, screen, tag, queue, digest, and batch papers
-3. open the latest `data/curation_batches/YYYY-MM-DD-priority.md`
-4. review the small domain-specific batch files
-5. update queue status as items become `batched`, `deferred`, `curated`, or `rejected`
-6. convert the best batch items into curated summaries in `refs/`
+3. open `data/curation_batches/latest.md` to see what should be reviewed today
+4. open the dated priority summary if you need fuller batch detail
+5. review the small domain-specific batch files in the suggested order
+6. update queue status as items become `batched`, `deferred`, `curated`, or `rejected`
+7. convert the best batch items into curated summaries in `refs/`
 
 This keeps literature intake continuous while preserving editorial discipline.
+
+## Why This Reduces Daily Friction
+
+The daily review surface exists so the repository answers three questions immediately:
+
+- what should be reviewed today
+- which `refs/*.md` page each batch is meant to strengthen
+- what should happen after review
+
+That reduces the gap between automated intake and curated knowledge accumulation without turning the repository into a dashboard.

@@ -115,6 +115,7 @@ Manufacturing-AI-Radar/
 |   +-- checkpoint.json
 |   +-- scan_log.txt
 |   +-- curation_batches/
+|   |   `-- latest.md
 |   +-- curation_history.json
 |   `-- digests/
 `-- assets/
@@ -157,6 +158,7 @@ Core pages:
 - [docs/architecture.md](docs/architecture.md)
 - [docs/literature_scanning.md](docs/literature_scanning.md)
 - [docs/daily_pipeline.md](docs/daily_pipeline.md)
+- [data/curation_batches/latest.md](data/curation_batches/latest.md)
 - [radar/additive-manufacturing.md](radar/additive-manufacturing.md)
 - [radar/monitoring.md](radar/monitoring.md)
 - [radar/defect-detection.md](radar/defect-detection.md)
@@ -166,6 +168,16 @@ Core pages:
 - [radar/digital-twin.md](radar/digital-twin.md)
 - [refs/README.md](refs/README.md)
 - [notes/README.md](notes/README.md)
+
+## Daily Review Surface
+
+The repository now exposes a lightweight daily review layer so the next curation action is obvious when opening the project.
+
+- [data/curation_batches/latest.md](data/curation_batches/latest.md): today's stable review surface
+- [refs/README.md](refs/README.md): curated references entry point and maintenance guide
+- [docs/daily_pipeline.md](docs/daily_pipeline.md): intake-to-curation workflow documentation
+
+Use `latest.md` to decide what to review now. Use `refs/README.md` to decide where strong papers should be absorbed for long-term knowledge accumulation.
 
 ## Planned Development
 

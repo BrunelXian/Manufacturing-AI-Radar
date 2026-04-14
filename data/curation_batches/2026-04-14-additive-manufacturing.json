@@ -2,6 +2,12 @@
   "day": "2026-04-14",
   "target_refs_file": "refs/additive-manufacturing.md",
   "batch_size": 8,
+  "highest_priority": "high",
+  "priority_mix": "5 high, 3 medium",
+  "batch_reason": "High process relevance and fit for an existing curated refs page.",
+  "review_note": "Best place to absorb process-intelligence papers that connect sensing, modelling, and quality logic in LPBF, DED, or WAAM-like settings.",
+  "estimated_effort": "focused review, about 30-45 minutes",
+  "expected_output": "Promote 1-2 strong entries into `refs/additive-manufacturing.md` and record status updates for the remainder.",
   "items": [
     {
       "id": "arxiv:2501.07601",
@@ -242,5 +248,6 @@
       "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
       "queued_at": "2026-04-14T00:46:35.630981+00:00"
     }
-  ]
+  ],
+  "review_order": 1
 }
