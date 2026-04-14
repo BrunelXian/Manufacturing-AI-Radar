@@ -71,3 +71,44 @@ The repository needed a bridge between high-level radar structure and a growing 
 - review scanner output quality over longer unattended runs
 - decide whether to add domain tagging or confidence scoring to scanned papers
 - begin promoting representative papers from `data/papers.json` into curated `refs/` entries
+
+## 2026-04-14 02:45 +08:00
+
+### What Was Done
+
+- reviewed the initial `data/papers.json` pool and shortlisted papers for the first curated mapping pass
+- upgraded `refs/additive-manufacturing.md` from a template into a curated domain page with representative entries
+- upgraded `refs/monitoring.md` into a curated page focused on observability, soft sensing, and deployable monitoring
+- upgraded `refs/control.md` into a selective page centered on MPC, surrogate-enabled decision-making, and control-adjacent enabling work
+- upgraded `refs/reinforcement-learning.md` into a curated page that distinguishes process-level RL from operations-level RL
+
+### Why
+
+The repository had already reached the raw collection stage, but it still needed interpretation. Curated `refs/` pages are the first real step from harvested metadata toward a usable research map.
+
+### Papers Selected
+
+- additive manufacturing papers were selected when they connected LPBF or DED process physics, multimodal sensing, defect reasoning, or material-response modelling
+- monitoring papers were selected when they improved process observability, interpretability, or deployment realism
+- control papers were selected conservatively because the current pool has few genuine closed-loop manufacturing papers
+- reinforcement learning papers were selected when they represented either process-level decision-making, robotic manufacturing skills, or clearly manufacturing-specific sequential decisions
+
+### What Was Excluded
+
+- generic industrial anomaly-detection or defect-vision papers with weak process-intelligence relevance
+- broad digital-twin or survey-style papers that were too high-level for first-pass curation
+- scheduling papers that did not add much beyond standard operations framing
+- additive-manufacturing papers that looked interesting but were still too far from process intelligence or quality reasoning
+
+### Current Judgement
+
+- additive manufacturing is already strong enough for a meaningful first curated map
+- monitoring is usable but still skewed toward process-industry style papers and LPBF
+- control remains the thinnest high-value area in the current pool
+- reinforcement learning is presently stronger in scheduling and robotic tasks than in direct process control
+
+### Next Steps
+
+- promote the next strongest papers into `refs/defect-detection.md` and `refs/modelling.md`
+- add light cross-links from radar pages to the newly curated references
+- keep the scanner running in the background, but focus manual effort on curation rather than raw volume
