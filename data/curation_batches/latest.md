@@ -24,13 +24,10 @@
 - Review order 3: `refs/defect-detection.md` via `2026-04-14-defect-detection.json`
   Papers=7; mix=3 medium, 4 low; effort=focused review, about 30-45 minutes
   Why now: Worth reviewing when a paper ties defect identification back to manufacturing quality logic rather than generic surface inspection.
-- Review order 4: `refs/monitoring.md` via `2026-04-14-monitoring.json`
-  Papers=2; mix=1 medium, 1 low; effort=light review, about 10-15 minutes
-  Why now: Useful for strengthening observability coverage, especially when a paper improves state estimation, sensor fusion, or deployment realism.
 
 ## Low Priority Review
 
-- Review order 5: `refs/reinforcement-learning.md` via `2026-04-14-reinforcement-learning.json`
+- Review order 4: `refs/reinforcement-learning.md` via `2026-04-14-reinforcement-learning.json`
   Papers=1; mix=1 low; effort=light review, about 10-15 minutes
   Why now: Use for manufacturing-specific sequential decision papers, especially when the action design is process-aware.
 

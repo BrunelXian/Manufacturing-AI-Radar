@@ -109,6 +109,21 @@ Priority goes to papers that improve process observability in real manufacturing
 **Why it matters:** This is one of the strongest process-monitoring papers in the current pool because it directly addresses the gap between laboratory-grade observability and industrially deployable monitoring.  
 **Limitations / caution:** The industrial relevance depends on whether the lower-cost sensing path retains enough fidelity once the high-end experimental sensor is removed.
 
+### Physics-Informed Neural Network Digital Twin for Dynamic Tray-Wise Modeling of Distillation Columns under Transient Operating Conditions
+
+**Authors:** Debadutta Patra, Ayush Bardhan Tripathy, Soumya Ranjan Sahu, Sucheta Panda  
+**Year:** 2026  
+**Source:** arXiv  
+**Link:** http://arxiv.org/abs/2603.24644v1
+
+**Manufacturing domain:** Process-industry monitoring and soft sensing  
+**AI category:** Physics-informed machine learning, digital twin, dynamic monitoring  
+**Problem addressed:** Tracking transient internal process states in a distillation column while preserving thermodynamic consistency  
+**Inputs / modalities:** Sixteen timestamped process streams generated from transient Aspen HYSYS simulations, including tray-wise temperature and composition behavior  
+**Method summary:** The paper builds a PINN-based digital twin that embeds vapor-liquid equilibrium and tray-level mass and energy balances directly into the learning objective, then uses the model to predict tray-wise transient behavior more accurately than purely data-driven baselines.  
+**Why it matters:** It is a useful monitoring reference because it shows how physics-informed learning can strengthen soft sensing and transient state estimation rather than treating monitoring as pure black-box regression.  
+**Limitations / caution:** The study is rooted in process-industry equipment rather than discrete manufacturing, and the evaluation relies on high-fidelity synthetic simulation data rather than plant-side sensor deployment.
+
 ## Key Observations
 
 - The current monitoring pool is strongest when papers address interpretability, soft sensing, or deployment constraints rather than only raw detection accuracy.

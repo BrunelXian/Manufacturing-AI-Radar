@@ -376,11 +376,13 @@
     "why_selected": "domain_tags=defect-detection,digital-twin,modelling,monitoring; method_tags=graph-learning,physics-informed-ml",
     "batch_priority": "medium",
     "batch_reason": "High process relevance and fit for an existing curated refs page.",
-    "curation_status": "queued",
-    "last_reviewed_date": null,
+    "curation_status": "curated",
+    "last_reviewed_date": "2026-04-14",
     "suggested_target_refs_file": "refs/monitoring.md",
     "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
-    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    "queued_at": "2026-04-14T00:46:35.630981+00:00",
+    "status_updated_at": "2026-04-14T13:29:41.193223+00:00",
+    "status_note": "Promoted into refs/monitoring.md as a supporting physics-informed monitoring reference."
   },
   {
     "id": "arxiv:2603.20288",
@@ -690,11 +692,13 @@
     "why_selected": "domain_tags=monitoring",
     "batch_priority": "low",
     "batch_reason": "High process relevance and fit for an existing curated refs page.",
-    "curation_status": "queued",
-    "last_reviewed_date": null,
+    "curation_status": "rejected",
+    "last_reviewed_date": "2026-04-14",
     "suggested_target_refs_file": "refs/monitoring.md",
     "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
-    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+    "queued_at": "2026-04-14T00:46:35.630981+00:00",
+    "status_updated_at": "2026-04-14T13:29:41.583717+00:00",
+    "status_note": "Too far toward photonic foundry metrology for the current Manufacturing AI Radar monitoring scope."
   },
   {
     "id": "arxiv:2508.04595",

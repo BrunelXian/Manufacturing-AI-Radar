@@ -293,3 +293,39 @@ The pipeline was already operational, but daily use still required too much orie
 - the repository now has a much clearer handoff between automated intake and manual curation
 - first-time daily use should now be significantly easier because the review order and target refs pages are surfaced directly
 - the next remaining usability improvement would be a small helper for turning reviewed batch items into draft curation notes, but that can wait
+
+## 2026-04-14 13:34 +08:00
+
+### What Was Done
+
+- executed the first real curation cycle using `data/curation_batches/latest.md`
+- selected the `refs/monitoring.md` batch because it was small enough for a clean Day 1 workflow validation
+- fast-screened 2 papers using title and abstract only
+- promoted 1 paper into `refs/monitoring.md`
+- marked 1 paper as rejected after review
+- used `scripts/queue_status_updater.py` to record review decisions
+
+### Batch Reviewed
+
+- selected batch: `data/curation_batches/2026-04-14-monitoring.json`
+- papers reviewed: 2
+- curated: `arxiv:2603.24644`
+- rejected: `arxiv:2601.19669`
+- deferred: none
+
+### Why These Decisions Were Made
+
+- `arxiv:2603.24644` was accepted because it is still a meaningful monitoring reference even though it sits in process industry rather than discrete manufacturing; the paper is useful for soft sensing, transient state estimation, and physics-informed monitoring logic
+- `arxiv:2601.19669` was rejected because it is better understood as photonic foundry metrology than as manufacturing AI process monitoring in the scope of this repository
+
+### Workflow Friction
+
+- the flow itself worked as intended
+- the main ambiguity was editorial rather than technical: deciding whether process-industry monitoring papers should be treated as acceptable supporting references for the monitoring page
+- for now, the answer is yes when the paper contributes a clear monitoring concept that is transferable to manufacturing intelligence
+
+### Validation Result
+
+- curated refs update worked without disrupting the existing page structure
+- queue status updates worked as intended
+- the selected batch was effectively consumed because no items from it remain in `queued` state
