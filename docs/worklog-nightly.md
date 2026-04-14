@@ -236,3 +236,34 @@ The repository had a shortlist, but not yet a sustainable review interface. The 
 - optionally add a lightweight script to update `curation_status` after review
 - make `refs/README.md` point to the latest curation batch process
 - refine primary-domain routing for papers that naturally sit between additive manufacturing, modelling, and monitoring
+
+## 2026-04-14 09:05 +08:00
+
+### What Was Done
+
+- added `scripts/queue_status_updater.py`
+- enabled direct queue status updates by paper id or by batch file
+- added optional `data/curation_history.json` support for status transitions
+- updated documentation to explain how items leave active review through `curated`, `deferred`, or `rejected`
+
+### Why
+
+The pipeline needed a lightweight decision layer after review. Without status updates, the same papers would continue to appear as active items, making the daily workflow noisy and unsustainable.
+
+### Design Choices
+
+- the updater only modifies queue and review-tracking layers
+- raw intake, screened records, and curated refs pages remain untouched
+- status transitions are recorded with timestamps and optional notes
+- the CLI supports both single-item updates and batch-file updates to keep daily review practical
+
+### How Deferred And Rejected Items Behave
+
+- deferred items remain in the queue but can be separated from active review in later passes
+- rejected items remain in the queue history but should be excluded from future active daily review
+- curated items indicate that the handoff to `refs/` has already happened
+
+### Next Steps
+
+- optionally filter deferred items more explicitly in the curation batch summary
+- add a tiny review helper later if the repository owner wants quicker batch triage from the command line

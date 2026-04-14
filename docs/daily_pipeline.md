@@ -97,7 +97,31 @@ Typical outputs:
 
 The curated queue is the standing shortlist. Curation batches are the daily handoff view for actual review work.
 
-### 7. Daily Digest
+### 7. Queue Status Update
+
+Script:
+
+- `scripts/queue_status_updater.py`
+
+This stage records review decisions after a batch has been inspected. It updates queue items without touching raw intake, screened papers, or curated refs pages.
+
+Supported statuses:
+
+- `queued`
+- `batched`
+- `curated`
+- `deferred`
+- `rejected`
+
+Queue items remain in `data/curated_queue.json`, but active daily review should focus on items whose status is not `curated` or `rejected`.
+
+Optional history file:
+
+- `data/curation_history.json`
+
+This records status transitions over time so the repository can remember what has already been reviewed.
+
+### 8. Daily Digest
 
 Source-of-truth directory:
 
@@ -127,6 +151,7 @@ Both JSON and Markdown digests are generated per day.
 - `data/digests/YYYY-MM-DD.json`: machine-readable daily digest
 - `data/digests/YYYY-MM-DD.md`: human-readable daily digest
 - `data/curation_batches/YYYY-MM-DD-priority.md`: human-readable curation handoff
+- `data/curation_history.json`: optional history of review decisions
 
 ## Checkpointing
 
@@ -178,6 +203,7 @@ The following should remain human-led for now:
 - deciding which papers are genuinely representative
 - drawing strong cross-domain conclusions
 - resolving ambiguous scope cases between monitoring, modelling, control, and digital twin
+- deciding when a queued paper is truly strong enough to mark `curated`
 
 ## Where Future LLM Usage Should Be Inserted
 
@@ -207,6 +233,18 @@ python scripts/daily_digest.py
 python scripts/curation_batcher.py
 ```
 
+Mark one paper as curated:
+
+```bash
+python scripts/queue_status_updater.py --id arxiv:2501.07601 --status curated --note "Promoted into additive-manufacturing refs."
+```
+
+Mark a full batch as batched or deferred:
+
+```bash
+python scripts/queue_status_updater.py --batch-file data/curation_batches/2026-04-14-additive-manufacturing.json --status batched
+```
+
 ## GitHub Actions
 
 Two workflows are included:
@@ -222,6 +260,7 @@ They are designed for public GitHub Actions execution first. If the repository l
 2. let `screen_daily.yml` normalize, screen, tag, queue, digest, and batch papers
 3. open the latest `data/curation_batches/YYYY-MM-DD-priority.md`
 4. review the small domain-specific batch files
-5. convert the best batch items into curated summaries in `refs/`
+5. update queue status as items become `batched`, `deferred`, `curated`, or `rejected`
+6. convert the best batch items into curated summaries in `refs/`
 
 This keeps literature intake continuous while preserving editorial discipline.

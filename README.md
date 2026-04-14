@@ -105,6 +105,8 @@ Manufacturing-AI-Radar/
 |   +-- paper_screener.py
 |   +-- tag_assigner.py
 |   +-- daily_digest.py
+|   +-- curation_batcher.py
+|   +-- queue_status_updater.py
 |   `-- utils.py
 +-- data/
 |   +-- raw_papers.json
@@ -113,6 +115,7 @@ Manufacturing-AI-Radar/
 |   +-- checkpoint.json
 |   +-- scan_log.txt
 |   +-- curation_batches/
+|   +-- curation_history.json
 |   `-- digests/
 `-- assets/
     `-- README.md
