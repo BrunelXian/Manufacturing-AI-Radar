@@ -112,3 +112,45 @@ The repository had already reached the raw collection stage, but it still needed
 - promote the next strongest papers into `refs/defect-detection.md` and `refs/modelling.md`
 - add light cross-links from radar pages to the newly curated references
 - keep the scanner running in the background, but focus manual effort on curation rather than raw volume
+
+## 2026-04-14 03:05 +08:00
+
+### What Was Done
+
+- upgraded `refs/defect-detection.md` from a template into a curated page focused on process-relevant defect work
+- upgraded `refs/modelling.md` into a curated page with an explicit scope boundary for process modelling
+- selected additive-manufacturing and weld-related defect papers over generic industrial visual anomaly papers
+- defined modelling to include process-response, thermal, melt-pool, surrogate, and process-to-property models while excluding generic scheduling or policy papers
+
+### Why
+
+These two domains were the next highest-value additions because they connect the repository's raw literature pool back to manufacturing quality logic and physically meaningful process understanding.
+
+### Papers Selected
+
+- defect-detection selections favored pore detection, LPBF defect reasoning, weld characterization, and non-contact or physics-aware inspection
+- modelling selections favored thermal-field surrogates, physics-informed LPBF and DED models, melt-pool predictors, long-horizon temperature-field models, and process-to-property models
+
+### What Was Excluded
+
+- generic industrial anomaly-detection papers with weak process context
+- pure dataset or benchmark papers without enough manufacturing-process insight for first-pass curation
+- materials or simulation papers that lacked a clear manufacturing-process interpretation
+- optimisation or RL papers whose main contribution was policy search rather than process modelling
+
+### Scope Decisions
+
+- `defect-detection.md` was kept focused on technically meaningful quality reasoning, not just surface-image classification
+- `modelling.md` was defined around modelling process behavior and process-relevant outcomes, not around all manufacturing-related prediction tasks
+
+### Current Judgement
+
+- defect detection is now meaningful but still stronger in post-process and inspection-side work than in true in-situ detection
+- modelling is now one of the clearer sections of the repository, but still heavily biased toward additive manufacturing
+- the weakest remaining curated reference gap is now digital twin as a truly technical, non-generic section
+
+### Next Steps
+
+- add cross-links from radar pages into the newly curated `refs/` pages
+- improve `refs/digital-twin.md` with selective curation rather than broad survey accumulation
+- decide whether `refs/README.md` should start listing the strongest current curated pages more explicitly
