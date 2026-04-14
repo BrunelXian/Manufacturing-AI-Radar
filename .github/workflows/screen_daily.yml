@@ -1,0 +1,45 @@
+name: screen-daily
+
+on:
+  schedule:
+    - cron: "45 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Normalize papers
+        run: python scripts/paper_normalizer.py
+
+      - name: Screen papers
+        run: python scripts/paper_screener.py
+
+      - name: Assign tags and update curated queue
+        run: python scripts/tag_assigner.py
+
+      - name: Generate daily digest
+        run: python scripts/daily_digest.py
+
+      - name: Commit changes if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw_papers.json data/screened_papers.json data/curated_queue.json data/digests
+          if git diff --cached --quiet; then
+            echo "No screening changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: daily literature screening and digest"
+          git push

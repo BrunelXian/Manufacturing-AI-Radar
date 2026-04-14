@@ -154,3 +154,51 @@ These two domains were the next highest-value additions because they connect the
 - add cross-links from radar pages into the newly curated `refs/` pages
 - improve `refs/digital-twin.md` with selective curation rather than broad survey accumulation
 - decide whether `refs/README.md` should start listing the strongest current curated pages more explicitly
+
+## 2026-04-14 08:40 +08:00
+
+### What Was Done
+
+- refactored the literature system from a single scanner into a daily multi-stage pipeline
+- added `scripts/utils.py` as the shared schema and rule utility layer
+- refactored `scripts/literature_scanner.py` so it writes only to `data/raw_papers.json`
+- added `paper_normalizer.py`, `paper_screener.py`, `tag_assigner.py`, and `daily_digest.py`
+- created `data/raw_papers.json`, `data/screened_papers.json`, `data/curated_queue.json`, and `data/digests/`
+- added GitHub Actions workflows for daily scanning and daily screening
+- added `docs/daily_pipeline.md`
+- locally validated the full flow from raw intake to digest generation
+
+### Why The Data Layers Were Separated
+
+- raw intake must remain broad and recoverable
+- screening must be rule-based and reproducible without touching raw source data
+- the curated queue must stay much smaller than the screened pool
+- curated refs pages should only receive intentional manual or assisted handoff, never direct scanner output
+
+### Screening Rules Used
+
+- positive scoring uses manufacturing terms, process-relevant terms, and AI-method terms
+- negative scoring uses lightweight exclusion terms for obviously weak-fit topics
+- acceptance requires both manufacturing relevance and AI relevance, not just one of them
+- queueing is stricter than screening so the daily shortlist does not flood review
+
+### Design Choices
+
+- raw ingestion and curated knowledge were kept strictly separate
+- deduplication is based on normalized title, year, and first author rather than on query origin
+- domain tagging stays rule-based for now, but queue handoff now prefers a primary domain instead of scattering one paper across many refs targets
+- GitHub workflows only commit when tracked pipeline outputs actually change
+- `screened_at` and `queued_at` are preserved when paper status is unchanged, reducing noisy workflow commits
+- daily digests are skipped on days with no new activity unless a digest already exists for that date
+
+### Where Future LLM Usage Should Be Inserted
+
+- after rule-based screening, to refine ranking inside the curated queue
+- after tagging, to generate structured curation notes
+- before `refs/` handoff, to draft candidate summaries for human review
+
+### Remaining Weaknesses
+
+- domain tagging is still approximate and intentionally conservative
+- queue targeting still leans heavily toward additive manufacturing because the current pool is AM-heavy
+- the current workflows are robust enough for public GitHub Actions, but longer-running or more frequent intake may later need a self-hosted runner

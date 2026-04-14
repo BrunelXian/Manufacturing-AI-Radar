@@ -1,0 +1,143 @@
+{
+  "day": "2026-04-14",
+  "raw_papers_discovered": 74,
+  "new_unique_papers": 74,
+  "accepted_after_screening": 54,
+  "added_to_curated_queue": 26,
+  "top_domain_distributions": {
+    "additive-manufacturing": 34,
+    "control": 1,
+    "defect-detection": 25,
+    "digital-twin": 6,
+    "modelling": 21,
+    "monitoring": 17,
+    "reinforcement-learning": 15
+  },
+  "top_high_priority_papers": [
+    {
+      "title": "Real-Time Decision-Making for Digital Twin in Additive Manufacturing with Model Predictive Control using Time-Series Deep Neural Networks",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2501.07601v5",
+      "domain_tags": [
+        "additive-manufacturing",
+        "control",
+        "defect-detection",
+        "digital-twin",
+        "modelling",
+        "monitoring",
+        "reinforcement-learning"
+      ],
+      "relevance_score": 26,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Physics-guided denoiser network for enhanced additive manufacturing data quality",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2508.02712v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "modelling",
+        "monitoring"
+      ],
+      "relevance_score": 21,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Physics-informed machine learning surrogate for scalable simulation of thermal histories during wire-arc directed energy deposition",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2507.09591v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "modelling"
+      ],
+      "relevance_score": 20,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Laser Scan Path Design for Controlled Microstructure in Additive Manufacturing with Integrated Reduced-Order Phase-Field Modeling and Deep Reinforcement Learning",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2506.21815v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "modelling",
+        "reinforcement-learning"
+      ],
+      "relevance_score": 20,
+      "suggested_target_refs_file": "refs/modelling.md"
+    },
+    {
+      "title": "Integrating Machine Learning with Multimodal Monitoring System Utilizing Acoustic and Vision Sensing to Evaluate Geometric Variations in Laser Directed Energy Deposition",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2508.02847v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "modelling",
+        "monitoring"
+      ],
+      "relevance_score": 20,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Domain-Aware Hyperdimensional Computing for Edge Smart Manufacturing",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2509.26131v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "monitoring"
+      ],
+      "relevance_score": 19,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Discovery of Feasible 3D Printing Configurations for Metal Alloys via AI-driven Adaptive Experimental Design",
+      "year": 2026,
+      "url": "http://arxiv.org/abs/2601.17587v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "modelling"
+      ],
+      "relevance_score": 17,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2504.21317v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "monitoring"
+      ],
+      "relevance_score": 17,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Physics-Informed Mixture Models and Surrogate Models for Precision Additive Manufacturing",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2510.26586v2",
+      "domain_tags": [
+        "additive-manufacturing",
+        "defect-detection",
+        "modelling"
+      ],
+      "relevance_score": 16,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    },
+    {
+      "title": "Multimodal learning of melt pool dynamics in laser powder bed fusion",
+      "year": 2025,
+      "url": "http://arxiv.org/abs/2509.03029v1",
+      "domain_tags": [
+        "additive-manufacturing",
+        "modelling",
+        "monitoring"
+      ],
+      "relevance_score": 16,
+      "suggested_target_refs_file": "refs/additive-manufacturing.md"
+    }
+  ]
+}

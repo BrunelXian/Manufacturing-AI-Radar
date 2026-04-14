@@ -1,0 +1,625 @@
+[
+  {
+    "id": "arxiv:2501.07601",
+    "title": "Real-Time Decision-Making for Digital Twin in Additive Manufacturing with Model Predictive Control using Time-Series Deep Neural Networks",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2501.07601v5",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "control",
+      "defect-detection",
+      "digital-twin",
+      "modelling",
+      "monitoring",
+      "reinforcement-learning"
+    ],
+    "process_tags": [
+      "ded"
+    ],
+    "method_tags": [
+      "mpc",
+      "reinforcement-learning",
+      "surrogate-model"
+    ],
+    "relevance_score": 26,
+    "why_selected": "domain_tags=additive-manufacturing,control,defect-detection,digital-twin,modelling,monitoring,reinforcement-learning; process_tags=ded; method_tags=mpc,reinforcement-learning,surrogate-model",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2508.02712",
+    "title": "Physics-guided denoiser network for enhanced additive manufacturing data quality",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2508.02712v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "modelling",
+      "monitoring"
+    ],
+    "process_tags": [
+      "ded",
+      "lpbf",
+      "welding"
+    ],
+    "method_tags": [
+      "physics-informed-ml",
+      "surrogate-model"
+    ],
+    "relevance_score": 21,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,modelling,monitoring; process_tags=ded,lpbf,welding; method_tags=physics-informed-ml,surrogate-model",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2507.09591",
+    "title": "Physics-informed machine learning surrogate for scalable simulation of thermal histories during wire-arc directed energy deposition",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2507.09591v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "modelling"
+    ],
+    "process_tags": [
+      "ded",
+      "welding"
+    ],
+    "method_tags": [
+      "physics-informed-ml",
+      "surrogate-model"
+    ],
+    "relevance_score": 20,
+    "why_selected": "domain_tags=additive-manufacturing,modelling; process_tags=ded,welding; method_tags=physics-informed-ml,surrogate-model",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2506.21815",
+    "title": "Laser Scan Path Design for Controlled Microstructure in Additive Manufacturing with Integrated Reduced-Order Phase-Field Modeling and Deep Reinforcement Learning",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2506.21815v1",
+    "primary_domain_tag": "modelling",
+    "domain_tags": [
+      "additive-manufacturing",
+      "modelling",
+      "reinforcement-learning"
+    ],
+    "process_tags": [
+      "ded",
+      "lpbf",
+      "welding"
+    ],
+    "method_tags": [
+      "reinforcement-learning",
+      "surrogate-model"
+    ],
+    "relevance_score": 20,
+    "why_selected": "domain_tags=additive-manufacturing,modelling,reinforcement-learning; process_tags=ded,lpbf,welding; method_tags=reinforcement-learning,surrogate-model",
+    "suggested_target_refs_file": "refs/modelling.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2508.02847",
+    "title": "Integrating Machine Learning with Multimodal Monitoring System Utilizing Acoustic and Vision Sensing to Evaluate Geometric Variations in Laser Directed Energy Deposition",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2508.02847v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "modelling",
+      "monitoring"
+    ],
+    "process_tags": [
+      "ded"
+    ],
+    "method_tags": [
+      "computer-vision",
+      "multimodal-sensing"
+    ],
+    "relevance_score": 20,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,modelling,monitoring; process_tags=ded; method_tags=computer-vision,multimodal-sensing",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2509.26131",
+    "title": "Domain-Aware Hyperdimensional Computing for Edge Smart Manufacturing",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2509.26131v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "monitoring"
+    ],
+    "process_tags": [
+      "ded",
+      "lpbf",
+      "machining"
+    ],
+    "method_tags": [
+      "computer-vision"
+    ],
+    "relevance_score": 19,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,monitoring; process_tags=ded,lpbf,machining; method_tags=computer-vision",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2601.17587",
+    "title": "Discovery of Feasible 3D Printing Configurations for Metal Alloys via AI-driven Adaptive Experimental Design",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2601.17587v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "modelling"
+    ],
+    "process_tags": [
+      "ded"
+    ],
+    "method_tags": [
+      "surrogate-model"
+    ],
+    "relevance_score": 17,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,modelling; process_tags=ded; method_tags=surrogate-model",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2504.21317",
+    "title": "Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2504.21317v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "monitoring"
+    ],
+    "process_tags": [
+      "ded",
+      "welding"
+    ],
+    "method_tags": [],
+    "relevance_score": 17,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,monitoring; process_tags=ded,welding",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2510.26586",
+    "title": "Physics-Informed Mixture Models and Surrogate Models for Precision Additive Manufacturing",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2510.26586v2",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "modelling"
+    ],
+    "process_tags": [
+      "ded",
+      "lpbf"
+    ],
+    "method_tags": [
+      "physics-informed-ml",
+      "surrogate-model"
+    ],
+    "relevance_score": 16,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,modelling; process_tags=ded,lpbf; method_tags=physics-informed-ml,surrogate-model",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2509.03029",
+    "title": "Multimodal learning of melt pool dynamics in laser powder bed fusion",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2509.03029v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "modelling",
+      "monitoring"
+    ],
+    "process_tags": [
+      "lpbf"
+    ],
+    "method_tags": [
+      "computer-vision",
+      "multimodal-sensing"
+    ],
+    "relevance_score": 16,
+    "why_selected": "domain_tags=additive-manufacturing,modelling,monitoring; process_tags=lpbf; method_tags=computer-vision,multimodal-sensing",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2602.03883",
+    "title": "Explainable Computer Vision Framework for Automated Pore Detection and Criticality Assessment in Additive Manufacturing",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2602.03883v1",
+    "primary_domain_tag": "defect-detection",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection"
+    ],
+    "process_tags": [],
+    "method_tags": [
+      "computer-vision",
+      "graph-learning",
+      "multimodal-sensing"
+    ],
+    "relevance_score": 14,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection; method_tags=computer-vision,graph-learning,multimodal-sensing",
+    "suggested_target_refs_file": "refs/defect-detection.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2509.05813",
+    "title": "LabelImg: CNN-Based Surface Defect Detection",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2509.05813v1",
+    "primary_domain_tag": "defect-detection",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection"
+    ],
+    "process_tags": [
+      "lpbf"
+    ],
+    "method_tags": [
+      "computer-vision",
+      "multimodal-sensing"
+    ],
+    "relevance_score": 14,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection; process_tags=lpbf; method_tags=computer-vision,multimodal-sensing",
+    "suggested_target_refs_file": "refs/defect-detection.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2603.24644",
+    "title": "Physics-Informed Neural Network Digital Twin for Dynamic Tray-Wise Modeling of Distillation Columns under Transient Operating Conditions",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2603.24644v1",
+    "primary_domain_tag": "monitoring",
+    "domain_tags": [
+      "defect-detection",
+      "digital-twin",
+      "modelling",
+      "monitoring"
+    ],
+    "process_tags": [],
+    "method_tags": [
+      "graph-learning",
+      "physics-informed-ml"
+    ],
+    "relevance_score": 13,
+    "why_selected": "domain_tags=defect-detection,digital-twin,modelling,monitoring; method_tags=graph-learning,physics-informed-ml",
+    "suggested_target_refs_file": "refs/monitoring.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2603.20288",
+    "title": "Efficient Visual Anomaly Detection at the Edge: Enabling Real-Time Industrial Inspection on Resource-Constrained Devices",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2603.20288v1",
+    "primary_domain_tag": "defect-detection",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "monitoring"
+    ],
+    "process_tags": [
+      "ded"
+    ],
+    "method_tags": [],
+    "relevance_score": 13,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,monitoring; process_tags=ded",
+    "suggested_target_refs_file": "refs/defect-detection.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2602.18146",
+    "title": "Stable Long-Horizon Spatiotemporal Prediction on Meshes Using Latent Multiscale Recurrent Graph Neural Networks",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2602.18146v1",
+    "primary_domain_tag": "defect-detection",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection"
+    ],
+    "process_tags": [],
+    "method_tags": [
+      "graph-learning"
+    ],
+    "relevance_score": 12,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection; method_tags=graph-learning",
+    "suggested_target_refs_file": "refs/defect-detection.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2603.13831",
+    "title": "Efficient Semi-Automated Material Microstructure Analysis Using Deep Learning: A Case Study in Additive Manufacturing",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2603.13831v1",
+    "primary_domain_tag": "defect-detection",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "modelling"
+    ],
+    "process_tags": [],
+    "method_tags": [
+      "computer-vision"
+    ],
+    "relevance_score": 12,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,modelling; method_tags=computer-vision",
+    "suggested_target_refs_file": "refs/defect-detection.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2602.07184",
+    "title": "Modeling Batch Crystallization under Uncertainty Using Physics-informed Machine Learning",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2602.07184v1",
+    "primary_domain_tag": "modelling",
+    "domain_tags": [
+      "modelling",
+      "monitoring"
+    ],
+    "process_tags": [
+      "welding"
+    ],
+    "method_tags": [
+      "physics-informed-ml"
+    ],
+    "relevance_score": 11,
+    "why_selected": "domain_tags=modelling,monitoring; process_tags=welding; method_tags=physics-informed-ml",
+    "suggested_target_refs_file": "refs/modelling.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2603.02846",
+    "title": "Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2603.02846v1",
+    "primary_domain_tag": "reinforcement-learning",
+    "domain_tags": [
+      "reinforcement-learning"
+    ],
+    "process_tags": [],
+    "method_tags": [
+      "graph-learning",
+      "reinforcement-learning"
+    ],
+    "relevance_score": 11,
+    "why_selected": "domain_tags=reinforcement-learning; method_tags=graph-learning,reinforcement-learning",
+    "suggested_target_refs_file": "refs/reinforcement-learning.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2603.28995",
+    "title": "Hybrid Quantum-Classical AI for Industrial Defect Classification in Welding Images",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2603.28995v1",
+    "primary_domain_tag": "defect-detection",
+    "domain_tags": [
+      "defect-detection",
+      "reinforcement-learning"
+    ],
+    "process_tags": [
+      "welding"
+    ],
+    "method_tags": [
+      "computer-vision",
+      "reinforcement-learning"
+    ],
+    "relevance_score": 11,
+    "why_selected": "domain_tags=defect-detection,reinforcement-learning; process_tags=welding; method_tags=computer-vision,reinforcement-learning",
+    "suggested_target_refs_file": "refs/defect-detection.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2603.00093",
+    "title": "Adaptive Uncertainty-Guided Surrogates for Efficient phase field Modeling of Dendritic Solidification",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2603.00093v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing",
+      "modelling"
+    ],
+    "process_tags": [
+      "ded",
+      "welding"
+    ],
+    "method_tags": [
+      "computer-vision",
+      "surrogate-model"
+    ],
+    "relevance_score": 11,
+    "why_selected": "domain_tags=additive-manufacturing,modelling; process_tags=ded,welding; method_tags=computer-vision,surrogate-model",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2506.20537",
+    "title": "Physics-Informed Machine Learning Regulated by Finite Element Analysis for Simulation Acceleration of Laser Powder Bed Fusion",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2506.20537v2",
+    "primary_domain_tag": "modelling",
+    "domain_tags": [
+      "additive-manufacturing",
+      "modelling"
+    ],
+    "process_tags": [
+      "lpbf"
+    ],
+    "method_tags": [
+      "physics-informed-ml"
+    ],
+    "relevance_score": 11,
+    "why_selected": "domain_tags=additive-manufacturing,modelling; process_tags=lpbf; method_tags=physics-informed-ml",
+    "suggested_target_refs_file": "refs/modelling.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2505.19995",
+    "title": "Optimizing edge AI models on HPC systems with the edge in the loop",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2505.19995v1",
+    "primary_domain_tag": "additive-manufacturing",
+    "domain_tags": [
+      "additive-manufacturing"
+    ],
+    "process_tags": [
+      "lpbf"
+    ],
+    "method_tags": [],
+    "relevance_score": 11,
+    "why_selected": "domain_tags=additive-manufacturing; process_tags=lpbf",
+    "suggested_target_refs_file": "refs/additive-manufacturing.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2602.06519",
+    "title": "Topography scanning as a part of process monitoring in power cable insulation process",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2602.06519v1",
+    "primary_domain_tag": "defect-detection",
+    "domain_tags": [
+      "additive-manufacturing",
+      "defect-detection",
+      "monitoring"
+    ],
+    "process_tags": [
+      "ded"
+    ],
+    "method_tags": [
+      "graph-learning"
+    ],
+    "relevance_score": 10,
+    "why_selected": "domain_tags=additive-manufacturing,defect-detection,monitoring; process_tags=ded; method_tags=graph-learning",
+    "suggested_target_refs_file": "refs/defect-detection.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2603.14489",
+    "title": "Predicting Stress-strain Behaviors of Additively Manufactured Materials via Loss-based and Activation-based Physics-informed Machine Learning",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2603.14489v1",
+    "primary_domain_tag": "modelling",
+    "domain_tags": [
+      "additive-manufacturing",
+      "modelling"
+    ],
+    "process_tags": [
+      "ded"
+    ],
+    "method_tags": [
+      "physics-informed-ml"
+    ],
+    "relevance_score": 10,
+    "why_selected": "domain_tags=additive-manufacturing,modelling; process_tags=ded; method_tags=physics-informed-ml",
+    "suggested_target_refs_file": "refs/modelling.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2601.19669",
+    "title": "Microring Resonator Dispersion Metrology with Neural Networks",
+    "source": "arxiv",
+    "year": 2026,
+    "url": "http://arxiv.org/abs/2601.19669v1",
+    "primary_domain_tag": "monitoring",
+    "domain_tags": [
+      "monitoring"
+    ],
+    "process_tags": [],
+    "method_tags": [],
+    "relevance_score": 10,
+    "why_selected": "domain_tags=monitoring",
+    "suggested_target_refs_file": "refs/monitoring.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  },
+  {
+    "id": "arxiv:2508.04595",
+    "title": "Improved Training Strategies for Physics-Informed Neural Networks using Real Experimental Data in Aluminum Spot Welding",
+    "source": "arxiv",
+    "year": 2025,
+    "url": "http://arxiv.org/abs/2508.04595v2",
+    "primary_domain_tag": "modelling",
+    "domain_tags": [
+      "additive-manufacturing",
+      "modelling",
+      "reinforcement-learning"
+    ],
+    "process_tags": [
+      "ded",
+      "welding"
+    ],
+    "method_tags": [
+      "physics-informed-ml",
+      "reinforcement-learning"
+    ],
+    "relevance_score": 10,
+    "why_selected": "domain_tags=additive-manufacturing,modelling,reinforcement-learning; process_tags=ded,welding; method_tags=physics-informed-ml,reinforcement-learning",
+    "suggested_target_refs_file": "refs/modelling.md",
+    "curation_note": "Review for process relevance, summarize method, and decide whether to promote into curated refs.",
+    "queued_at": "2026-04-14T00:46:35.630981+00:00"
+  }
+]

@@ -1,124 +1,107 @@
 import argparse
 import json
 import time
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Tuple
 
 import arxiv
 
+from utils import (
+    ARXIV_QUERY_LIST,
+    append_log,
+    build_dedup_key,
+    data_dir,
+    extract_arxiv_base_id,
+    load_json,
+    merge_paper_records,
+    repo_root,
+    stable_source_id,
+    utc_now,
+    write_json,
+)
 
-QUERY_LIST = [
-    {
-        "label": "additive manufacturing machine learning",
-        "query": 'all:"additive manufacturing" AND all:"machine learning"',
-    },
-    {
-        "label": "LPBF machine learning",
-        "query": '(all:"LPBF" OR all:"laser powder bed fusion") AND all:"machine learning"',
-    },
-    {
-        "label": "LDED machine learning",
-        "query": '(all:"LDED" OR all:"directed energy deposition") AND all:"machine learning"',
-    },
-    {
-        "label": "welding machine learning",
-        "query": 'all:"welding" AND all:"machine learning"',
-    },
-    {
-        "label": "manufacturing reinforcement learning",
-        "query": 'all:"manufacturing" AND all:"reinforcement learning"',
-    },
-    {
-        "label": "process monitoring machine learning",
-        "query": 'all:"process monitoring" AND all:"machine learning"',
-    },
-    {
-        "label": "digital twin manufacturing AI",
-        "query": 'all:"digital twin" AND all:"manufacturing"',
-    },
-    {
-        "label": "defect detection manufacturing deep learning",
-        "query": 'all:"defect detection" AND all:"manufacturing"',
-    },
-]
-
-RELEVANCE_TERMS = [
-    "manufacturing",
-    "additive",
-    "welding",
-    "machining",
-    "industrial",
-    "process monitoring",
-    "production",
-    "laser powder bed fusion",
-    "lpbf",
-    "directed energy deposition",
-    "lded",
-    "waam",
-]
 
 DEFAULT_CHECKPOINT = {
-    "last_query": QUERY_LIST[0]["label"],
+    "last_query": ARXIV_QUERY_LIST[0]["label"],
     "last_query_index": 0,
     "last_index": 0,
     "last_run_time": None,
 }
 
 
-def utc_now() -> str:
-    return datetime.now(timezone.utc).isoformat()
-
-
-def load_json(path: Path, default):
-    if not path.exists():
-        return default
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return default
-
-
-def write_json(path: Path, payload) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-
-
-def append_log(log_path: Path, message: str) -> None:
-    log_path.parent.mkdir(parents=True, exist_ok=True)
-    with log_path.open("a", encoding="utf-8") as handle:
-        handle.write(f"[{utc_now()}] {message}\n")
-
-
-def is_relevant(result: arxiv.Result) -> bool:
-    haystack = " ".join(
-        [
-            result.title or "",
-            result.summary or "",
-            " ".join(result.categories or []),
-        ]
-    ).lower()
-    return any(term in haystack for term in RELEVANCE_TERMS)
-
-
-def normalise_paper(result: arxiv.Result, query_source: str) -> Dict[str, object]:
+def normalize_raw_record(result: arxiv.Result, query_source: str) -> Dict[str, object]:
     authors = [author.name for author in result.authors]
     published = result.published
-    paper_id = result.get_short_id()
+    short_id = result.get_short_id()
+    base_id = extract_arxiv_base_id(short_id)
     return {
-        "title": result.title.strip(),
+        "id": stable_source_id("arxiv", base_id),
+        "source": "arxiv",
+        "source_id": base_id,
+        "title": " ".join(result.title.strip().split()),
         "authors": authors,
         "year": published.year if published else None,
-        "arxiv_id": paper_id,
-        "abstract": " ".join(result.summary.split()),
+        "abstract": " ".join((result.summary or "").split()),
         "url": result.entry_id,
         "categories": list(result.categories or []),
         "query_source": query_source,
+        "query_sources": [query_source],
+        "date_discovered": utc_now(),
+        "dedup_key": build_dedup_key(result.title, published.year if published else None, authors),
     }
 
 
+def migrate_legacy_papers(raw_path: Path, log_path: Path) -> None:
+    legacy_path = raw_path.parent / "papers.json"
+    current_raw = load_json(raw_path, [])
+    raw_is_empty = not isinstance(current_raw, list) or len(current_raw) == 0
+    if legacy_path.exists() and raw_is_empty:
+        legacy_records = load_json(legacy_path, [])
+        migrated_records: List[Dict[str, object]] = []
+        for record in legacy_records:
+            title = record.get("title", "")
+            authors = record.get("authors") or []
+            year = record.get("year")
+            arxiv_id = extract_arxiv_base_id(record.get("arxiv_id", ""))
+            query_source = record.get("query_source", "legacy-import")
+            migrated_records.append(
+                {
+                    "id": stable_source_id("arxiv", arxiv_id or build_dedup_key(title, year, authors)[:12]),
+                    "source": "arxiv",
+                    "source_id": arxiv_id or None,
+                    "title": title,
+                    "authors": authors,
+                    "year": year,
+                    "abstract": record.get("abstract", ""),
+                    "url": record.get("url", ""),
+                    "categories": record.get("categories") or [],
+                    "query_source": query_source,
+                    "query_sources": [query_source],
+                    "date_discovered": record.get("date_discovered") or utc_now(),
+                    "dedup_key": build_dedup_key(title, year, authors),
+                }
+            )
+        write_json(raw_path, merge_paper_records(migrated_records))
+        append_log(log_path, f"migrated-legacy-papers count={len(migrated_records)}")
+
+
+def ensure_files(raw_path: Path, checkpoint_path: Path, log_path: Path) -> None:
+    if not raw_path.exists():
+        write_json(raw_path, [])
+    migrate_legacy_papers(raw_path, log_path)
+
+    if not checkpoint_path.exists():
+        write_json(checkpoint_path, DEFAULT_CHECKPOINT)
+    if not log_path.exists():
+        append_log(log_path, "scan-log-created")
+
+
 def build_index(records: List[Dict[str, object]]) -> Dict[str, Dict[str, object]]:
-    return {record["arxiv_id"]: record for record in records if "arxiv_id" in record}
+    index: Dict[str, Dict[str, object]] = {}
+    for record in records:
+        if "dedup_key" in record:
+            index[record["dedup_key"]] = record
+    return index
 
 
 def scan_batch(
@@ -129,60 +112,53 @@ def scan_batch(
     batch_size: int,
     existing_index: Dict[str, Dict[str, object]],
     log_path: Path,
-) -> Tuple[List[Dict[str, object]], int, int]:
+) -> Tuple[List[Dict[str, object]], int]:
     search = arxiv.Search(
         query=query_string,
         max_results=batch_size,
         sort_by=arxiv.SortCriterion.SubmittedDate,
     )
     results = client.results(search, offset=start_index)
-
     new_records: List[Dict[str, object]] = []
     seen_count = 0
 
     for result in results:
         seen_count += 1
-        if not is_relevant(result):
+        record = normalize_raw_record(result, query_label)
+        key = record["dedup_key"]
+        if key in existing_index:
+            existing = existing_index[key]
+            merged_query_sources = sorted(set((existing.get("query_sources") or []) + [query_label]))
+            existing["query_sources"] = merged_query_sources
+            existing["query_source"] = existing.get("query_source") or query_label
             continue
-        record = normalise_paper(result, query_label)
-        arxiv_id = record["arxiv_id"]
-        if arxiv_id in existing_index:
-            continue
-        existing_index[arxiv_id] = record
+        existing_index[key] = record
         new_records.append(record)
 
-    append_log(
-        log_path,
-        f"query='{query_label}' start_index={start_index} seen={seen_count} new={len(new_records)}",
-    )
-    return new_records, seen_count, len(new_records)
+    append_log(log_path, f"raw-scan query='{query_label}' start_index={start_index} seen={seen_count} added={len(new_records)}")
+    return new_records, seen_count
 
 
-def run_once(
-    papers_path: Path,
-    checkpoint_path: Path,
-    log_path: Path,
-    batch_size: int,
-) -> None:
+def run_once(raw_path: Path, checkpoint_path: Path, log_path: Path, batch_size: int) -> None:
     checkpoint = load_json(checkpoint_path, DEFAULT_CHECKPOINT.copy())
-    papers = load_json(papers_path, [])
-    if not isinstance(papers, list):
-        papers = []
-    existing_index = build_index(papers)
+    raw_records = load_json(raw_path, [])
+    if not isinstance(raw_records, list):
+        raw_records = []
 
-    query_index = int(checkpoint.get("last_query_index", 0)) % len(QUERY_LIST)
+    raw_records = merge_paper_records(raw_records)
+    existing_index = build_index(raw_records)
+
+    query_index = int(checkpoint.get("last_query_index", 0)) % len(ARXIV_QUERY_LIST)
     start_index = int(checkpoint.get("last_index", 0))
-    query_entry = QUERY_LIST[query_index]
-    query_label = query_entry["label"]
-    query_string = query_entry["query"]
+    query_entry = ARXIV_QUERY_LIST[query_index]
 
     client = arxiv.Client(page_size=batch_size, delay_seconds=3.0, num_retries=3)
-    append_log(log_path, f"batch-start query='{query_label}' index={start_index}")
+    append_log(log_path, f"batch-start query='{query_entry['label']}' index={start_index}")
 
-    new_records, seen_count, new_count = scan_batch(
+    new_records, seen_count = scan_batch(
         client=client,
-        query_label=query_label,
-        query_string=query_string,
+        query_label=query_entry["label"],
+        query_string=query_entry["query"],
         start_index=start_index,
         batch_size=batch_size,
         existing_index=existing_index,
@@ -190,36 +166,33 @@ def run_once(
     )
 
     if new_records:
-        papers.extend(new_records)
-        papers.sort(key=lambda item: (item.get("year") or 0, item.get("arxiv_id") or ""), reverse=True)
-        write_json(papers_path, papers)
+        raw_records.extend(new_records)
+        raw_records = merge_paper_records(raw_records)
+        write_json(raw_path, raw_records)
 
     next_query_index = query_index
     next_index = start_index + seen_count
     if seen_count < batch_size:
-        next_query_index = (query_index + 1) % len(QUERY_LIST)
+        next_query_index = (query_index + 1) % len(ARXIV_QUERY_LIST)
         next_index = 0
 
     checkpoint_payload = {
-        "last_query": QUERY_LIST[next_query_index]["label"],
+        "last_query": ARXIV_QUERY_LIST[next_query_index]["label"],
         "last_query_index": next_query_index,
         "last_index": next_index,
         "last_run_time": utc_now(),
     }
     write_json(checkpoint_path, checkpoint_payload)
-    append_log(
-        log_path,
-        f"checkpoint-saved next_query='{checkpoint_payload['last_query']}' next_index={next_index} papers_total={len(papers)}",
-    )
+    append_log(log_path, f"checkpoint-saved next_query='{checkpoint_payload['last_query']}' next_index={next_index} raw_total={len(raw_records)}")
 
     print(
         json.dumps(
             {
-                "query": query_label,
+                "query": query_entry["label"],
                 "start_index": start_index,
                 "seen_count": seen_count,
-                "new_count": new_count,
-                "papers_total": len(papers),
+                "new_raw_count": len(new_records),
+                "raw_total": len(raw_records),
                 "next_query": checkpoint_payload["last_query"],
                 "next_index": next_index,
             },
@@ -228,40 +201,25 @@ def run_once(
     )
 
 
-def ensure_files(papers_path: Path, checkpoint_path: Path, log_path: Path) -> None:
-    if not papers_path.exists():
-        write_json(papers_path, [])
-    if not checkpoint_path.exists():
-        write_json(checkpoint_path, DEFAULT_CHECKPOINT)
-    if not log_path.exists():
-        append_log(log_path, "scan-log-created")
-
-
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Scan arXiv for AI-for-manufacturing papers.")
-    parser.add_argument("--batch-size", type=int, default=20, help="Number of arXiv records to scan per batch.")
-    parser.add_argument("--loop", action="store_true", help="Run continuously.")
-    parser.add_argument("--sleep-seconds", type=int, default=60, help="Sleep interval between loop iterations.")
-    parser.add_argument("--max-cycles", type=int, default=0, help="Optional maximum cycles for loop mode. 0 means infinite.")
+    parser = argparse.ArgumentParser(description="Scan arXiv into the raw manufacturing AI intake layer.")
+    parser.add_argument("--batch-size", type=int, default=20)
+    parser.add_argument("--loop", action="store_true")
+    parser.add_argument("--sleep-seconds", type=int, default=60)
+    parser.add_argument("--max-cycles", type=int, default=0)
     args = parser.parse_args()
 
-    repo_root = Path(__file__).resolve().parent.parent
-    data_dir = repo_root / "data"
-    papers_path = data_dir / "papers.json"
-    checkpoint_path = data_dir / "checkpoint.json"
-    log_path = data_dir / "scan_log.txt"
+    repo_root()
+    raw_path = data_dir() / "raw_papers.json"
+    checkpoint_path = data_dir() / "checkpoint.json"
+    log_path = data_dir() / "scan_log.txt"
 
-    ensure_files(papers_path, checkpoint_path, log_path)
+    ensure_files(raw_path, checkpoint_path, log_path)
 
     cycle = 0
     while True:
         try:
-            run_once(
-                papers_path=papers_path,
-                checkpoint_path=checkpoint_path,
-                log_path=log_path,
-                batch_size=args.batch_size,
-            )
+            run_once(raw_path, checkpoint_path, log_path, args.batch_size)
         except Exception as exc:
             append_log(log_path, f"error type={type(exc).__name__} detail={exc}")
             print(f"scanner-error: {type(exc).__name__}: {exc}")

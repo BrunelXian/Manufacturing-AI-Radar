@@ -4,7 +4,7 @@
 
 This repository includes an automated literature scanner to collect candidate arXiv papers relevant to AI in manufacturing.
 
-The goal is not to auto-curate the final radar directly. The scanner is a harvesting layer that gathers structured metadata, keeps progress checkpoints, and supports future manual review into `refs/` and `notes/`.
+The goal is not to auto-curate the final radar directly. The scanner is the raw-intake layer of a broader daily pipeline that gathers structured metadata, keeps progress checkpoints, and supports later screening, tagging, queueing, and manual curation into `refs/` and `notes/`.
 
 ## Script Location
 
@@ -16,8 +16,7 @@ The scanner:
 
 - queries arXiv with multiple manufacturing-AI search phrases
 - retrieves paper metadata
-- applies a lightweight manufacturing relevance filter
-- stores deduplicated paper records in `data/papers.json`
+- stores raw intake records in `data/raw_papers.json`
 - saves scan progress in `data/checkpoint.json`
 - appends operational logs to `data/scan_log.txt`
 
@@ -38,16 +37,19 @@ These can be expanded later as domain coverage becomes more precise.
 
 ## Stored Data
 
-Each paper record in `data/papers.json` contains:
+Each paper record in `data/raw_papers.json` contains:
 
+- `id`
+- `source`
 - `title`
 - `authors`
 - `year`
-- `arxiv_id`
 - `abstract`
 - `url`
 - `categories`
 - `query_source`
+- `date_discovered`
+- `dedup_key`
 
 ## Checkpointing
 
@@ -71,38 +73,36 @@ python scripts/literature_scanner.py
 Run continuously:
 
 ```bash
-python scripts/literature_scanner.py --loop
-```
-
-Run continuously with a shorter pause:
-
-```bash
-python scripts/literature_scanner.py --loop --sleep-seconds 30
+python scripts/literature_scanner.py
 ```
 
 ## How Results Should Be Used
 
-The scanner output is intentionally broad. Candidate papers from `data/papers.json` should later be:
+The scanner output is intentionally broad. Candidate papers from `data/raw_papers.json` should later be:
 
-1. screened for relevance
-2. summarized with `notes/paper-note-template.md`
-3. promoted into curated domain reference pages under `refs/`
+1. normalized and deduplicated
+2. screened for relevance
+3. tagged into preliminary domains
+4. placed into `data/curated_queue.json`
+5. summarized with `notes/paper-note-template.md`
+6. promoted into curated domain reference pages under `refs/`
 
 Relevant repository destinations:
 
 - [refs/README.md](../refs/README.md)
 - [notes/paper-note-template.md](../notes/paper-note-template.md)
 - [notes/domain-scan-template.md](../notes/domain-scan-template.md)
+- [daily_pipeline.md](daily_pipeline.md)
 
 ## Current Limitations
 
-- filtering is intentionally simple and may admit false positives
 - the system currently targets arXiv only
+- daily screening and tagging are still rule-based
 - final curation still requires human review
 
 ## Next Planned Improvements
 
 - stronger query grouping by radar domain
-- richer filtering and tagging
-- paper export by domain into `refs/`
-- optional scheduled or background execution support
+- richer queue prioritization
+- optional LLM-assisted triage after the rule-based stage
+- better handoff from curated queue into `refs/`

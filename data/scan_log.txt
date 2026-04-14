@@ -91,3 +91,1346 @@
 [2026-04-13T18:24:15.261065+00:00] query='welding machine learning' start_index=0 seen=10 new=0
 [2026-04-13T18:24:15.263145+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
 [2026-04-13T18:24:15.264153+00:00] sleep seconds=60
+[2026-04-13T18:25:15.268252+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T18:25:15.272533+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:25:15.272533+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T18:25:15.272533+00:00] sleep seconds=60
+[2026-04-13T18:26:15.280023+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T18:26:16.575248+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T18:26:16.578485+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T18:26:16.578485+00:00] sleep seconds=60
+[2026-04-13T18:27:16.602603+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T18:27:16.602603+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T18:27:16.604784+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T18:27:16.604784+00:00] sleep seconds=60
+[2026-04-13T18:28:16.638132+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T18:28:17.855619+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:28:17.855619+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T18:28:17.859788+00:00] sleep seconds=60
+[2026-04-13T18:29:17.891606+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T18:29:17.891606+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:29:17.896053+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T18:29:17.896053+00:00] sleep seconds=60
+[2026-04-13T18:30:17.935618+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T18:30:19.265554+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T18:30:19.265554+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T18:30:19.265554+00:00] sleep seconds=60
+[2026-04-13T18:31:19.294257+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T18:31:19.294257+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T18:31:19.295269+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T18:31:19.295269+00:00] sleep seconds=60
+[2026-04-13T18:32:19.336776+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T18:32:20.650595+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T18:32:20.650595+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T18:32:20.654983+00:00] sleep seconds=60
+[2026-04-13T18:33:20.689479+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T18:33:20.689479+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T18:33:20.689479+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T18:33:20.693175+00:00] sleep seconds=60
+[2026-04-13T18:34:20.727432+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T18:34:21.951133+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:34:21.951990+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T18:34:21.951990+00:00] sleep seconds=60
+[2026-04-13T18:35:21.992243+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T18:35:21.992243+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:35:21.993973+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T18:35:21.993973+00:00] sleep seconds=60
+[2026-04-13T18:36:22.029618+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T18:36:23.274336+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:36:23.278472+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T18:36:23.278472+00:00] sleep seconds=60
+[2026-04-13T18:37:23.304279+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T18:37:23.308436+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:37:23.308436+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T18:37:23.308436+00:00] sleep seconds=60
+[2026-04-13T18:38:23.337735+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T18:38:24.581321+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:38:24.581321+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T18:38:24.581321+00:00] sleep seconds=60
+[2026-04-13T18:39:24.597151+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T18:39:24.601358+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:39:24.601358+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T18:39:24.601358+00:00] sleep seconds=60
+[2026-04-13T18:40:24.638163+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T18:40:25.878462+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:40:25.878462+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T18:40:25.878462+00:00] sleep seconds=60
+[2026-04-13T18:41:25.906203+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T18:41:25.906203+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:41:25.906203+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T18:41:25.906203+00:00] sleep seconds=60
+[2026-04-13T18:42:25.929717+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T18:42:27.208010+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T18:42:27.208010+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T18:42:27.210025+00:00] sleep seconds=60
+[2026-04-13T18:43:27.233913+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T18:43:27.233913+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T18:43:27.233913+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T18:43:27.238130+00:00] sleep seconds=60
+[2026-04-13T18:44:27.289306+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T18:44:28.598001+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:44:28.598001+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T18:44:28.598001+00:00] sleep seconds=60
+[2026-04-13T18:45:28.631626+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T18:45:28.631626+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:45:28.635650+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T18:45:28.635650+00:00] sleep seconds=60
+[2026-04-13T18:46:28.668343+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T18:46:29.972769+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T18:46:29.974781+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T18:46:29.974781+00:00] sleep seconds=60
+[2026-04-13T18:47:30.002447+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T18:47:30.002447+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T18:47:30.006703+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T18:47:30.006703+00:00] sleep seconds=60
+[2026-04-13T18:48:30.042946+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T18:48:31.279655+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T18:48:31.279655+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T18:48:31.279655+00:00] sleep seconds=60
+[2026-04-13T18:49:31.317838+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T18:49:31.317838+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T18:49:31.319852+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T18:49:31.319852+00:00] sleep seconds=60
+[2026-04-13T18:50:31.361591+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T18:50:32.778996+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:50:32.781007+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T18:50:32.781830+00:00] sleep seconds=60
+[2026-04-13T18:51:32.825172+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T18:51:32.825172+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:51:32.825172+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T18:51:32.827189+00:00] sleep seconds=60
+[2026-04-13T18:52:32.866547+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T18:52:34.116891+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:52:34.116891+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T18:52:34.116891+00:00] sleep seconds=60
+[2026-04-13T18:53:34.144070+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T18:53:34.144070+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:53:34.144070+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T18:53:34.148275+00:00] sleep seconds=60
+[2026-04-13T18:54:34.173398+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T18:54:35.462479+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:54:35.462479+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T18:54:35.462479+00:00] sleep seconds=60
+[2026-04-13T18:55:35.497164+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T18:55:35.497164+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:55:35.499175+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T18:55:35.499175+00:00] sleep seconds=60
+[2026-04-13T18:56:35.538690+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T18:56:36.851390+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T18:56:36.851390+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T18:56:36.855857+00:00] sleep seconds=60
+[2026-04-13T18:57:36.883124+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T18:57:36.883124+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T18:57:36.887327+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T18:57:36.887327+00:00] sleep seconds=60
+[2026-04-13T18:58:36.920425+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T18:58:38.150856+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T18:58:38.152871+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T18:58:38.152871+00:00] sleep seconds=60
+[2026-04-13T18:59:38.181545+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T18:59:38.181545+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T18:59:38.181545+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T18:59:38.181545+00:00] sleep seconds=60
+[2026-04-13T19:00:38.218403+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T19:00:39.506726+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:00:39.506726+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T19:00:39.508742+00:00] sleep seconds=60
+[2026-04-13T19:01:39.540466+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T19:01:39.540466+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:01:39.540466+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T19:01:39.540466+00:00] sleep seconds=60
+[2026-04-13T19:02:39.573650+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T19:02:40.816180+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T19:02:40.816180+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T19:02:40.816180+00:00] sleep seconds=60
+[2026-04-13T19:03:40.850130+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T19:03:40.850130+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T19:03:40.851141+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T19:03:40.851141+00:00] sleep seconds=60
+[2026-04-13T19:04:40.888174+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T19:04:42.135354+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T19:04:42.135354+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T19:04:42.135354+00:00] sleep seconds=60
+[2026-04-13T19:05:42.166440+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T19:05:42.166440+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T19:05:42.170819+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T19:05:42.170819+00:00] sleep seconds=60
+[2026-04-13T19:06:42.201146+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T19:06:43.453296+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:06:43.455307+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T19:06:43.455307+00:00] sleep seconds=60
+[2026-04-13T19:07:43.485546+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T19:07:43.485546+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:07:43.489680+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T19:07:43.489680+00:00] sleep seconds=60
+[2026-04-13T19:08:43.524015+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T19:08:44.762686+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:08:44.764699+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T19:08:44.764699+00:00] sleep seconds=60
+[2026-04-13T19:09:44.793308+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T19:09:44.793308+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:09:44.793308+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T19:09:44.793308+00:00] sleep seconds=60
+[2026-04-13T19:10:44.822846+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T19:10:46.129895+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:10:46.131650+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T19:10:46.131650+00:00] sleep seconds=60
+[2026-04-13T19:11:46.157511+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T19:11:46.157511+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:11:46.157511+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T19:11:46.157511+00:00] sleep seconds=60
+[2026-04-13T19:12:46.198286+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T19:12:47.433342+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:12:47.433342+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T19:12:47.437473+00:00] sleep seconds=60
+[2026-04-13T19:13:47.469570+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T19:13:47.469570+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:13:47.471634+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T19:13:47.472371+00:00] sleep seconds=60
+[2026-04-13T19:14:47.505325+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T19:14:48.755576+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T19:14:48.755576+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T19:14:48.755576+00:00] sleep seconds=60
+[2026-04-13T19:15:48.792942+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T19:15:48.792942+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T19:15:48.794388+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T19:15:48.795131+00:00] sleep seconds=60
+[2026-04-13T19:16:48.826681+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T19:16:50.081839+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:16:50.083852+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T19:16:50.083852+00:00] sleep seconds=60
+[2026-04-13T19:17:50.118974+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T19:17:50.118974+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:17:50.122358+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T19:17:50.123448+00:00] sleep seconds=60
+[2026-04-13T19:18:50.166445+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T19:18:51.407748+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T19:18:51.409761+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T19:18:51.409761+00:00] sleep seconds=60
+[2026-04-13T19:19:51.437860+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T19:19:51.437860+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T19:19:51.437860+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T19:19:51.439170+00:00] sleep seconds=60
+[2026-04-13T19:20:51.475786+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T19:20:52.689203+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T19:20:52.693335+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T19:20:52.693335+00:00] sleep seconds=60
+[2026-04-13T19:21:52.718568+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T19:21:52.722658+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T19:21:52.724143+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T19:21:52.724143+00:00] sleep seconds=60
+[2026-04-13T19:22:52.755464+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T19:22:54.055827+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:22:54.057839+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T19:22:54.057839+00:00] sleep seconds=60
+[2026-04-13T19:23:54.083621+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T19:23:54.083621+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:23:54.083621+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T19:23:54.085636+00:00] sleep seconds=60
+[2026-04-13T19:24:54.120762+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T19:24:55.725632+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:24:55.725632+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T19:24:55.729734+00:00] sleep seconds=60
+[2026-04-13T19:25:55.769250+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T19:25:55.769250+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:25:55.769250+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T19:25:55.770993+00:00] sleep seconds=60
+[2026-04-13T19:26:55.804263+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T19:26:57.051378+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:26:57.051378+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T19:26:57.051378+00:00] sleep seconds=60
+[2026-04-13T19:27:57.082974+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T19:27:57.082974+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:27:57.086255+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T19:27:57.086255+00:00] sleep seconds=60
+[2026-04-13T19:28:57.121488+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T19:28:58.759244+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:28:58.761256+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T19:28:58.761256+00:00] sleep seconds=60
+[2026-04-13T19:29:58.800159+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T19:29:58.800159+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:29:58.801683+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T19:29:58.801683+00:00] sleep seconds=60
+[2026-04-13T19:30:58.837229+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T19:31:00.070162+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T19:31:00.072173+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T19:31:00.072173+00:00] sleep seconds=60
+[2026-04-13T19:32:00.108008+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T19:32:00.108008+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T19:32:00.108008+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T19:32:00.108008+00:00] sleep seconds=60
+[2026-04-13T19:33:00.135711+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T19:33:02.021957+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:33:02.026173+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T19:33:02.026173+00:00] sleep seconds=60
+[2026-04-13T19:34:02.053568+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T19:34:02.053568+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:34:02.053568+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T19:34:02.055083+00:00] sleep seconds=60
+[2026-04-13T19:35:02.095897+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T19:35:03.719636+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T19:35:03.724078+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T19:35:03.724078+00:00] sleep seconds=60
+[2026-04-13T19:36:03.759035+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T19:36:03.759035+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T19:36:03.760049+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T19:36:03.760049+00:00] sleep seconds=60
+[2026-04-13T19:37:03.786550+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T19:37:05.327038+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T19:37:05.327038+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T19:37:05.327038+00:00] sleep seconds=60
+[2026-04-13T19:38:05.361284+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T19:38:05.361284+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T19:38:05.364703+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T19:38:05.365214+00:00] sleep seconds=60
+[2026-04-13T19:39:05.401388+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T19:39:06.627517+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:39:06.632019+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T19:39:06.632019+00:00] sleep seconds=60
+[2026-04-13T19:40:06.667963+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T19:40:06.667963+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:40:06.672124+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T19:40:06.672124+00:00] sleep seconds=60
+[2026-04-13T19:41:06.695573+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T19:41:07.989039+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:41:07.989039+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T19:41:07.993533+00:00] sleep seconds=60
+[2026-04-13T19:42:08.018869+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T19:42:08.018869+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:42:08.021562+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T19:42:08.022073+00:00] sleep seconds=60
+[2026-04-13T19:43:08.049408+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T19:43:09.288629+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:43:09.290641+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T19:43:09.290641+00:00] sleep seconds=60
+[2026-04-13T19:44:09.317590+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T19:44:09.317590+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:44:09.320507+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T19:44:09.320507+00:00] sleep seconds=60
+[2026-04-13T19:45:09.359569+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T19:45:10.615202+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:45:10.615202+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T19:45:10.617214+00:00] sleep seconds=60
+[2026-04-13T19:46:10.646700+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T19:46:10.646700+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:46:10.648716+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T19:46:10.649226+00:00] sleep seconds=60
+[2026-04-13T19:47:10.673693+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T19:47:12.316429+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T19:47:12.318441+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T19:47:12.318441+00:00] sleep seconds=60
+[2026-04-13T19:48:12.347980+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T19:48:12.347980+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T19:48:12.347980+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T19:48:12.347980+00:00] sleep seconds=60
+[2026-04-13T19:49:12.388539+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T19:49:13.675663+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:49:13.675663+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T19:49:13.675663+00:00] sleep seconds=60
+[2026-04-13T19:50:13.712841+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T19:50:13.712841+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:50:13.713853+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T19:50:13.713853+00:00] sleep seconds=60
+[2026-04-13T19:51:13.751714+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T19:51:15.072898+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T19:51:15.072898+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T19:51:15.075265+00:00] sleep seconds=60
+[2026-04-13T19:52:15.111995+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T19:52:15.111995+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T19:52:15.111995+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T19:52:15.122266+00:00] sleep seconds=60
+[2026-04-13T19:53:15.150834+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T19:53:16.386207+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T19:53:16.386207+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T19:53:16.388219+00:00] sleep seconds=60
+[2026-04-13T19:54:16.418261+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T19:54:16.418261+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T19:54:16.418261+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T19:54:16.419772+00:00] sleep seconds=60
+[2026-04-13T19:55:16.453926+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T19:55:18.155343+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:55:18.155343+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T19:55:18.159371+00:00] sleep seconds=60
+[2026-04-13T19:56:18.197342+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T19:56:18.201458+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:56:18.202540+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T19:56:18.202540+00:00] sleep seconds=60
+[2026-04-13T19:57:18.237987+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T19:57:19.478038+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:57:19.480049+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T19:57:19.480049+00:00] sleep seconds=60
+[2026-04-13T19:58:19.514981+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T19:58:19.514981+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T19:58:19.516647+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T19:58:19.516647+00:00] sleep seconds=60
+[2026-04-13T19:59:19.546603+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T19:59:21.290175+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T19:59:21.290175+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T19:59:21.292190+00:00] sleep seconds=60
+[2026-04-13T20:00:21.315650+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T20:00:21.315650+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:00:21.315650+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T20:00:21.315650+00:00] sleep seconds=60
+[2026-04-13T20:01:21.343377+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T20:01:22.649844+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:01:22.654099+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T20:01:22.654099+00:00] sleep seconds=60
+[2026-04-13T20:02:22.688072+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T20:02:22.688072+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:02:22.688072+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T20:02:22.688072+00:00] sleep seconds=60
+[2026-04-13T20:03:22.716496+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T20:03:23.961035+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T20:03:23.961035+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T20:03:23.965086+00:00] sleep seconds=60
+[2026-04-13T20:04:24.001783+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T20:04:24.001783+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T20:04:24.002797+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T20:04:24.002797+00:00] sleep seconds=60
+[2026-04-13T20:05:24.039541+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T20:05:25.288671+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:05:25.290683+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T20:05:25.290683+00:00] sleep seconds=60
+[2026-04-13T20:06:25.327599+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T20:06:25.327599+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:06:25.329617+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T20:06:25.329617+00:00] sleep seconds=60
+[2026-04-13T20:07:25.357504+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T20:07:26.646620+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T20:07:26.646620+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T20:07:26.646620+00:00] sleep seconds=60
+[2026-04-13T20:08:26.675208+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T20:08:26.675208+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T20:08:26.675208+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T20:08:26.678059+00:00] sleep seconds=60
+[2026-04-13T20:09:26.703117+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T20:09:27.999250+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T20:09:27.999250+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T20:09:27.999250+00:00] sleep seconds=60
+[2026-04-13T20:10:28.035908+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T20:10:28.035908+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T20:10:28.040193+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T20:10:28.040193+00:00] sleep seconds=60
+[2026-04-13T20:11:28.068860+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T20:11:29.326913+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:11:29.326913+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T20:11:29.328926+00:00] sleep seconds=60
+[2026-04-13T20:12:29.358600+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T20:12:29.358600+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:12:29.358600+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T20:12:29.358600+00:00] sleep seconds=60
+[2026-04-13T20:13:29.392787+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T20:13:30.694655+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:13:30.698907+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T20:13:30.698907+00:00] sleep seconds=60
+[2026-04-13T20:14:30.736711+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T20:14:30.736711+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:14:30.736711+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T20:14:30.736711+00:00] sleep seconds=60
+[2026-04-13T20:15:30.767185+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T20:15:32.084647+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:15:32.089093+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T20:15:32.089093+00:00] sleep seconds=60
+[2026-04-13T20:16:32.127183+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T20:16:32.127183+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:16:32.127183+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T20:16:32.127183+00:00] sleep seconds=60
+[2026-04-13T20:17:32.163006+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T20:17:33.611859+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:17:33.611859+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T20:17:33.613872+00:00] sleep seconds=60
+[2026-04-13T20:18:33.647407+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T20:18:33.647407+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:18:33.648526+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T20:18:33.648526+00:00] sleep seconds=60
+[2026-04-13T20:19:33.671893+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T20:19:35.017284+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T20:19:35.021365+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T20:19:35.021365+00:00] sleep seconds=60
+[2026-04-13T20:20:35.048403+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T20:20:35.048403+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T20:20:35.048403+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T20:20:35.050144+00:00] sleep seconds=60
+[2026-04-13T20:21:35.088586+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T20:21:36.320207+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:21:36.324581+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T20:21:36.324581+00:00] sleep seconds=60
+[2026-04-13T20:22:36.356646+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T20:22:36.356646+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:22:36.358001+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T20:22:36.358001+00:00] sleep seconds=60
+[2026-04-13T20:23:36.389230+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T20:23:37.619110+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T20:23:37.619110+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T20:23:37.619110+00:00] sleep seconds=60
+[2026-04-13T20:24:37.651142+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T20:24:37.651142+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T20:24:37.652157+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T20:24:37.652157+00:00] sleep seconds=60
+[2026-04-13T20:25:37.684951+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T20:25:38.919025+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T20:25:38.921039+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T20:25:38.921039+00:00] sleep seconds=60
+[2026-04-13T20:26:38.948005+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T20:26:38.948005+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T20:26:38.948005+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T20:26:38.950019+00:00] sleep seconds=60
+[2026-04-13T20:27:38.990698+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T20:27:40.283491+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:27:40.283491+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T20:27:40.285504+00:00] sleep seconds=60
+[2026-04-13T20:28:40.325544+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T20:28:40.325544+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:28:40.325544+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T20:28:40.325544+00:00] sleep seconds=60
+[2026-04-13T20:29:40.356733+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T20:29:41.571900+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:29:41.571900+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T20:29:41.573913+00:00] sleep seconds=60
+[2026-04-13T20:30:41.594073+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T20:30:41.594073+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:30:41.597402+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T20:30:41.597402+00:00] sleep seconds=60
+[2026-04-13T20:31:41.626799+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T20:31:42.875066+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:31:42.875066+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T20:31:42.877080+00:00] sleep seconds=60
+[2026-04-13T20:32:42.895526+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T20:32:42.895526+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:32:42.897134+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T20:32:42.897134+00:00] sleep seconds=60
+[2026-04-13T20:33:42.925211+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T20:33:44.458205+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:33:44.460216+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T20:33:44.460216+00:00] sleep seconds=60
+[2026-04-13T20:34:44.484323+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T20:34:44.484323+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:34:44.484323+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T20:34:44.484323+00:00] sleep seconds=60
+[2026-04-13T20:35:44.521366+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T20:35:45.764722+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T20:35:45.764722+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T20:35:45.764722+00:00] sleep seconds=60
+[2026-04-13T20:36:45.786273+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T20:36:45.790867+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T20:36:45.790867+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T20:36:45.805134+00:00] sleep seconds=60
+[2026-04-13T20:37:45.834100+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T20:37:47.370896+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:37:47.370896+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T20:37:47.370896+00:00] sleep seconds=60
+[2026-04-13T20:38:47.399969+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T20:38:47.399969+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:38:47.404060+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T20:38:47.404060+00:00] sleep seconds=60
+[2026-04-13T20:39:47.420957+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T20:39:48.655520+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T20:39:48.657531+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T20:39:48.657531+00:00] sleep seconds=60
+[2026-04-13T20:40:48.679259+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T20:40:48.683674+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T20:40:48.683674+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T20:40:48.683674+00:00] sleep seconds=60
+[2026-04-13T20:41:48.703858+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T20:41:49.952780+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T20:41:49.952780+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T20:41:49.952780+00:00] sleep seconds=60
+[2026-04-13T20:42:49.988705+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T20:42:49.990717+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T20:42:49.990717+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T20:42:49.990717+00:00] sleep seconds=60
+[2026-04-13T20:43:50.028698+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T20:43:51.328600+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:43:51.330612+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T20:43:51.330612+00:00] sleep seconds=60
+[2026-04-13T20:44:51.347802+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T20:44:51.347802+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:44:51.347802+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T20:44:51.351916+00:00] sleep seconds=60
+[2026-04-13T20:45:51.380433+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T20:45:53.007395+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:45:53.011542+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T20:45:53.011542+00:00] sleep seconds=60
+[2026-04-13T20:46:53.035459+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T20:46:53.035459+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:46:53.035459+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T20:46:53.037473+00:00] sleep seconds=60
+[2026-04-13T20:47:53.070359+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T20:47:54.328042+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:47:54.328042+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T20:47:54.328042+00:00] sleep seconds=60
+[2026-04-13T20:48:54.354905+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T20:48:54.354905+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:48:54.354905+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T20:48:54.354905+00:00] sleep seconds=60
+[2026-04-13T20:49:54.386613+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T20:49:55.636390+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:49:55.636390+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T20:49:55.636390+00:00] sleep seconds=60
+[2026-04-13T20:50:55.667057+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T20:50:55.669188+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:50:55.669188+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T20:50:55.669188+00:00] sleep seconds=60
+[2026-04-13T20:51:55.695181+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T20:51:57.242206+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T20:51:57.242206+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T20:51:57.244220+00:00] sleep seconds=60
+[2026-04-13T20:52:57.262809+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T20:52:57.262809+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T20:52:57.265557+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T20:52:57.265557+00:00] sleep seconds=60
+[2026-04-13T20:53:57.296365+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T20:53:58.522607+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T20:53:58.522607+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T20:53:58.526674+00:00] sleep seconds=60
+[2026-04-13T20:54:58.551275+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T20:54:58.551275+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T20:54:58.551275+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T20:54:58.555559+00:00] sleep seconds=60
+[2026-04-13T20:55:58.586491+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T20:55:59.830814+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T20:55:59.835083+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T20:55:59.835083+00:00] sleep seconds=60
+[2026-04-13T20:56:59.858116+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T20:56:59.858116+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T20:56:59.862309+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T20:56:59.862309+00:00] sleep seconds=60
+[2026-04-13T20:57:59.883584+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T20:58:01.434420+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T20:58:01.438452+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T20:58:01.438452+00:00] sleep seconds=60
+[2026-04-13T20:59:01.463656+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T20:59:01.463656+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T20:59:01.463656+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T20:59:01.467701+00:00] sleep seconds=60
+[2026-04-13T21:00:01.505562+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T21:00:03.433922+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:00:03.433922+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T21:00:03.435937+00:00] sleep seconds=60
+[2026-04-13T21:01:03.460446+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T21:01:03.460446+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:01:03.460446+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T21:01:03.460446+00:00] sleep seconds=60
+[2026-04-13T21:02:03.495379+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T21:02:04.787508+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:02:04.791863+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T21:02:04.791863+00:00] sleep seconds=60
+[2026-04-13T21:03:04.823679+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T21:03:04.823679+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:03:04.823679+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T21:03:04.823679+00:00] sleep seconds=60
+[2026-04-13T21:04:04.852939+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T21:04:06.606736+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:04:06.606736+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T21:04:06.606736+00:00] sleep seconds=60
+[2026-04-13T21:05:06.628613+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T21:05:06.628613+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:05:06.628613+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T21:05:06.628613+00:00] sleep seconds=60
+[2026-04-13T21:06:06.653949+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T21:06:07.906891+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:06:07.906891+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T21:06:07.908906+00:00] sleep seconds=60
+[2026-04-13T21:07:07.934610+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T21:07:07.934610+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:07:07.935621+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T21:07:07.935621+00:00] sleep seconds=60
+[2026-04-13T21:08:07.960365+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T21:08:09.253540+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T21:08:09.255552+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T21:08:09.255552+00:00] sleep seconds=60
+[2026-04-13T21:09:09.283700+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T21:09:09.283700+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T21:09:09.283700+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T21:09:09.285441+00:00] sleep seconds=60
+[2026-04-13T21:10:09.314348+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T21:10:10.635148+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:10:10.637157+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T21:10:10.637157+00:00] sleep seconds=60
+[2026-04-13T21:11:10.664226+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T21:11:10.664226+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:11:10.664226+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T21:11:10.664226+00:00] sleep seconds=60
+[2026-04-13T21:12:10.688207+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T21:12:12.334294+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T21:12:12.336306+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T21:12:12.336306+00:00] sleep seconds=60
+[2026-04-13T21:13:12.352560+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T21:13:12.352560+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T21:13:12.352560+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T21:13:12.356002+00:00] sleep seconds=60
+[2026-04-13T21:14:12.389231+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T21:14:13.682783+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T21:14:13.684793+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T21:14:13.686810+00:00] sleep seconds=60
+[2026-04-13T21:15:13.711814+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T21:15:13.711814+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T21:15:13.713830+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T21:15:13.713830+00:00] sleep seconds=60
+[2026-04-13T21:16:13.737015+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T21:16:14.997204+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:16:14.997204+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T21:16:14.997204+00:00] sleep seconds=60
+[2026-04-13T21:17:15.033315+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T21:17:15.033315+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:17:15.037370+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T21:17:15.037370+00:00] sleep seconds=60
+[2026-04-13T21:18:15.071238+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T21:18:16.294976+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:18:16.294976+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T21:18:16.296989+00:00] sleep seconds=60
+[2026-04-13T21:19:16.334663+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T21:19:16.334663+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:19:16.338702+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T21:19:16.340715+00:00] sleep seconds=60
+[2026-04-13T21:20:16.383921+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T21:20:17.815687+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:20:17.815687+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T21:20:17.815687+00:00] sleep seconds=60
+[2026-04-13T21:21:17.847656+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T21:21:17.847656+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:21:17.847656+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T21:21:17.863294+00:00] sleep seconds=60
+[2026-04-13T21:22:17.889509+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T21:22:19.188520+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:22:19.192841+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T21:22:19.192841+00:00] sleep seconds=60
+[2026-04-13T21:23:19.227510+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T21:23:19.231545+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:23:19.231545+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T21:23:19.231545+00:00] sleep seconds=60
+[2026-04-13T21:24:19.258559+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T21:24:20.492009+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T21:24:20.492009+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T21:24:20.494021+00:00] sleep seconds=60
+[2026-04-13T21:25:20.531290+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T21:25:20.531290+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T21:25:20.531290+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T21:25:20.533304+00:00] sleep seconds=60
+[2026-04-13T21:26:20.560723+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T21:26:21.883127+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:26:21.883127+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T21:26:21.883127+00:00] sleep seconds=60
+[2026-04-13T21:27:21.921189+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T21:27:21.925215+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:27:21.925215+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T21:27:21.925215+00:00] sleep seconds=60
+[2026-04-13T21:28:21.958515+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T21:28:23.183761+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T21:28:23.185775+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T21:28:23.185775+00:00] sleep seconds=60
+[2026-04-13T21:29:23.214709+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T21:29:23.214709+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T21:29:23.218800+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T21:29:23.218800+00:00] sleep seconds=60
+[2026-04-13T21:30:23.247166+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T21:30:24.483461+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T21:30:24.485473+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T21:30:24.485473+00:00] sleep seconds=60
+[2026-04-13T21:31:24.522387+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T21:31:24.522387+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T21:31:24.525290+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T21:31:24.525290+00:00] sleep seconds=60
+[2026-04-13T21:32:24.559158+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T21:32:25.861215+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:32:25.861215+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T21:32:25.861215+00:00] sleep seconds=60
+[2026-04-13T21:33:25.888650+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T21:33:25.888650+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:33:25.888650+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T21:33:25.890664+00:00] sleep seconds=60
+[2026-04-13T21:34:25.925402+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T21:34:27.148430+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:34:27.150441+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T21:34:27.150441+00:00] sleep seconds=60
+[2026-04-13T21:35:27.176898+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T21:35:27.176898+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:35:27.176898+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T21:35:27.178911+00:00] sleep seconds=60
+[2026-04-13T21:36:27.220624+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T21:36:28.532391+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:36:28.532391+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T21:36:28.532391+00:00] sleep seconds=60
+[2026-04-13T21:37:28.561398+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T21:37:28.561398+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:37:28.563412+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T21:37:28.563412+00:00] sleep seconds=60
+[2026-04-13T21:38:28.594861+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T21:38:30.305858+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:38:30.307870+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T21:38:30.307870+00:00] sleep seconds=60
+[2026-04-13T21:39:30.342305+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T21:39:30.342305+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:39:30.342305+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T21:39:30.342305+00:00] sleep seconds=60
+[2026-04-13T21:40:30.380172+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T21:40:31.614804+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T21:40:31.614804+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T21:40:31.616817+00:00] sleep seconds=60
+[2026-04-13T21:41:31.661414+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T21:41:31.661414+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T21:41:31.663156+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T21:41:31.663156+00:00] sleep seconds=60
+[2026-04-13T21:42:31.699113+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T21:42:33.208569+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:42:33.208569+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T21:42:33.208569+00:00] sleep seconds=60
+[2026-04-13T21:43:33.249810+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T21:43:33.249810+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:43:33.251672+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T21:43:33.251672+00:00] sleep seconds=60
+[2026-04-13T21:44:33.287098+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T21:44:34.536047+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T21:44:34.538060+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T21:44:34.538060+00:00] sleep seconds=60
+[2026-04-13T21:45:34.573867+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T21:45:34.573867+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T21:45:34.575896+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T21:45:34.576425+00:00] sleep seconds=60
+[2026-04-13T21:46:34.608308+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T21:46:35.919087+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T21:46:35.921109+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T21:46:35.921109+00:00] sleep seconds=60
+[2026-04-13T21:47:35.962636+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T21:47:35.962636+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T21:47:35.964380+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T21:47:35.964380+00:00] sleep seconds=60
+[2026-04-13T21:48:36.000222+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T21:48:37.241399+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:48:37.241399+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T21:48:37.241399+00:00] sleep seconds=60
+[2026-04-13T21:49:37.280811+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T21:49:37.280811+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:49:37.280811+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T21:49:37.282550+00:00] sleep seconds=60
+[2026-04-13T21:50:37.316946+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T21:50:38.536475+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:50:38.536475+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T21:50:38.540580+00:00] sleep seconds=60
+[2026-04-13T21:51:38.568330+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T21:51:38.569349+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:51:38.569349+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T21:51:38.569349+00:00] sleep seconds=60
+[2026-04-13T21:52:38.603175+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T21:52:39.838977+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:52:39.840988+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T21:52:39.840988+00:00] sleep seconds=60
+[2026-04-13T21:53:39.875128+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T21:53:39.877142+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:53:39.877142+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T21:53:39.877142+00:00] sleep seconds=60
+[2026-04-13T21:54:39.910556+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T21:54:41.237979+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:54:41.237979+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T21:54:41.237979+00:00] sleep seconds=60
+[2026-04-13T21:55:41.271207+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T21:55:41.271207+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:55:41.273219+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T21:55:41.273219+00:00] sleep seconds=60
+[2026-04-13T21:56:41.303301+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T21:56:42.821390+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T21:56:42.821390+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T21:56:42.823403+00:00] sleep seconds=60
+[2026-04-13T21:57:42.851726+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T21:57:42.855997+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T21:57:42.855997+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T21:57:42.855997+00:00] sleep seconds=60
+[2026-04-13T21:58:42.888804+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T21:58:44.151172+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T21:58:44.152182+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T21:58:44.152182+00:00] sleep seconds=60
+[2026-04-13T21:59:44.189528+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T21:59:44.189528+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T21:59:44.191536+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T21:59:44.191536+00:00] sleep seconds=60
+[2026-04-13T22:00:44.221660+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T22:00:45.458571+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T22:00:45.458571+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T22:00:45.460583+00:00] sleep seconds=60
+[2026-04-13T22:01:45.497235+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T22:01:45.497235+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T22:01:45.499248+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T22:01:45.499248+00:00] sleep seconds=60
+[2026-04-13T22:02:45.535274+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T22:02:46.797274+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T22:02:46.799258+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T22:02:46.800304+00:00] sleep seconds=60
+[2026-04-13T22:03:46.826353+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T22:03:46.828366+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T22:03:46.828366+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T22:03:46.828366+00:00] sleep seconds=60
+[2026-04-13T22:04:46.872707+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T22:04:48.495133+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:04:48.495133+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T22:04:48.499310+00:00] sleep seconds=60
+[2026-04-13T22:05:48.531040+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T22:05:48.531040+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:05:48.534506+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T22:05:48.535518+00:00] sleep seconds=60
+[2026-04-13T22:06:48.576746+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T22:06:50.214235+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:06:50.214235+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T22:06:50.216247+00:00] sleep seconds=60
+[2026-04-13T22:07:50.256699+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T22:07:50.256699+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:07:50.256699+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T22:07:50.256699+00:00] sleep seconds=60
+[2026-04-13T22:08:50.288406+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T22:08:51.518874+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:08:51.523325+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T22:08:51.523325+00:00] sleep seconds=60
+[2026-04-13T22:09:51.557133+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T22:09:51.557133+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:09:51.557133+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T22:09:51.557133+00:00] sleep seconds=60
+[2026-04-13T22:10:51.587111+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T22:10:52.988041+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:10:52.988041+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T22:10:52.988041+00:00] sleep seconds=60
+[2026-04-13T22:11:53.028661+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T22:11:53.028661+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:11:53.030152+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T22:11:53.030689+00:00] sleep seconds=60
+[2026-04-13T22:12:53.073526+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T22:12:54.307410+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T22:12:54.309422+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T22:12:54.309422+00:00] sleep seconds=60
+[2026-04-13T22:13:54.351690+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T22:13:54.351690+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T22:13:54.351690+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T22:13:54.353432+00:00] sleep seconds=60
+[2026-04-13T22:14:54.381264+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T22:14:55.629270+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:14:55.629270+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T22:14:55.633782+00:00] sleep seconds=60
+[2026-04-13T22:15:55.670352+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T22:15:55.672830+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:15:55.673342+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T22:15:55.674023+00:00] sleep seconds=60
+[2026-04-13T22:16:55.721354+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T22:16:57.260982+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T22:16:57.260982+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T22:16:57.260982+00:00] sleep seconds=60
+[2026-04-13T22:17:57.301070+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T22:17:57.301070+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T22:17:57.301070+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T22:17:57.301070+00:00] sleep seconds=60
+[2026-04-13T22:18:57.331930+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T22:18:58.947941+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T22:18:58.947941+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T22:18:58.947941+00:00] sleep seconds=60
+[2026-04-13T22:19:58.980254+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T22:19:58.980254+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T22:19:58.984282+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T22:19:58.984282+00:00] sleep seconds=60
+[2026-04-13T22:20:59.020120+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T22:21:00.256007+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:21:00.258020+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T22:21:00.258020+00:00] sleep seconds=60
+[2026-04-13T22:22:00.294162+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T22:22:00.294939+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:22:00.295814+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T22:22:00.295814+00:00] sleep seconds=60
+[2026-04-13T22:23:00.326064+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T22:23:01.624678+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:23:01.628985+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T22:23:01.628985+00:00] sleep seconds=60
+[2026-04-13T22:24:01.667134+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T22:24:01.667134+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:24:01.667134+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T22:24:01.669149+00:00] sleep seconds=60
+[2026-04-13T22:25:01.695951+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T22:25:03.364548+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:25:03.368887+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T22:25:03.368887+00:00] sleep seconds=60
+[2026-04-13T22:26:03.410445+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T22:26:03.410445+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:26:03.413409+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T22:26:03.413409+00:00] sleep seconds=60
+[2026-04-13T22:27:03.435695+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T22:27:04.696445+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:27:04.700526+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T22:27:04.700526+00:00] sleep seconds=60
+[2026-04-13T22:28:04.733317+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T22:28:04.733317+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:28:04.737340+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T22:28:04.738327+00:00] sleep seconds=60
+[2026-04-13T22:29:04.777052+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T22:29:06.070653+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T22:29:06.074938+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T22:29:06.074938+00:00] sleep seconds=60
+[2026-04-13T22:30:06.099221+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T22:30:06.099221+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T22:30:06.099221+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T22:30:06.101463+00:00] sleep seconds=60
+[2026-04-13T22:31:06.122624+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T22:31:07.434689+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:31:07.434689+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T22:31:07.434689+00:00] sleep seconds=60
+[2026-04-13T22:32:07.466914+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T22:32:07.466914+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:32:07.466914+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T22:32:07.470221+00:00] sleep seconds=60
+[2026-04-13T22:33:07.503264+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T22:33:08.793214+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T22:33:08.793214+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T22:33:08.796157+00:00] sleep seconds=60
+[2026-04-13T22:34:08.831446+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T22:34:08.834336+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T22:34:08.834336+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T22:34:08.835848+00:00] sleep seconds=60
+[2026-04-13T22:35:08.849498+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T22:35:10.068598+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T22:35:10.068598+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T22:35:10.070612+00:00] sleep seconds=60
+[2026-04-13T22:36:10.120210+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T22:36:10.122223+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T22:36:10.122223+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T22:36:10.123810+00:00] sleep seconds=60
+[2026-04-13T22:37:10.137763+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T22:37:11.363704+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:37:11.367988+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T22:37:11.369003+00:00] sleep seconds=60
+[2026-04-13T22:38:11.386486+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T22:38:11.388502+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:38:11.388502+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T22:38:11.388502+00:00] sleep seconds=60
+[2026-04-13T22:39:11.416056+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T22:39:12.641544+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:39:12.641544+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T22:39:12.641544+00:00] sleep seconds=60
+[2026-04-13T22:40:12.661821+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T22:40:12.661821+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:40:12.665942+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T22:40:12.666777+00:00] sleep seconds=60
+[2026-04-13T22:41:12.686859+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T22:41:14.011301+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:41:14.011301+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T22:41:14.013314+00:00] sleep seconds=60
+[2026-04-13T22:42:14.040555+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T22:42:14.040555+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:42:14.044611+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T22:42:14.044611+00:00] sleep seconds=60
+[2026-04-13T22:43:14.074232+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T22:43:15.317080+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:43:15.321365+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T22:43:15.321365+00:00] sleep seconds=60
+[2026-04-13T22:44:15.343746+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T22:44:15.343746+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:44:15.345760+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T22:44:15.345760+00:00] sleep seconds=60
+[2026-04-13T22:45:15.376414+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T22:45:16.625331+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T22:45:16.627344+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T22:45:16.627344+00:00] sleep seconds=60
+[2026-04-13T22:46:16.652662+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T22:46:16.656697+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T22:46:16.656697+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T22:46:16.658711+00:00] sleep seconds=60
+[2026-04-13T22:47:16.679670+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T22:47:18.312972+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:47:18.312972+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T22:47:18.312972+00:00] sleep seconds=60
+[2026-04-13T22:48:18.330959+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T22:48:18.330959+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:48:18.330959+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T22:48:18.330959+00:00] sleep seconds=60
+[2026-04-13T22:49:18.351017+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T22:49:19.642742+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T22:49:19.642742+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T22:49:19.642742+00:00] sleep seconds=60
+[2026-04-13T22:50:19.658932+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T22:50:19.658932+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T22:50:19.658932+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T22:50:19.673463+00:00] sleep seconds=60
+[2026-04-13T22:51:19.686479+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T22:51:20.993533+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T22:51:20.995545+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T22:51:20.995545+00:00] sleep seconds=60
+[2026-04-13T22:52:21.022459+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T22:52:21.024471+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T22:52:21.024471+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T22:52:21.024471+00:00] sleep seconds=60
+[2026-04-13T22:53:21.047353+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T22:53:22.810226+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:53:22.812238+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T22:53:22.812238+00:00] sleep seconds=60
+[2026-04-13T22:54:22.844176+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T22:54:22.844176+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:54:22.845190+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T22:54:22.845190+00:00] sleep seconds=60
+[2026-04-13T22:55:22.880649+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T22:55:24.125163+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:55:24.125163+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T22:55:24.127174+00:00] sleep seconds=60
+[2026-04-13T22:56:24.155068+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T22:56:24.155068+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:56:24.157081+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T22:56:24.157081+00:00] sleep seconds=60
+[2026-04-13T22:57:24.182683+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T22:57:25.476023+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:57:25.476023+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T22:57:25.476023+00:00] sleep seconds=60
+[2026-04-13T22:58:25.501759+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T22:58:25.503773+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T22:58:25.503773+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T22:58:25.505532+00:00] sleep seconds=60
+[2026-04-13T22:59:25.530163+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T22:59:27.063023+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T22:59:27.065034+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T22:59:27.065034+00:00] sleep seconds=60
+[2026-04-13T23:00:27.082599+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T23:00:27.082599+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:00:27.082599+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T23:00:27.082599+00:00] sleep seconds=60
+[2026-04-13T23:01:27.109847+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T23:01:43.905662+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T23:01:43.905662+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T23:01:43.907675+00:00] sleep seconds=60
+[2026-04-13T23:02:43.932302+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T23:02:43.932302+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T23:02:43.932302+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T23:02:43.932302+00:00] sleep seconds=60
+[2026-04-13T23:03:43.950819+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T23:03:45.255724+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:03:45.255724+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T23:03:45.259893+00:00] sleep seconds=60
+[2026-04-13T23:04:45.289489+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T23:04:45.289489+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:04:45.289489+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T23:04:45.289489+00:00] sleep seconds=60
+[2026-04-13T23:05:45.309311+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T23:05:46.555567+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T23:05:46.557580+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T23:05:46.557580+00:00] sleep seconds=60
+[2026-04-13T23:06:46.576477+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T23:06:46.576477+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T23:06:46.580606+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T23:06:46.580606+00:00] sleep seconds=60
+[2026-04-13T23:07:46.605893+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T23:07:47.896317+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T23:07:47.896317+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T23:07:47.896317+00:00] sleep seconds=60
+[2026-04-13T23:08:47.919723+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T23:08:47.921353+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T23:08:47.921353+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T23:08:47.921353+00:00] sleep seconds=60
+[2026-04-13T23:09:47.938829+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T23:09:49.260139+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:09:49.262152+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T23:09:49.262152+00:00] sleep seconds=60
+[2026-04-13T23:10:49.286250+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T23:10:49.286250+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:10:49.287989+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T23:10:49.287989+00:00] sleep seconds=60
+[2026-04-13T23:11:49.312188+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T23:11:50.876752+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:11:50.876752+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T23:11:50.876752+00:00] sleep seconds=60
+[2026-04-13T23:12:50.899338+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T23:12:50.899338+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:12:50.901076+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T23:12:50.901076+00:00] sleep seconds=60
+[2026-04-13T23:13:50.920732+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T23:13:52.154825+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:13:52.154825+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T23:13:52.156836+00:00] sleep seconds=60
+[2026-04-13T23:14:52.177358+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T23:14:52.177358+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:14:52.177358+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T23:14:52.181034+00:00] sleep seconds=60
+[2026-04-13T23:15:52.204783+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T23:15:53.532842+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:15:53.537105+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T23:15:53.538305+00:00] sleep seconds=60
+[2026-04-13T23:16:53.555611+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T23:16:53.555611+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:16:53.555611+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T23:16:53.555611+00:00] sleep seconds=60
+[2026-04-13T23:17:53.587300+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T23:17:55.245357+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T23:17:55.247370+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T23:17:55.247370+00:00] sleep seconds=60
+[2026-04-13T23:18:55.269866+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T23:18:55.269866+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T23:18:55.269866+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T23:18:55.269866+00:00] sleep seconds=60
+[2026-04-13T23:19:55.291877+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T23:19:56.539463+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:19:56.539463+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T23:19:56.539463+00:00] sleep seconds=60
+[2026-04-13T23:20:56.561658+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T23:20:56.561658+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:20:56.561658+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T23:20:56.561658+00:00] sleep seconds=60
+[2026-04-13T23:21:56.587346+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T23:21:57.842364+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T23:21:57.846464+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T23:21:57.846464+00:00] sleep seconds=60
+[2026-04-13T23:22:57.876982+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T23:22:57.876982+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T23:22:57.876982+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T23:22:57.878997+00:00] sleep seconds=60
+[2026-04-13T23:23:57.897029+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T23:23:59.545861+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T23:23:59.545861+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T23:23:59.545861+00:00] sleep seconds=60
+[2026-04-13T23:24:59.582037+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T23:24:59.582037+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T23:24:59.582037+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T23:24:59.583774+00:00] sleep seconds=60
+[2026-04-13T23:25:59.609909+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T23:26:00.912496+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:26:00.912496+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T23:26:00.912496+00:00] sleep seconds=60
+[2026-04-13T23:27:00.928681+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T23:27:00.928681+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:27:00.932836+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T23:27:00.932836+00:00] sleep seconds=60
+[2026-04-13T23:28:00.958507+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T23:28:02.191877+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:28:02.191877+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T23:28:02.195972+00:00] sleep seconds=60
+[2026-04-13T23:29:02.228076+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T23:29:02.228076+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:29:02.228076+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T23:29:02.228076+00:00] sleep seconds=60
+[2026-04-13T23:30:02.255113+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T23:30:04.121935+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:30:04.123948+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T23:30:04.123948+00:00] sleep seconds=60
+[2026-04-13T23:31:04.146042+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T23:31:04.146042+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:31:04.147553+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T23:31:04.147553+00:00] sleep seconds=60
+[2026-04-13T23:32:04.174711+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T23:32:05.482736+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:32:05.482736+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T23:32:05.484750+00:00] sleep seconds=60
+[2026-04-13T23:33:05.515962+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T23:33:05.515962+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:33:05.518685+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T23:33:05.518685+00:00] sleep seconds=60
+[2026-04-13T23:34:05.545770+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T23:34:06.783381+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T23:34:06.787491+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T23:34:06.787491+00:00] sleep seconds=60
+[2026-04-13T23:35:06.821836+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T23:35:06.821836+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T23:35:06.821836+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T23:35:06.834373+00:00] sleep seconds=60
+[2026-04-13T23:36:06.880410+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T23:36:08.131390+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:36:08.131390+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T23:36:08.133405+00:00] sleep seconds=60
+[2026-04-13T23:37:08.152622+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T23:37:08.152622+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:37:08.152622+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T23:37:08.152622+00:00] sleep seconds=60
+[2026-04-13T23:38:08.180253+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T23:38:09.708652+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T23:38:09.708652+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T23:38:09.708652+00:00] sleep seconds=60
+[2026-04-13T23:39:09.730538+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T23:39:09.730538+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T23:39:09.732547+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T23:39:09.732547+00:00] sleep seconds=60
+[2026-04-13T23:40:09.754844+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T23:40:10.986968+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T23:40:10.988981+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T23:40:10.988981+00:00] sleep seconds=60
+[2026-04-13T23:41:11.015828+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T23:41:11.015828+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T23:41:11.017841+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T23:41:11.017841+00:00] sleep seconds=60
+[2026-04-13T23:42:11.043666+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T23:42:12.293963+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:42:12.294972+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T23:42:12.294972+00:00] sleep seconds=60
+[2026-04-13T23:43:12.319269+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T23:43:12.319269+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:43:12.320282+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T23:43:12.320282+00:00] sleep seconds=60
+[2026-04-13T23:44:12.350217+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-13T23:44:13.644903+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:44:13.646913+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-13T23:44:13.646913+00:00] sleep seconds=60
+[2026-04-13T23:45:13.672038+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-13T23:45:13.672038+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:45:13.672038+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-13T23:45:13.674053+00:00] sleep seconds=60
+[2026-04-13T23:46:13.691252+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-13T23:46:14.932362+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:46:14.932362+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-13T23:46:14.935115+00:00] sleep seconds=60
+[2026-04-13T23:47:14.965759+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-13T23:47:14.965759+00:00] query='LDED machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:47:14.965759+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 papers_total=74
+[2026-04-13T23:47:14.965759+00:00] sleep seconds=60
+[2026-04-13T23:48:14.986184+00:00] batch-start query='welding machine learning' index=0
+[2026-04-13T23:48:16.215522+00:00] query='welding machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:48:16.215522+00:00] checkpoint-saved next_query='welding machine learning' next_index=10 papers_total=74
+[2026-04-13T23:48:16.217535+00:00] sleep seconds=60
+[2026-04-13T23:49:16.241662+00:00] batch-start query='welding machine learning' index=10
+[2026-04-13T23:49:16.241662+00:00] query='welding machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:49:16.243400+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=0 papers_total=74
+[2026-04-13T23:49:16.243400+00:00] sleep seconds=60
+[2026-04-13T23:50:16.268039+00:00] batch-start query='manufacturing reinforcement learning' index=0
+[2026-04-13T23:50:17.505716+00:00] query='manufacturing reinforcement learning' start_index=0 seen=10 new=0
+[2026-04-13T23:50:17.505716+00:00] checkpoint-saved next_query='manufacturing reinforcement learning' next_index=10 papers_total=74
+[2026-04-13T23:50:17.507808+00:00] sleep seconds=60
+[2026-04-13T23:51:17.534713+00:00] batch-start query='manufacturing reinforcement learning' index=10
+[2026-04-13T23:51:17.536727+00:00] query='manufacturing reinforcement learning' start_index=10 seen=0 new=0
+[2026-04-13T23:51:17.536727+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=0 papers_total=74
+[2026-04-13T23:51:17.536727+00:00] sleep seconds=60
+[2026-04-13T23:52:17.566250+00:00] batch-start query='process monitoring machine learning' index=0
+[2026-04-13T23:52:19.438715+00:00] query='process monitoring machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:52:19.440727+00:00] checkpoint-saved next_query='process monitoring machine learning' next_index=10 papers_total=74
+[2026-04-13T23:52:19.440727+00:00] sleep seconds=60
+[2026-04-13T23:53:19.459425+00:00] batch-start query='process monitoring machine learning' index=10
+[2026-04-13T23:53:19.459425+00:00] query='process monitoring machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:53:19.459425+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=0 papers_total=74
+[2026-04-13T23:53:19.461439+00:00] sleep seconds=60
+[2026-04-13T23:54:19.489254+00:00] batch-start query='digital twin manufacturing AI' index=0
+[2026-04-13T23:54:20.782361+00:00] query='digital twin manufacturing AI' start_index=0 seen=10 new=0
+[2026-04-13T23:54:20.784371+00:00] checkpoint-saved next_query='digital twin manufacturing AI' next_index=10 papers_total=74
+[2026-04-13T23:54:20.785417+00:00] sleep seconds=60
+[2026-04-13T23:55:20.818831+00:00] batch-start query='digital twin manufacturing AI' index=10
+[2026-04-13T23:55:20.818831+00:00] query='digital twin manufacturing AI' start_index=10 seen=0 new=0
+[2026-04-13T23:55:20.818831+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=0 papers_total=74
+[2026-04-13T23:55:20.820844+00:00] sleep seconds=60
+[2026-04-13T23:56:20.847533+00:00] batch-start query='defect detection manufacturing deep learning' index=0
+[2026-04-13T23:56:22.089530+00:00] query='defect detection manufacturing deep learning' start_index=0 seen=10 new=0
+[2026-04-13T23:56:22.091544+00:00] checkpoint-saved next_query='defect detection manufacturing deep learning' next_index=10 papers_total=74
+[2026-04-13T23:56:22.091544+00:00] sleep seconds=60
+[2026-04-13T23:57:22.114808+00:00] batch-start query='defect detection manufacturing deep learning' index=10
+[2026-04-13T23:57:22.116823+00:00] query='defect detection manufacturing deep learning' start_index=10 seen=0 new=0
+[2026-04-13T23:57:22.116823+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=0 papers_total=74
+[2026-04-13T23:57:22.116823+00:00] sleep seconds=60
+[2026-04-13T23:58:22.140932+00:00] batch-start query='additive manufacturing machine learning' index=0
+[2026-04-13T23:58:23.792557+00:00] query='additive manufacturing machine learning' start_index=0 seen=10 new=0
+[2026-04-13T23:58:23.792557+00:00] checkpoint-saved next_query='additive manufacturing machine learning' next_index=10 papers_total=74
+[2026-04-13T23:58:23.792557+00:00] sleep seconds=60
+[2026-04-13T23:59:23.821910+00:00] batch-start query='additive manufacturing machine learning' index=10
+[2026-04-13T23:59:23.821910+00:00] query='additive manufacturing machine learning' start_index=10 seen=0 new=0
+[2026-04-13T23:59:23.821910+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=0 papers_total=74
+[2026-04-13T23:59:23.821910+00:00] sleep seconds=60
+[2026-04-14T00:00:23.850636+00:00] batch-start query='LPBF machine learning' index=0
+[2026-04-14T00:00:25.084097+00:00] query='LPBF machine learning' start_index=0 seen=10 new=0
+[2026-04-14T00:00:25.084097+00:00] checkpoint-saved next_query='LPBF machine learning' next_index=10 papers_total=74
+[2026-04-14T00:00:25.084097+00:00] sleep seconds=60
+[2026-04-14T00:01:25.111538+00:00] batch-start query='LPBF machine learning' index=10
+[2026-04-14T00:01:25.111538+00:00] query='LPBF machine learning' start_index=10 seen=0 new=0
+[2026-04-14T00:01:25.111538+00:00] checkpoint-saved next_query='LDED machine learning' next_index=0 papers_total=74
+[2026-04-14T00:01:25.111538+00:00] sleep seconds=60
+[2026-04-14T00:02:25.140567+00:00] batch-start query='LDED machine learning' index=0
+[2026-04-14T00:02:26.382313+00:00] query='LDED machine learning' start_index=0 seen=10 new=0
+[2026-04-14T00:02:26.382313+00:00] checkpoint-saved next_query='LDED machine learning' next_index=10 papers_total=74
+[2026-04-14T00:02:26.386678+00:00] sleep seconds=60
+[2026-04-14T00:44:24.356039+00:00] batch-start query='LDED machine learning' index=10
+[2026-04-14T00:44:24.356039+00:00] raw-scan query='LDED machine learning' start_index=10 seen=0 added=0
+[2026-04-14T00:44:24.356039+00:00] checkpoint-saved next_query='welding machine learning' next_index=0 raw_total=0
+[2026-04-14T00:44:54.578661+00:00] migrated-legacy-papers count=74
+[2026-04-14T00:44:54.618744+00:00] batch-start query='welding machine learning' index=0
+[2026-04-14T00:44:56.254299+00:00] raw-scan query='welding machine learning' start_index=0 seen=5 added=0
+[2026-04-14T00:44:56.254299+00:00] checkpoint-saved next_query='welding machine learning' next_index=5 raw_total=74

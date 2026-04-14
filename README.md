@@ -73,6 +73,7 @@ Manufacturing-AI-Radar/
 |   +-- contribution_guide.md
 |   +-- maintenance.md
 |   +-- literature_scanning.md
+|   +-- daily_pipeline.md
 |   `-- worklog-nightly.md
 +-- radar/
 |   +-- additive-manufacturing.md
@@ -99,11 +100,19 @@ Manufacturing-AI-Radar/
 +-- roadmap/
 |   `-- roadmap.md
 +-- scripts/
-|   `-- literature_scanner.py
+|   +-- literature_scanner.py
+|   +-- paper_normalizer.py
+|   +-- paper_screener.py
+|   +-- tag_assigner.py
+|   +-- daily_digest.py
+|   `-- utils.py
 +-- data/
-|   +-- papers.json
+|   +-- raw_papers.json
+|   +-- screened_papers.json
+|   +-- curated_queue.json
 |   +-- checkpoint.json
-|   `-- scan_log.txt
+|   +-- scan_log.txt
+|   `-- digests/
 `-- assets/
     `-- README.md
 ```
@@ -143,6 +152,7 @@ Core pages:
 - [docs/taxonomy.md](docs/taxonomy.md)
 - [docs/architecture.md](docs/architecture.md)
 - [docs/literature_scanning.md](docs/literature_scanning.md)
+- [docs/daily_pipeline.md](docs/daily_pipeline.md)
 - [radar/additive-manufacturing.md](radar/additive-manufacturing.md)
 - [radar/monitoring.md](radar/monitoring.md)
 - [radar/defect-detection.md](radar/defect-detection.md)
@@ -183,7 +193,7 @@ Contributors should prefer structured additions over unorganized accumulation. N
 
 Maintenance guidance is documented in [docs/contribution_guide.md](docs/contribution_guide.md) and [docs/maintenance.md](docs/maintenance.md).
 
-Automated literature harvesting is documented in [docs/literature_scanning.md](docs/literature_scanning.md), with machine-collected metadata stored under `data/`.
+Automated literature harvesting is documented in [docs/literature_scanning.md](docs/literature_scanning.md), and the full daily intake pipeline is documented in [docs/daily_pipeline.md](docs/daily_pipeline.md).
 
 ## Audience
 
